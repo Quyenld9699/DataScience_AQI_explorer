@@ -96,3 +96,4 @@ time.sleep(2)
 
 print(list_pollutant)
 print("Success")
+driver.quit()
