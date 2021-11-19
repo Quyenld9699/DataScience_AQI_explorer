@@ -15,12 +15,14 @@ from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 
-exe_path = '/home/quyenld/Python/DataScience_AQI_explorer/chromedriver_linux64/chromedriver'
+exe_path = '/home/quyenld/Python/DataScience_AQI_explorer/chromedriver_linux64_95/chromedriver'
+exe_path2 = "/home/ds_project/DataScience_AQI_explorer/chromedriver_linux64_96/chromedriver"
+
 
 def get_api_data(list_city, csv_file):
     options = Options()
     options.headless = True
-    driver = webdriver.Chrome(executable_path=exe_path, options=options)
+    driver = webdriver.Chrome(executable_path=exe_path2, options=options)
     driver.set_page_load_timeout(30)
 
     url = "https://breezometer.com/air-quality-map/air-quality"
