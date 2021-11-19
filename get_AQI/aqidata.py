@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 
 from selenium import webdriver
 from selenium.webdriver import ActionChains
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -15,9 +16,14 @@ from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
 
+exe_path = "./chromedriver"
+
 def get_api_data(list_city, csv_file):
-    s = Service(ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=s)
+    chrome_options = Options()
+    chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument('--disable-dev-shm-usage')
+    driver = webdriver.Chrome(exe_path,options=chrome_options)
     driver.set_page_load_timeout(15)
     url = "https://breezometer.com/air-quality-map/air-quality"
     driver.get(url)
