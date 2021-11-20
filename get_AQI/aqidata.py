@@ -26,9 +26,9 @@ def get_api_data(list_city, csv_file):
     options.headless = True
     driver = webdriver.Chrome(executable_path=exe_path2, options=options)
     driver.set_page_load_timeout(30)
-
     url = "https://breezometer.com/air-quality-map/air-quality"
     driver.get(url)
+    driver.maximize_window()
     driver.implicitly_wait(30)
 
     try:
