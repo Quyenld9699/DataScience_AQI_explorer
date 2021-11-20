@@ -39,11 +39,11 @@ def get_api_data(list_city, csv_file):
         for city_name in list_city:
             xPath = './/*[contains(concat(" ",normalize-space(@class)," ")," ss-content ")]//*[contains(concat(" ",normalize-space(@class)," ")," mt-4 ")]//*[contains(concat(" ",normalize-space(@class)," ")," search-dropdown ")]/div'
             driver.find_element(By.XPATH, xPath).click()
-            driver.find_elements(By.CLASS_NAME, "search-input")[2].clear()
-            driver.find_elements(By.CLASS_NAME, "search-input")[2].send_keys(city_name)
+            driver.find_elements(By.XPATH, './/*[contains(concat(" ",normalize-space(@class)," ")," search-input ")]')[2].clear()
+            driver.find_elements(By.XPATH, './/*[contains(concat(" ",normalize-space(@class)," ")," search-input ")]')[2].send_keys(city_name)
 
             time.sleep(2)
-            driver.find_elements(By.CLASS_NAME, "option__title")[1].click()
+            driver.find_elements(By.XPATH, './/*[contains(concat(" ",normalize-space(@class)," ")," option__title ")]')[1].click()
 
             time.sleep(1)
             list_pollutant = {
