@@ -7,14 +7,12 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.chrome.service import Service
 
-# import wget
 import requests as re
 import os
 import time
 
-d = dict()
-exe_path = "./chromedriver"
-# exe_path = "/usr/bin/chromedriver"
+exe_path = "./../static/chromedriver"
+cities_path = "./../static/cities.csv"
 
 def configure_driver():
     svs = Service(exe_path)
@@ -27,9 +25,11 @@ def configure_driver():
     return driver
 
 driver = configure_driver()
+
 xpaths = dict()
 xpaths['area'] = '//*[@id="rso"]/div[1]/div/div[1]/div[1]/div[1]/div/div[2]/div/div/div/div[1]'
 xpaths['area_wiki'] = '//*[@id="kp-wp-tab-overview"]/div/div/div/div/div/div[2]/div/div/div/span[2]'
+
 error_list = dict()
 error_list['url'] = list()
 
@@ -79,18 +79,18 @@ def crawl(driver, city, attribute):
         try:
             driver.get(url)
             time.sleep(5)
-            #print("Done getting", url)
             area, unit = extract_element(driver, attribute)
         except:
-            #print("Error")
             area, unit = "", ""
         if area != "": break
     if area != "": print("Area found at: ", area, "url: ", url)
     return area, unit, url
 
-csv_data = pd.read_csv('cities.csv')
+csv_data = pd.read_csv(cities_path)
 new_area = dict() 
-new_area['city'], new_area['area'], new_area['unit'], new_area['url'], = list(), list(), list(), list()
+new_area['city'], new_area['area'] = list(), list()
+new_area['unit'], new_area['url'] = list(), list() 
+
 count, length = 0, len(csv_data['Name'])
 for index, c in enumerate(csv_data['Name']):
     count += 1

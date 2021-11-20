@@ -16,7 +16,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
 
-exe_path = "./chromedriver"
+exe_path = "./../driver/chromedriver"
 
 def get_api_data(list_city, csv_file):
     chrome_options = Options()
