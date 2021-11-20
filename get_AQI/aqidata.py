@@ -20,11 +20,21 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 exe_path = '/home/quyenld/Python/DataScience_AQI_explorer/chromedriver_linux64_95/chromedriver'
 exe_path2 = "/home/ds_project/DataScience_AQI_explorer/chromedriver_linux64_96/chromedriver"
 
+def configure_driver():
+    svs = Service(exe_path)
+    options = Options()
+    options.add_argument('--no-sandbox')
+    options.add_argument('--headless')
+    options.add_argument('--disable-dev-shm-usage')
+    options.add_argument("--window-size=1920,1080")
+    driver = webdriver.Chrome(service=svs, options = options)
+    return driver
 
 def get_api_data(list_city, csv_file):
-    options = Options()
-    options.headless = True
-    driver = webdriver.Chrome(executable_path=exe_path2, options=options)
+    # options = Options()
+    # options.headless = True
+    # driver = webdriver.Chrome(executable_path=exe_path2, options=options)
+    driver = configure_driver()
     driver.set_page_load_timeout(30)
     url = "https://breezometer.com/air-quality-map/air-quality"
     driver.get(url)
@@ -32,18 +42,18 @@ def get_api_data(list_city, csv_file):
     driver.implicitly_wait(30)
 
     try:
-        driver.find_element(By.XPATH, './/*[contains(concat(" ",normalize-space(@class)," ")," aq-index-selection ")]/div').click()
+        driver.find_element_by_xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," aq-index-selection ")]/div').click()
         xPath = './/*[contains(concat(" ",normalize-space(@class)," ")," dropdown ")]//*[contains(concat(" ",normalize-space(@class)," ")," body ")]/div[(count(preceding-sibling::*)+1) = 2]'
-        driver.find_element(By.XPATH, xPath).click()
+        driver.find_element_by_xpath(xPath).click()
 
         for city_name in list_city:
             xPath = './/*[contains(concat(" ",normalize-space(@class)," ")," ss-content ")]//*[contains(concat(" ",normalize-space(@class)," ")," mt-4 ")]//*[contains(concat(" ",normalize-space(@class)," ")," search-dropdown ")]/div'
-            driver.find_element(By.XPATH, xPath).click()
-            driver.find_elements(By.XPATH, './/*[contains(concat(" ",normalize-space(@class)," ")," search-input ")]')[2].clear()
-            driver.find_elements(By.XPATH, './/*[contains(concat(" ",normalize-space(@class)," ")," search-input ")]')[2].send_keys(city_name)
+            driver.find_element_by_xpath(xPath).click()
+            driver.find_elements_by_xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," search-input ")]')[2].clear()
+            driver.find_elements_by_xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," search-input ")]')[2].send_keys(city_name)
 
             time.sleep(2)
-            driver.find_elements(By.XPATH, './/*[contains(concat(" ",normalize-space(@class)," ")," option__title ")]')[1].click()
+            driver.find_elements_by_xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," option__title ")]')[1].click()
 
             time.sleep(1)
             list_pollutant = {
@@ -62,10 +72,10 @@ def get_api_data(list_city, csv_file):
                 "NMHC": "0"
             }
             xPath = './/*[contains(concat(" ",normalize-space(@class)," ")," ss-content ")]//*[contains(concat(" ",normalize-space(@class)," ")," current-aqi ")]//*[contains(concat(" ",normalize-space(@class)," ")," aqi ")]'
-            list_pollutant["AQI"] = driver.find_element(By.XPATH, xPath).text
+            list_pollutant["AQI"] = driver.find_element_by_xpath( xPath).text
 
             xPath = './/*[contains(concat(" ",normalize-space(@class)," ")," ss-content ")]//*[contains(concat(" ",normalize-space(@class)," ")," dominant-pollutant ")]/p'
-            list_pollutant["dominant_pollutant"] = driver.find_element(By.XPATH, xPath).text
+            list_pollutant["dominant_pollutant"] = driver.find_element_by_xpath( xPath).text
 
             driver.execute_script("document.getElementsByClassName('ss-content')[0].scrollTo(0,2000);")
 
@@ -74,8 +84,8 @@ def get_api_data(list_city, csv_file):
             results = driver.find_elements(By.XPATH, './/*[contains(concat(" ",normalize-space(@class)," ")," pollutant-wrapper ")]')
 
             for result in results:
-                pollutant = result.find_element(By.XPATH, './/div[contains(concat(" ",normalize-space(@class)," ")," name ")]').text.strip()
-                val = result.find_element(By.XPATH, './/div[contains(concat(" ",normalize-space(@class)," ")," concentration-value ")]').text.strip()
+                pollutant = result.find_element_by_xpath('.//div[contains(concat(" ",normalize-space(@class)," ")," name ")]').text.strip()
+                val = result.find_element_by_xpath('.//div[contains(concat(" ",normalize-space(@class)," ")," concentration-value ")]').text.strip()
                 list_pollutant[pollutant] = val
 
             time.sleep(1)
