@@ -32,12 +32,13 @@ def get_api_data(list_city, csv_file):
     driver.implicitly_wait(30)
 
     try:
-        driver.find_element(By.CSS_SELECTOR, ".aq-index-selection > div").click()
-        driver.find_element(By.CSS_SELECTOR, ".dropdown .body>div:nth-child(2)").click()
+        driver.find_element(By.XPATH, './/*[contains(concat(" ",normalize-space(@class)," ")," aq-index-selection ")]/div').click()
+        xPath = './/*[contains(concat(" ",normalize-space(@class)," ")," dropdown ")]//*[contains(concat(" ",normalize-space(@class)," ")," body ")]/div[(count(preceding-sibling::*)+1) = 2]'
+        driver.find_element(By.XPATH, xPath).click()
 
         for city_name in list_city:
-
-            driver.find_element(By.CSS_SELECTOR, ".ss-content .mt-4 .search-dropdown >div").click()
+            xPath = './/*[contains(concat(" ",normalize-space(@class)," ")," ss-content ")]//*[contains(concat(" ",normalize-space(@class)," ")," mt-4 ")]//*[contains(concat(" ",normalize-space(@class)," ")," search-dropdown ")]/div'
+            driver.find_element(By.XPATH, xPath).click()
             driver.find_elements(By.CLASS_NAME, "search-input")[2].clear()
             driver.find_elements(By.CLASS_NAME, "search-input")[2].send_keys(city_name)
 
@@ -60,18 +61,21 @@ def get_api_data(list_city, csv_file):
                 "C6H6": "0",
                 "NMHC": "0"
             }
-            list_pollutant["AQI"] = driver.find_element_by_css_selector(".ss-content .current-aqi .aqi").text
-            list_pollutant["dominant_pollutant"] = driver.find_element_by_css_selector(".ss-content .dominant-pollutant>p").text
+            xPath = './/*[contains(concat(" ",normalize-space(@class)," ")," ss-content ")]//*[contains(concat(" ",normalize-space(@class)," ")," current-aqi ")]//*[contains(concat(" ",normalize-space(@class)," ")," aqi ")]'
+            list_pollutant["AQI"] = driver.find_element(By.XPATH, xPath).text
+
+            xPath = './/*[contains(concat(" ",normalize-space(@class)," ")," ss-content ")]//*[contains(concat(" ",normalize-space(@class)," ")," dominant-pollutant ")]/p'
+            list_pollutant["dominant_pollutant"] = driver.find_element(By.XPATH, xPath).text
 
             driver.execute_script("document.getElementsByClassName('ss-content')[0].scrollTo(0,2000);")
 
             time.sleep(2)
 
-            results = driver.find_elements_by_css_selector(".pollutant-wrapper")
+            results = driver.find_elements(By.XPATH, './/*[contains(concat(" ",normalize-space(@class)," ")," pollutant-wrapper ")]')
 
             for result in results:
-                pollutant = result.find_element_by_css_selector("div.name").text.strip()
-                val = result.find_element_by_css_selector("div.concentration-value").text.strip()
+                pollutant = result.find_element(By.XPATH, './/div[contains(concat(" ",normalize-space(@class)," ")," name ")]').text.strip()
+                val = result.find_element(By.XPATH, './/div[contains(concat(" ",normalize-space(@class)," ")," concentration-value ")]').text.strip()
                 list_pollutant[pollutant] = val
 
             time.sleep(1)
