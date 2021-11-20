@@ -15,6 +15,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 
+from selenium.common.exceptions import TimeoutException, NoSuchElementException
+
 exe_path = '/home/quyenld/Python/DataScience_AQI_explorer/chromedriver_linux64_95/chromedriver'
 exe_path2 = "/home/ds_project/DataScience_AQI_explorer/chromedriver_linux64_96/chromedriver"
 
@@ -29,67 +31,73 @@ def get_api_data(list_city, csv_file):
     driver.get(url)
     driver.implicitly_wait(30)
 
-    driver.find_element(By.CSS_SELECTOR, ".aq-index-selection > div").click()
-    driver.find_element(By.CSS_SELECTOR, ".dropdown .body>div:nth-child(2)").click()
+    try:
+        driver.find_element(By.CSS_SELECTOR, ".aq-index-selection > div").click()
+        driver.find_element(By.CSS_SELECTOR, ".dropdown .body>div:nth-child(2)").click()
 
-    for city_name in list_city:
+        for city_name in list_city:
 
-        driver.find_element(By.CSS_SELECTOR, ".ss-content .mt-4 .search-dropdown >div").click()
-        driver.find_elements(By.CLASS_NAME, "search-input")[2].clear()
-        driver.find_elements(By.CLASS_NAME, "search-input")[2].send_keys(city_name)
+            driver.find_element(By.CSS_SELECTOR, ".ss-content .mt-4 .search-dropdown >div").click()
+            driver.find_elements(By.CLASS_NAME, "search-input")[2].clear()
+            driver.find_elements(By.CLASS_NAME, "search-input")[2].send_keys(city_name)
 
-        time.sleep(2)
-        driver.find_elements(By.CLASS_NAME, "option__title")[1].click()
+            time.sleep(2)
+            driver.find_elements(By.CLASS_NAME, "option__title")[1].click()
 
-        time.sleep(1)
-        list_pollutant = {
-            "city": city_name,
-            "AQI": "0",
-            "dominant_pollutant": "",
-            "O3": "0",
-            "SO2": "0",
-            "PM2.5": "0",
-            "PM10": "0",
-            "CO": "0",
-            "NO2": "0",
-            "NO": "0",
-            "NOX": "0",
-            "C6H6": "0",
-            "NMHC": "0"
-        }
-        list_pollutant["AQI"] = driver.find_element_by_css_selector(".ss-content .current-aqi .aqi").text
-        list_pollutant["dominant_pollutant"] = driver.find_element_by_css_selector(".ss-content .dominant-pollutant>p").text
+            time.sleep(1)
+            list_pollutant = {
+                "city": city_name,
+                "AQI": "0",
+                "dominant_pollutant": "",
+                "O3": "0",
+                "SO2": "0",
+                "PM2.5": "0",
+                "PM10": "0",
+                "CO": "0",
+                "NO2": "0",
+                "NO": "0",
+                "NOX": "0",
+                "C6H6": "0",
+                "NMHC": "0"
+            }
+            list_pollutant["AQI"] = driver.find_element_by_css_selector(".ss-content .current-aqi .aqi").text
+            list_pollutant["dominant_pollutant"] = driver.find_element_by_css_selector(".ss-content .dominant-pollutant>p").text
 
-        driver.execute_script("document.getElementsByClassName('ss-content')[0].scrollTo(0,2000);")
+            driver.execute_script("document.getElementsByClassName('ss-content')[0].scrollTo(0,2000);")
 
-        time.sleep(2)
+            time.sleep(2)
 
-        results = driver.find_elements_by_css_selector(".pollutant-wrapper")
+            results = driver.find_elements_by_css_selector(".pollutant-wrapper")
 
-        for result in results:
-            pollutant = result.find_element_by_css_selector("div.name").text.strip()
-            val = result.find_element_by_css_selector("div.concentration-value").text.strip()
-            list_pollutant[pollutant] = val
+            for result in results:
+                pollutant = result.find_element_by_css_selector("div.name").text.strip()
+                val = result.find_element_by_css_selector("div.concentration-value").text.strip()
+                list_pollutant[pollutant] = val
 
-        time.sleep(1)
-        csv_file.writerow([list_pollutant["city"],
-                           list_pollutant["AQI"],
-                           list_pollutant["dominant_pollutant"],
-                           list_pollutant["O3"],
-                           list_pollutant["SO2"],
-                           list_pollutant["PM2.5"],
-                           list_pollutant["PM10"],
-                           list_pollutant["CO"],
-                           list_pollutant["NO2"],
-                           list_pollutant["NO"],
-                           list_pollutant["NOX"],
-                           list_pollutant["C6H6"],
-                           list_pollutant["NMHC"]])
-        print(list_pollutant)
-        print("Success")
-        driver.execute_script("document.getElementsByClassName('ss-content')[0].scrollTo(0,50);")
+            time.sleep(1)
+            csv_file.writerow([list_pollutant["city"],
+                               list_pollutant["AQI"],
+                               list_pollutant["dominant_pollutant"],
+                               list_pollutant["O3"],
+                               list_pollutant["SO2"],
+                               list_pollutant["PM2.5"],
+                               list_pollutant["PM10"],
+                               list_pollutant["CO"],
+                               list_pollutant["NO2"],
+                               list_pollutant["NO"],
+                               list_pollutant["NOX"],
+                               list_pollutant["C6H6"],
+                               list_pollutant["NMHC"]])
+            print(list_pollutant)
+            print("Success")
+            driver.execute_script("document.getElementsByClassName('ss-content')[0].scrollTo(0,50);")
 
-    driver.quit()
+    except NoSuchElementException:
+        print("Lỗi không tìm thấy phần tử")
+    except TimeoutException:
+        print("Lỗi Timeout")
+    finally:
+        driver.quit()
 
 
 def main():
