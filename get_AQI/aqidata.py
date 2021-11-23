@@ -21,7 +21,7 @@ exe_path = '/home/quyenld/Python/DataScience_AQI_explorer/chromedriver_linux64_9
 exe_path2 = "/home/ds_project/DataScience_AQI_explorer/chromedriver_linux64_96/chromedriver"
 
 def configure_driver():
-    svs = Service(exe_path)
+    svs = Service(exe_path2)
     options = Options()
     options.add_argument('--no-sandbox')
     options.add_argument('--headless')
@@ -31,22 +31,19 @@ def configure_driver():
     return driver
 
 def get_api_data(list_city, csv_file):
-    # options = Options()
-    # options.headless = True
-    # driver = webdriver.Chrome(executable_path=exe_path2, options=options)
+
     driver = configure_driver()
     driver.set_page_load_timeout(30)
     url = "https://breezometer.com/air-quality-map/air-quality"
     driver.get(url)
-    driver.maximize_window()
+   
     driver.implicitly_wait(30)
 
     try:
-        driver.find_element_by_xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," aq-index-selection ")]/div').click()
-        xPath = './/*[contains(concat(" ",normalize-space(@class)," ")," dropdown ")]//*[contains(concat(" ",normalize-space(@class)," ")," body ")]/div[(count(preceding-sibling::*)+1) = 2]'
-        driver.find_element_by_xpath(xPath).click()
+        
 
         for city_name in list_city:
+            
             xPath = './/*[contains(concat(" ",normalize-space(@class)," ")," ss-content ")]//*[contains(concat(" ",normalize-space(@class)," ")," mt-4 ")]//*[contains(concat(" ",normalize-space(@class)," ")," search-dropdown ")]/div'
             driver.find_element_by_xpath(xPath).click()
             driver.find_elements_by_xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," search-input ")]')[2].clear()
@@ -56,6 +53,10 @@ def get_api_data(list_city, csv_file):
             driver.find_elements_by_xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," option__title ")]')[1].click()
 
             time.sleep(1)
+            driver.find_element_by_xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," aq-index-selection ")]/div').click()
+            xPath = './/*[contains(concat(" ",normalize-space(@class)," ")," dropdown ")]//*[contains(concat(" ",normalize-space(@class)," ")," body ")]/div[(count(preceding-sibling::*)+1) = 2]'
+            driver.find_element_by_xpath(xPath).click()
+            time.sleep(0.5)
             list_pollutant = {
                 "city": city_name,
                 "AQI": "0",
@@ -104,7 +105,7 @@ def get_api_data(list_city, csv_file):
                                list_pollutant["NMHC"]])
             print(list_pollutant)
             print("Success")
-            driver.execute_script("document.getElementsByClassName('ss-content')[0].scrollTo(0,50);")
+            driver.execute_script("document.getElementsByClassName('ss-content')[0].scrollTo(0,40);")
 
     except NoSuchElementException:
         print("Lỗi không tìm thấy phần tử")
@@ -123,7 +124,7 @@ def main():
     column = ["city", "AQI", "dominant pollutant", "O3", "SO2", "PM2.5", "PM10", "CO", "NO2", "NO", "NOX", "C6H6", "NMHC"]
     file_data.writerow(column)
 
-    get_api_data(["Hà Nội", "Nam Định", "Bắc Giang", "New York"], file_data)
+    get_api_data(["Hà Nội", "Nam Định", "Bắc Giang", "New York","England"], file_data)
 
     return
 

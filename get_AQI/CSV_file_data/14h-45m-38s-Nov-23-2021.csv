@@ -1,0 +1,5 @@
+city,AQI,dominant pollutant,O3,SO2,PM2.5,PM10,CO,NO2,NO,NOX,C6H6,NMHC
+Hà Nội,80,PM2.5,30,4,26,58,306,40,0,0,0,0
+Nam Định,56,PM2.5,29,7,15,37,323,8,0,0,0,0
+Bắc Giang,55,PM2.5,31,3,14,30,277,3,0,0,0,0
+New York,23,PM10,21,0,5,25,118,16,4,13,0,0
