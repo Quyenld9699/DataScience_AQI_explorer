@@ -21,7 +21,7 @@ exe_path2 = "/home/ds_project/DataScience_AQI_explorer/chromedriver_linux64_96/c
 
 
 def configure_driver():
-    svs = Service(exe_path)
+    svs = Service(exe_path2)
     options = Options()
     options.add_argument('--no-sandbox')
     options.add_argument('--headless')
