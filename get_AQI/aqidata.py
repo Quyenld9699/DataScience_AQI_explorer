@@ -4,6 +4,7 @@ import time
 import requests
 
 from bs4 import BeautifulSoup
+import pandas
 
 from selenium import webdriver
 from selenium.webdriver import ActionChains
@@ -17,7 +18,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 
 exe_path = '/home/quyenld/Python/DataScience_AQI_explorer/chromedriver_linux64_95/chromedriver'
-exe_path2 = "/home/ds_project/DataScience_AQI_explorer/chromedriver_linux64_96/chromedriver"
+exe_path2 = "../static/chromedriver"
 
 
 def configure_driver():
@@ -27,22 +28,24 @@ def configure_driver():
     options.add_argument('--headless')
     options.add_argument('--disable-dev-shm-usage')
     options.add_argument("--window-size=1920,1080")
-    driver = webdriver.Chrome(service=svs, options = options)
+    driver = webdriver.Chrome(service=svs, options=options)
     return driver
 
 
-def get_api_data(list_city, csv_file):
+def get_api_data(list_city, csv_aqi_file, csv_log_file):
+    # driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
     driver = configure_driver()
-    driver.set_page_load_timeout(30)
+    driver.set_page_load_timeout(10)
     url = "https://breezometer.com/air-quality-map/air-quality"
     driver.get(url)
-    driver.implicitly_wait(30)
-    try:
-        for city_name in list_city:
+    driver.implicitly_wait(10)
+
+    for city_name in list_city:
+        try:
             driver.find_element(By.CSS_SELECTOR, ".ss-content .mt-4 .search-dropdown >div").click()
             driver.find_elements(By.CLASS_NAME, "search-input")[2].clear()
             driver.find_elements(By.CLASS_NAME, "search-input")[2].send_keys(city_name)
-            time.sleep(1) # wait to load list option
+            time.sleep(1)  # wait to load list option
 
             driver.find_elements(By.CLASS_NAME, "option__title")[1].click()
             time.sleep(1.25)
@@ -81,41 +84,47 @@ def get_api_data(list_city, csv_file):
                 list_pollutant[pollutant] = val
 
             time.sleep(0.5)
-            csv_file.writerow([list_pollutant["city"],
-                            list_pollutant["AQI"],
-                            list_pollutant["dominant_pollutant"],
-                            list_pollutant["O3"],
-                            list_pollutant["SO2"],
-                            list_pollutant["PM2.5"],
-                            list_pollutant["PM10"],
-                            list_pollutant["CO"],
-                            list_pollutant["NO2"],
-                            list_pollutant["NO"],
-                            list_pollutant["NOX"],
-                            list_pollutant["C6H6"],
-                            list_pollutant["NMHC"]])
+            csv_aqi_file.writerow([list_pollutant["city"],
+                                   list_pollutant["AQI"],
+                                   list_pollutant["dominant_pollutant"],
+                                   list_pollutant["O3"],
+                                   list_pollutant["SO2"],
+                                   list_pollutant["PM2.5"],
+                                   list_pollutant["PM10"],
+                                   list_pollutant["CO"],
+                                   list_pollutant["NO2"],
+                                   list_pollutant["NO"],
+                                   list_pollutant["NOX"],
+                                   list_pollutant["C6H6"],
+                                   list_pollutant["NMHC"]])
             print(list_pollutant)
             print("Success")
             driver.execute_script("document.getElementsByClassName('ss-content')[0].scrollTo(0,40);")
 
-    except NoSuchElementException:
-        print("Lỗi không tìm thấy phần tử")
-    except TimeoutException:
-        print("Lỗi Timeout")
-    finally:
-        driver.quit()
+        except:
+            print("Không tìm thấy data", city_name)
+            csv_log_file.writerow([city_name])
+
+    driver.quit()
 
 
 def main():
     t = time.localtime()
-    current_time = time.strftime("%Hh-%Mm-%Ss-%h-%d-%Y", t)
-    new_file_name = "./CSV_file_data/" + current_time + ".csv"
-    file_data = csv.writer(open(new_file_name, "w", encoding='utf-8'))
+    current_time = time.strftime("%Hh-%Mm-%h-%d-%Y", t)
+    new_aqi_file_name = "./CSV_file_data/" + current_time + ".csv"
+    new_log_file_name = "./log_data/" + current_time + ".csv"
+
+    file_aqi_data = csv.writer(open(new_aqi_file_name, "w", encoding='utf-8'))
+
+    file_log_data = csv.writer(open(new_log_file_name, "w", encoding='utf-8'))
 
     column = ["city", "AQI", "dominant pollutant", "O3", "SO2", "PM2.5", "PM10", "CO", "NO2", "NO", "NOX", "C6H6", "NMHC"]
-    file_data.writerow(column)
+    file_aqi_data.writerow(column)
+    file_log_data.writerow(["city not found data"])
+    cities = pandas.read_csv("../static/cities.csv").Name
 
-    get_api_data(["Hà Nội", "Nam Định", "Bắc Giang", "New York", "England"], file_data)
+    # cities = ["Hà Nội", "Nam Định", "Bắc Giang", "New York", "England"]
+    get_api_data(cities[12:17], file_aqi_data, file_log_data)
 
     return
 
