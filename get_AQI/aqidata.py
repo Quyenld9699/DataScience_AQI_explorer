@@ -108,20 +108,29 @@ def get_api_data(list_city, csv_aqi_file, csv_log_file):
     driver.quit()
 
 
-def main():
+def get_prefix():
     t = time.localtime()
-    current_time = time.strftime("%Hh-%Mm-%h-%d-%Y", t)
-    new_aqi_file_name = "./CSV_file_data/" + current_time + ".csv"
-    new_log_file_name = "./log_data/" + current_time + ".csv"
+    return time.strftime("%Hh-%Mm-%h-%d-%Y", t)
 
-    file_aqi_data = csv.writer(open(new_aqi_file_name, "w", encoding='utf-8'))
 
-    file_log_data = csv.writer(open(new_log_file_name, "w", encoding='utf-8'))
-
+def open_files(prefix):
+    aqi_file = "./CSV_file_data/" + prefix + ".csv"
+    log_file = "./log_data/" + prefix + ".csv"
+    aqi_data = csv.writer(open(aqi_file, "w", encoding='utf-8'))
+    log_data = csv.writer(open(log_file, "w", encoding='utf-8'))
     column = ["city", "AQI", "dominant pollutant", "O3", "SO2", "PM2.5", "PM10", "CO", "NO2", "NO", "NOX", "C6H6", "NMHC"]
-    file_aqi_data.writerow(column)
-    file_log_data.writerow(["city not found data"])
-    cities = pandas.read_csv("../static/cities.csv").Name
+    not_found = ["city not found data"]
+    aqi_data.writerow(column)
+    log_data.writerow(not_found)
+    return aqi_data, log_data
+
+
+def main():
+    current_time = get_prefix()
+    file_aqi_data, file_log_data = open_files(current_time)
+
+    cities_csv = pandas.read_csv("./../static/cities.csv")
+    cities = cities_csv['Name']
 
     # cities = ["Hà Nội", "Nam Định", "Bắc Giang", "New York", "England"]
     get_api_data(cities[12:17], file_aqi_data, file_log_data)
