@@ -2,6 +2,8 @@ import math
 import csv
 import time
 import requests
+import threading
+import multiprocessing
 
 from bs4 import BeautifulSoup
 import pandas
@@ -20,6 +22,21 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 exe_path = '/home/quyenld/Python/DataScience_AQI_explorer/chromedriver_linux64_95/chromedriver'
 exe_path2 = "../static/chromedriver"
 
+AQI_data = dict()
+AQI_data['city']  = list()
+AQI_data["city"] = list()
+AQI_data["AQI"] = list()
+AQI_data["dominant_pollutant"] = list()
+AQI_data["O3"] = list()
+AQI_data["SO2"] = list()
+AQI_data["PM2.5"] = list()
+AQI_data["PM10"] = list()
+AQI_data["CO"] = list()
+AQI_data["NO2"] = list()
+AQI_data["NO"] = list()
+AQI_data["NOX"] = list()
+AQI_data["C6H6"] = list()
+AQI_data["NMHC"] = list()
 
 def configure_driver():
     svs = Service(exe_path2)
@@ -42,6 +59,7 @@ def get_api_data(list_city, csv_aqi_file, csv_log_file):
 
     for city_name in list_city:
         try:
+            start = time.time()
             driver.find_element(By.CSS_SELECTOR, ".ss-content .mt-4 .search-dropdown >div").click()
             driver.find_elements(By.CLASS_NAME, "search-input")[2].clear()
             driver.find_elements(By.CLASS_NAME, "search-input")[2].send_keys(city_name)
@@ -98,11 +116,12 @@ def get_api_data(list_city, csv_aqi_file, csv_log_file):
                                    list_pollutant["C6H6"],
                                    list_pollutant["NMHC"]])
             print(list_pollutant)
-            print("Success")
+            print("Success, time: ", time.time() - start)
+
             driver.execute_script("document.getElementsByClassName('ss-content')[0].scrollTo(0,40);")
 
         except:
-            print("Không tìm thấy data", city_name)
+            #print("Không tìm thấy data", city_name)
             csv_log_file.writerow([city_name])
 
     driver.quit()
@@ -126,14 +145,54 @@ def open_files(prefix):
 
 
 def main():
-    current_time = get_prefix()
-    file_aqi_data, file_log_data = open_files(current_time)
-
     cities_csv = pandas.read_csv("./../static/cities.csv")
     cities = cities_csv['Name']
+    current_time = get_prefix()
+
+    for num_thread in [2]:
+        # file_aqi_data, file_log_data = open_files(current_time)
+
+        # num_thread = 2
+        # 4 thread: 166 seconds 
+        # 2 thread: 139 seconds
+        # 2 process: 137
+        length = int(len(cities)/num_thread)
+        threads = list()
+        for i in range(num_thread):
+            data = cities[i*length:(i+1)*length]
+            t = threading.Thread(target=get_api_data, args=(data, file_aqi_data, file_log_data))
+            # t = multiprocessing.Process(target=get_api_data, args=(data,file_aqi_data, file_log_data))
+            threads.append(t)
+
+        begin = time.time()
+        for th in threads: th.start()
+        for th in threads: th.join()
+
+        print("THREAD FINISHED", num_thread, time.time() - begin, current_time)
+
+    #for num_thread in [2]:
+     #   current_time = get_prefix()
+      #  file_aqi_data, file_log_data = open_files(current_time)
+        # num_thread = 2
+        # 4 thread: 166 seconds 
+        # 2 thread: 139 seconds
+        # 2 process: 137
+       # length = int(len(cities)/num_thread)
+        #threads = list()
+        #for i in range(num_thread):
+         #   data = cities[i*length:(i+1)*length]
+            # t = threading.Thread(target=get_api_data, args=(data,file_aqi_data, file_log_data))
+          #  t = multiprocessing.Process(target=get_api_data, args=(data, file_aqi_data, file_log_data))
+           # threads.append(t)
+
+       # begin = time.time()
+        #for th in threads: th.start()
+        #for th in threads: th.join()
+
+       # print("PROCESS FINISHED", num_thread, time.time() - begin, current_time)
 
     # cities = ["Hà Nội", "Nam Định", "Bắc Giang", "New York", "England"]
-    get_api_data(cities[12:17], file_aqi_data, file_log_data)
+    # get_api_data(cities[12:50], file_aqi_data, file_log_data)
 
     return
 
