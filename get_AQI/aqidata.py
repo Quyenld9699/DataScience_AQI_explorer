@@ -23,32 +23,26 @@ exe_path = '/home/quyenld/Python/DataScience_AQI_explorer/chromedriver_linux64_9
 exe_path2 = "../static/chromedriver"
 
 AQI_data = dict()
-AQI_data["city"] = list()
-AQI_data["AQI"] = list()
-AQI_data["dominant_pollutant"] = list()
-AQI_data["O3"] = list()
-AQI_data["SO2"] = list()
-AQI_data["PM2.5"] = list()
-AQI_data["PM10"] = list()
-AQI_data["CO"] = list()
-AQI_data["NO2"] = list()
-AQI_data["NO"] = list()
-AQI_data["NOX"] = list()
-AQI_data["C6H6"] = list()
-AQI_data["NMHC"] = list()
+keys = ["city","AQI", "dominant_pollutant", "O3", "SO2", "PM2.5", "PM10", "CO", "NO2", "NO","NOX", "C6H6", "NMHC"]
+for key in keys:
+    AQI_data[key] = list()
 
 error_list = dict()
 error_list['URL'] = list()
 
 def configure_driver():
-    svs = Service(exe_path2)
     options = Options()
-    options.add_argument('--no-sandbox')
-    options.add_argument('--headless')
-    options.add_argument('--disable-dev-shm-usage')
-    options.add_argument("--window-size=1920,1080")
-    driver = webdriver.Chrome(service=svs, options=options)
+    options.headless = True
+    driver = webdriver.Chrome(exe_path2, options=options)
     return driver
+    # svs = Service(exe_path2)
+    # options = Options()
+    # options.add_argument('--no-sandbox')
+    # options.add_argument('--headless')
+    # options.add_argument('--disable-dev-shm-usage')
+    # options.add_argument("--window-size=1920,1080")
+    # driver = webdriver.Chrome(service=svs, options=options)
+    # return driver
 
 
 def get_api_data(list_city, sth):
@@ -74,21 +68,11 @@ def get_api_data(list_city, sth):
             driver.find_element(By.CSS_SELECTOR, ".dropdown .body>div:nth-child(2)").click()
             time.sleep(0.5)
 
-            list_pollutant = {
-                "city": city_name,
-                "AQI": "0",
-                "dominant_pollutant": "",
-                "O3": "0",
-                "SO2": "0",
-                "PM2.5": "0",
-                "PM10": "0",
-                "CO": "0",
-                "NO2": "0",
-                "NO": "0",
-                "NOX": "0",
-                "C6H6": "0",
-                "NMHC": "0"
-            }
+            for key in keys:
+                list_pollutant[key] = "0"
+            list_pollutant["dominant_pollutant"] = ""
+            list_pillutant["city"] = city_name
+
             list_pollutant["AQI"] = driver.find_element_by_css_selector(".ss-content .current-aqi .aqi").text
             list_pollutant["dominant_pollutant"] = driver.find_element_by_css_selector(".ss-content .dominant-pollutant>p").text
 
@@ -105,7 +89,7 @@ def get_api_data(list_city, sth):
 
             time.sleep(1)
 
-            for k in list_pollutant.keys():
+            for key in keys:
                 AQI_data[key].append(list_pollutant[key])
 
             print(list_pollutant)
@@ -114,7 +98,7 @@ def get_api_data(list_city, sth):
             driver.execute_script("document.getElementsByClassName('ss-content')[0].scrollTo(0,40);")
 
         except:
-            print("Không tìm thấy data", city_name)
+            # print("Không tìm thấy data", city_name)
             error_list['URL'].append(city_name)
 
     driver.quit()
@@ -125,16 +109,16 @@ def get_prefix():
     return time.strftime("%Hh-%Mm-%h-%d-%Y", t)
 
 
-def open_files(prefix):
-    aqi_file = "./CSV_file_data/" + prefix + ".csv"
-    log_file = "./log_data/" + prefix + ".csv"
-    aqi_data = csv.writer(open(aqi_file, "w", encoding='utf-8'))
-    log_data = csv.writer(open(log_file, "w", encoding='utf-8'))
-    column = ["city", "AQI", "dominant pollutant", "O3", "SO2", "PM2.5", "PM10", "CO", "NO2", "NO", "NOX", "C6H6", "NMHC"]
-    not_found = ["city not found data"]
-    aqi_data.writerow(column)
-    log_data.writerow(not_found)
-    return aqi_data, log_data
+# def open_files(prefix):
+#     aqi_file = "./CSV_file_data/" + prefix + ".csv"
+#     log_file = "./log_data/" + prefix + ".csv"
+#     aqi_data = csv.writer(open(aqi_file, "w", encoding='utf-8'))
+#     log_data = csv.writer(open(log_file, "w", encoding='utf-8'))
+#     column = ["city", "AQI", "dominant pollutant", "O3", "SO2", "PM2.5", "PM10", "CO", "NO2", "NO", "NOX", "C6H6", "NMHC"]
+#     not_found = ["city not found data"]
+#     aqi_data.writerow(column)
+#     log_data.writerow(not_found)
+#     return aqi_data, log_data
 
 def save_data(prefix):
     aqi_file = "./CSV_file_data/" + prefix + ".csv"
@@ -148,7 +132,7 @@ def main():
     cities = cities_csv['Name']
     current_time = get_prefix()
 
-    num_thread = 2
+    num_thread = 4
     length = int(len(cities)/num_thread)
     threads = list()
     for i in range(num_thread):
