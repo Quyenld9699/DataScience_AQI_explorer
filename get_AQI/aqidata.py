@@ -22,6 +22,8 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 exe_path = '/home/quyenld/Python/DataScience_AQI_explorer/chromedriver_linux64_95/chromedriver'
 exe_path2 = "../static/chromedriver"
 
+server_name = "1"
+
 AQI_data = dict()
 keys = ["city","AQI", "dominant_pollutant", "O3", "SO2", "PM2.5", "PM10", "CO", "NO2", "NO","NOX", "C6H6", "NMHC"]
 for key in keys:
@@ -125,14 +127,14 @@ def get_prefix():
 #     return aqi_data, log_data
 
 def save_data(prefix):
-    aqi_file = "./CSV_file_data/" + prefix + ".csv"
-    log_file = "./log_data/" + prefix + ".csv"
+    aqi_file = "./CSV_file_data_" + server_name + "/" + prefix + ".csv"
+    log_file = "./log_data_/" + server_name + "/" + prefix + ".csv"
     pd.DataFrame(AQI_data).to_csv(aqi_file)
     pd.DataFrame(error_list).to_csv(log_file)
 
 
 def main():
-    cities_csv = pd.read_csv("./../static/area.csv")
+    cities_csv = pd.read_csv("./../static/area_" + server_name + ".csv")
     cities = cities_csv['city']
     current_time = get_prefix()
     get_api_data(cities, 0)
