@@ -31,7 +31,6 @@ def configure_driver():
     return driver
 
 def get_api_data(list_city, csv_file):
-
     driver = configure_driver()
     driver.set_page_load_timeout(30)
     url = "https://breezometer.com/air-quality-map/air-quality"
@@ -40,8 +39,6 @@ def get_api_data(list_city, csv_file):
     driver.implicitly_wait(30)
 
     try:
-        
-
         for city_name in list_city:
             
             xPath = './/*[contains(concat(" ",normalize-space(@class)," ")," ss-content ")]//*[contains(concat(" ",normalize-space(@class)," ")," mt-4 ")]//*[contains(concat(" ",normalize-space(@class)," ")," search-dropdown ")]/div'
