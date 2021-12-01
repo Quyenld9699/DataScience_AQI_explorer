@@ -131,3 +131,5 @@ dmypy.json
 CSV_file_data/
 get_AQI/log_data/
 get_AQI/data_1
+
+.DS_Store
