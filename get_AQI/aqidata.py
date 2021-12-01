@@ -64,10 +64,10 @@ def get_api_data(list_city, sth):
             driver.find_element(By.CSS_SELECTOR, ".ss-content .mt-4 .search-dropdown >div").click()
             driver.find_elements(By.CLASS_NAME, "search-input")[2].clear()
             driver.find_elements(By.CLASS_NAME, "search-input")[2].send_keys(city_name)
-            time.sleep(2)  # wait to load list option
+            time.sleep(1)  # wait to load list option
 
             driver.find_elements(By.CLASS_NAME, "option__title")[1].click()
-            time.sleep(2.5)
+            time.sleep(1.5)
 
             driver.find_element(By.CSS_SELECTOR, ".aq-index-selection > div").click()
             driver.find_element(By.CSS_SELECTOR, ".dropdown .body>div:nth-child(2)").click()
@@ -84,7 +84,7 @@ def get_api_data(list_city, sth):
 
             driver.execute_script("document.getElementsByClassName('ss-content')[0].scrollTo(0,2000);")
 
-            time.sleep(3)
+            time.sleep(1)
 
             results = driver.find_elements(By.CSS_SELECTOR, ".pollutant-wrapper")
 
@@ -93,7 +93,7 @@ def get_api_data(list_city, sth):
                 val = result.find_element(By.CSS_SELECTOR, "div.concentration-value").text.strip()
                 list_pollutant[pollutant] = val
 
-            time.sleep(2)
+            time.sleep(0.5)
 
             for key in keys:
                 AQI_data[key].append(list_pollutant[key])
