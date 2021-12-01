@@ -51,10 +51,10 @@ def configure_driver():
 def get_api_data(list_city, sth):
     # driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
     driver = configure_driver()
-    driver.set_page_load_timeout(10)
+    driver.set_page_load_timeout(20)
     url = "https://breezometer.com/air-quality-map/air-quality"
     driver.get(url)
-    driver.implicitly_wait(10)
+    driver.implicitly_wait(20)
 
     for city_name in list_city:
         try:
@@ -62,14 +62,14 @@ def get_api_data(list_city, sth):
             driver.find_element(By.CSS_SELECTOR, ".ss-content .mt-4 .search-dropdown >div").click()
             driver.find_elements(By.CLASS_NAME, "search-input")[2].clear()
             driver.find_elements(By.CLASS_NAME, "search-input")[2].send_keys(city_name)
-            time.sleep(1)  # wait to load list option
+            time.sleep(2)  # wait to load list option
 
             driver.find_elements(By.CLASS_NAME, "option__title")[1].click()
-            time.sleep(1.25)
+            time.sleep(2.5)
 
             driver.find_element(By.CSS_SELECTOR, ".aq-index-selection > div").click()
             driver.find_element(By.CSS_SELECTOR, ".dropdown .body>div:nth-child(2)").click()
-            time.sleep(0.5)
+            time.sleep(1)
             
             list_pollutant = {}
             for key in keys:
@@ -82,7 +82,7 @@ def get_api_data(list_city, sth):
 
             driver.execute_script("document.getElementsByClassName('ss-content')[0].scrollTo(0,2000);")
 
-            time.sleep(1.5)
+            time.sleep(3)
 
             results = driver.find_elements(By.CSS_SELECTOR, ".pollutant-wrapper")
 
@@ -91,7 +91,7 @@ def get_api_data(list_city, sth):
                 val = result.find_element(By.CSS_SELECTOR, "div.concentration-value").text.strip()
                 list_pollutant[pollutant] = val
 
-            time.sleep(1)
+            time.sleep(2)
 
             for key in keys:
                 AQI_data[key].append(list_pollutant[key])
@@ -109,8 +109,8 @@ def get_api_data(list_city, sth):
 
 
 def get_prefix():
-    t = time.localtime()
-    return time.strftime("%Hh-%Mm-%h-%d-%Y", t)
+    t = time.time() * 1000
+    return str(int(t))
 
 
 # def open_files(prefix):
@@ -132,26 +132,27 @@ def save_data(prefix):
 
 
 def main():
-    cities_csv = pd.read_csv("./../static/cities.csv")
-    cities = cities_csv['Name']
+    cities_csv = pd.read_csv("./../static/area.csv")
+    cities = cities_csv['city']
     current_time = get_prefix()
+    get_api_data(cities, 0)
 
-    num_thread = 4
-    length = int(len(cities)/num_thread)
-    threads = list()
-    print(len(cities))
-    for i in range(num_thread):
-        if i+1 == num_thread : data = cities[i*length:]
-        else : data = cities[i*length:(i+1)*length]
-        print(len(data))
-        t = threading.Thread(target=get_api_data, args=(data, 0))
-        threads.append(t)
+    # num_thread = 4
+    # length = int(len(cities)/num_thread)
+    # threads = list()
+    # print(len(cities))
+    # for i in range(num_thread):
+    #     if i+1 == num_thread : data = cities[i*length:]
+    #     else : data = cities[i*length:(i+1)*length]
+    #     print(len(data))
+    #     t = threading.Thread(target=get_api_data, args=(data, 0))
+    #     threads.append(t)
 
-    begin = time.time()
-    for th in threads: th.start()
-    for th in threads: th.join()
+    # begin = time.time()
+    # for th in threads: th.start()
+    # for th in threads: th.join()
 
-    print("THREAD FINISHED", num_thread, time.time() - begin, current_time)
+    print("THREAD FINISHED",  time.time() - begin, current_time)
     save_data(current_time)
 
     return
