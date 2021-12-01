@@ -1,0 +1,4 @@
+city,AQI,dominant pollutant,O3,SO2,PM2.5,PM10,CO,NO2,NO,NOX,C6H6,NMHC
+Istanbul,96,PM2.5,4,4,34,64,2133,44,0,0,0,0
+Buenos Aires,55,PM2.5,22,5,15,27,108,25,0,0,0,0
+Kolkata,177,PM2.5,29,8,98,231,995,41,10,46,14,0
