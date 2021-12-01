@@ -31,9 +31,12 @@ error_list = dict()
 error_list['URL'] = list()
 
 def configure_driver():
+    svs = Service(exe_path2)
     options = Options()
     options.headless = True
-    driver = webdriver.Chrome(exe_path2, options=options)
+    # options.add_argument('--no-sandbox')
+    # options.add_argument("--window-size=1920,1080")
+    driver = webdriver.Chrome(service=svs, options=options)
     return driver
     # svs = Service(exe_path2)
     # options = Options()
@@ -67,24 +70,25 @@ def get_api_data(list_city, sth):
             driver.find_element(By.CSS_SELECTOR, ".aq-index-selection > div").click()
             driver.find_element(By.CSS_SELECTOR, ".dropdown .body>div:nth-child(2)").click()
             time.sleep(0.5)
-
+            
+            list_pollutant = {}
             for key in keys:
                 list_pollutant[key] = "0"
             list_pollutant["dominant_pollutant"] = ""
-            list_pillutant["city"] = city_name
+            list_pollutant["city"] = city_name
 
-            list_pollutant["AQI"] = driver.find_element_by_css_selector(".ss-content .current-aqi .aqi").text
-            list_pollutant["dominant_pollutant"] = driver.find_element_by_css_selector(".ss-content .dominant-pollutant>p").text
+            list_pollutant["AQI"] = driver.find_element(By.CSS_SELECTOR, ".ss-content .current-aqi .aqi").text
+            list_pollutant["dominant_pollutant"] = driver.find_element(By.CSS_SELECTOR, ".ss-content .dominant-pollutant>p").text
 
             driver.execute_script("document.getElementsByClassName('ss-content')[0].scrollTo(0,2000);")
 
             time.sleep(1.5)
 
-            results = driver.find_elements_by_css_selector(".pollutant-wrapper")
+            results = driver.find_elements(By.CSS_SELECTOR, ".pollutant-wrapper")
 
             for result in results:
-                pollutant = result.find_element_by_css_selector("div.name").text.strip()
-                val = result.find_element_by_css_selector("div.concentration-value").text.strip()
+                pollutant = result.find_element(By.CSS_SELECTOR, "div.name").text.strip()
+                val = result.find_element(By.CSS_SELECTOR, "div.concentration-value").text.strip()
                 list_pollutant[pollutant] = val
 
             time.sleep(1)
@@ -98,7 +102,7 @@ def get_api_data(list_city, sth):
             driver.execute_script("document.getElementsByClassName('ss-content')[0].scrollTo(0,40);")
 
         except:
-            # print("Không tìm thấy data", city_name)
+            print("Không tìm thấy data", city_name)
             error_list['URL'].append(city_name)
 
     driver.quit()
@@ -135,8 +139,11 @@ def main():
     num_thread = 4
     length = int(len(cities)/num_thread)
     threads = list()
+    print(len(cities))
     for i in range(num_thread):
-        data = cities[i*length:(i+1)*length]
+        if i+1 == num_thread : data = cities[i*length:]
+        else : data = cities[i*length:(i+1)*length]
+        print(len(data))
         t = threading.Thread(target=get_api_data, args=(data, 0))
         threads.append(t)
 
