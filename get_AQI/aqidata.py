@@ -109,8 +109,8 @@ def get_api_data(list_city, sth):
 
 
 def get_prefix():
-    t = time.localtime()
-    return time.strftime("%Hh-%Mm-%h-%d-%Y", t)
+    t = time.time() * 1000
+    return str(int(t))
 
 
 # def open_files(prefix):
@@ -132,26 +132,27 @@ def save_data(prefix):
 
 
 def main():
-    cities_csv = pd.read_csv("./../static/area_cities.csv")
+    cities_csv = pd.read_csv("./../static/area.csv")
     cities = cities_csv['city']
     current_time = get_prefix()
+    get_api_data(cities, 0)
 
-    num_thread = 4
-    length = int(len(cities)/num_thread)
-    threads = list()
-    print(len(cities))
-    for i in range(num_thread):
-        if i+1 == num_thread : data = cities[i*length:]
-        else : data = cities[i*length:(i+1)*length]
-        print(len(data))
-        t = threading.Thread(target=get_api_data, args=(data, 0))
-        threads.append(t)
+    # num_thread = 4
+    # length = int(len(cities)/num_thread)
+    # threads = list()
+    # print(len(cities))
+    # for i in range(num_thread):
+    #     if i+1 == num_thread : data = cities[i*length:]
+    #     else : data = cities[i*length:(i+1)*length]
+    #     print(len(data))
+    #     t = threading.Thread(target=get_api_data, args=(data, 0))
+    #     threads.append(t)
 
-    begin = time.time()
-    for th in threads: th.start()
-    for th in threads: th.join()
+    # begin = time.time()
+    # for th in threads: th.start()
+    # for th in threads: th.join()
 
-    print("THREAD FINISHED", num_thread, time.time() - begin, current_time)
+    print("THREAD FINISHED",  time.time() - begin, current_time)
     save_data(current_time)
 
     return
