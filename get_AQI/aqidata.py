@@ -51,8 +51,11 @@ def configure_driver():
 
 
 def get_api_data(list_city, sth):
-    # driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
-    driver = configure_driver()
+    options = Options()
+    options.headless = True
+    driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
+    
+    # driver = configure_driver()
     driver.set_page_load_timeout(20)
     url = "https://breezometer.com/air-quality-map/air-quality"
     driver.get(url)
@@ -111,8 +114,7 @@ def get_api_data(list_city, sth):
 
 
 def get_prefix():
-    t = time.time() * 1000
-    return str(int(t))
+    return time.strftime("%Y-%m-%d_%H",  time.localtime())
 
 
 # def open_files(prefix):
@@ -128,7 +130,7 @@ def get_prefix():
 
 def save_data(prefix):
     aqi_file = "./CSV_file_data_" + server_name + "/" + prefix + ".csv"
-    log_file = "./log_data_/" + server_name + "/" + prefix + ".csv"
+    log_file = "./log_data_" + server_name + "/" + prefix + ".csv"
     pd.DataFrame(AQI_data).to_csv(aqi_file)
     pd.DataFrame(error_list).to_csv(log_file)
 
