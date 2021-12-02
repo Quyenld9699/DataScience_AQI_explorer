@@ -59,7 +59,7 @@ def get_api_data(list_city, sth):
     driver.set_page_load_timeout(20)
     url = "https://breezometer.com/air-quality-map/air-quality"
     driver.get(url)
-    driver.implicitly_wait(20)
+    driver.implicitly_wait(10)
 
     for city_name in list_city:
         try:
@@ -67,14 +67,14 @@ def get_api_data(list_city, sth):
             driver.find_element(By.CSS_SELECTOR, ".ss-content .mt-4 .search-dropdown >div").click()
             driver.find_elements(By.CLASS_NAME, "search-input")[2].clear()
             driver.find_elements(By.CLASS_NAME, "search-input")[2].send_keys(city_name)
-            time.sleep(1)  # wait to load list option
+            time.sleep(0.8)  # wait to load list option
 
             driver.find_elements(By.CLASS_NAME, "option__title")[1].click()
-            time.sleep(1.5)
+            time.sleep(1)
 
             driver.find_element(By.CSS_SELECTOR, ".aq-index-selection > div").click()
             driver.find_element(By.CSS_SELECTOR, ".dropdown .body>div:nth-child(2)").click()
-            time.sleep(1)
+            time.sleep(0.8)
             
             list_pollutant = {}
             for key in keys:
@@ -87,7 +87,7 @@ def get_api_data(list_city, sth):
 
             driver.execute_script("document.getElementsByClassName('ss-content')[0].scrollTo(0,2000);")
 
-            time.sleep(1)
+            time.sleep(0.8)
 
             results = driver.find_elements(By.CSS_SELECTOR, ".pollutant-wrapper")
 
