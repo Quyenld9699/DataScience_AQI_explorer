@@ -61,12 +61,14 @@ def get_api_data(list_city, sth):
     driver.get(url)
     driver.implicitly_wait(10)
 
+    search_dropdown_el = driver.find_element(By.CSS_SELECTOR, ".ss-content .mt-4 .search-dropdown >div")
+    search_input_el = driver.find_elements(By.CLASS_NAME, "search-input")[2]
     for city_name in list_city:
         try:
             start = time.time()
-            driver.find_element(By.CSS_SELECTOR, ".ss-content .mt-4 .search-dropdown >div").click()
-            driver.find_elements(By.CLASS_NAME, "search-input")[2].clear()
-            driver.find_elements(By.CLASS_NAME, "search-input")[2].send_keys(city_name)
+            search_dropdown_el.click()
+            search_input_el.clear()
+            search_input_el.send_keys(city_name)
             time.sleep(0.8)  # wait to load list option
 
             driver.find_elements(By.CLASS_NAME, "option__title")[1].click()
@@ -85,7 +87,7 @@ def get_api_data(list_city, sth):
             list_pollutant["AQI"] = driver.find_element(By.CSS_SELECTOR, ".ss-content .current-aqi .aqi").text
             list_pollutant["dominant_pollutant"] = driver.find_element(By.CSS_SELECTOR, ".ss-content .dominant-pollutant>p").text
 
-            driver.execute_script("document.getElementsByClassName('ss-content')[0].scrollTo(0,2000);")
+            driver.execute_script("document.getElementsByClassName('ss-content')[0].scrollTo(0,2400);")
 
             time.sleep(0.8)
 
