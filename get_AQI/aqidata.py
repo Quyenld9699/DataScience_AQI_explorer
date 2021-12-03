@@ -32,30 +32,20 @@ for key in keys:
 error_list = dict()
 error_list['URL'] = list()
 
-def configure_driver():
-    svs = Service(exe_path2)
-    options = Options()
-    options.headless = True
-    # options.add_argument('--no-sandbox')
-    # options.add_argument("--window-size=1920,1080")
-    driver = webdriver.Chrome(service=svs, options=options)
-    return driver
-    # svs = Service(exe_path2)
-    # options = Options()
-    # options.add_argument('--no-sandbox')
-    # options.add_argument('--headless')
-    # options.add_argument('--disable-dev-shm-usage')
-    # options.add_argument("--window-size=1920,1080")
-    # driver = webdriver.Chrome(service=svs, options=options)
-    # return driver
+# def configure_driver():
+#     svs = Service(exe_path2)
+#     options = Options()
+#     options.headless = True
+#     driver = webdriver.Chrome(service=svs, options=options)
+#     return driver
+    
 
 
 def get_api_data(list_city, sth):
-    options = Options()
-    options.headless = True
-    driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
     
-    # driver = configure_driver()
+    driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
+    driver.set_window_size(1300,1080)
+
     driver.set_page_load_timeout(20)
     url = "https://breezometer.com/air-quality-map/air-quality"
     driver.get(url)
@@ -119,16 +109,6 @@ def get_prefix():
     return time.strftime("%Y-%m-%d_%H",  time.localtime())
 
 
-# def open_files(prefix):
-#     aqi_file = "./CSV_file_data/" + prefix + ".csv"
-#     log_file = "./log_data/" + prefix + ".csv"
-#     aqi_data = csv.writer(open(aqi_file, "w", encoding='utf-8'))
-#     log_data = csv.writer(open(log_file, "w", encoding='utf-8'))
-#     column = ["city", "AQI", "dominant pollutant", "O3", "SO2", "PM2.5", "PM10", "CO", "NO2", "NO", "NOX", "C6H6", "NMHC"]
-#     not_found = ["city not found data"]
-#     aqi_data.writerow(column)
-#     log_data.writerow(not_found)
-#     return aqi_data, log_data
 
 def save_data(prefix):
     aqi_file = "./CSV_file_data_" + server_name + "/" + prefix + ".csv"
