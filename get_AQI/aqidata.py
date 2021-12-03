@@ -85,7 +85,7 @@ def get_api_data(list_city, sth):
             list_pollutant["AQI"] = driver.find_element(By.CSS_SELECTOR, ".ss-content .current-aqi .aqi").text
             list_pollutant["dominant_pollutant"] = driver.find_element(By.CSS_SELECTOR, ".ss-content .dominant-pollutant>p").text
 
-            driver.execute_script("document.getElementsByClassName('ss-content')[0].scrollTo(0,2000);")
+            driver.execute_script("document.getElementsByClassName('ss-content')[0].scrollTo(0,2400);")
 
             time.sleep(0.8)
 
