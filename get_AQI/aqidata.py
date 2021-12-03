@@ -22,7 +22,7 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 exe_path = '/home/quyenld/Python/DataScience_AQI_explorer/chromedriver_linux64_95/chromedriver'
 exe_path2 = "../static/chromedriver"
 
-server_name = "3"
+server_name = "4"
 
 AQI_data = dict()
 keys = ["city","AQI", "dominant_pollutant", "O3", "SO2", "PM2.5", "PM10", "CO", "NO2", "NO","NOX", "C6H6", "NMHC"]
