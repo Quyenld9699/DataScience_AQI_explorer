@@ -1,4 +1,4 @@
-import math
+﻿import math
 import csv
 import time
 import requests
@@ -32,18 +32,19 @@ for key in keys:
 error_list = dict()
 error_list['URL'] = list()
 
-# def configure_driver():
-#     svs = Service(exe_path2)
-#     options = Options()
-#     options.headless = True
-#     driver = webdriver.Chrome(service=svs, options=options)
-#     return driver
+def configure_driver():
+    svs = Service(exe_path2)
+    options = Options()
+    options.headless = True
+    driver = webdriver.Chrome(service=svs, options=options)
+    return driver
     
 
 
 def get_api_data(list_city, sth):
-    
-    driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
+    options = Options()
+    options.headless = True
+    driver = webdriver.Chrome(executable_path=ChromeDriverManager().install(), options=options)
     driver.set_window_size(1300,1080)
 
     driver.set_page_load_timeout(20)
@@ -118,8 +119,8 @@ def save_data(prefix):
 
 
 def main():
-    cities_csv = pd.read_csv("./../static/population_" + server_name + ".csv")
-    cities = cities_csv['Name']
+    cities_csv = pd.read_csv("./../static/area_" + server_name + ".csv")
+    cities = cities_csv['city']
     current_time = get_prefix()
     begin = time.time()
     get_api_data(cities, 0)
