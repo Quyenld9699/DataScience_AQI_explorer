@@ -118,8 +118,8 @@ def save_data(prefix):
 
 
 def main():
-    cities_csv = pd.read_csv("./../static/population_" + server_name + ".csv")
-    cities = cities_csv['Name']
+    cities_csv = pd.read_csv("./../static/area_" + server_name + ".csv")
+    cities = cities_csv['city']
     current_time = get_prefix()
     begin = time.time()
     get_api_data(cities, 0)
