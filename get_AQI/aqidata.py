@@ -42,9 +42,7 @@ def configure_driver():
 
 
 def get_api_data(list_city, sth):
-    options = Options()
-    options.headless = True
-    driver = webdriver.Chrome(executable_path=ChromeDriverManager().install(), options=options)
+    driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
     driver.set_window_size(1300,1080)
 
     driver.set_page_load_timeout(20)
