@@ -1,4 +1,4 @@
-import math
+﻿import math
 import csv
 import time
 import requests
@@ -22,7 +22,7 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 exe_path = '/home/quyenld/Python/DataScience_AQI_explorer/chromedriver_linux64_95/chromedriver'
 exe_path2 = "../static/chromedriver"
 
-server_name = "1"
+server_name = "3"
 
 AQI_data = dict()
 keys = ["city","AQI", "dominant_pollutant", "O3", "SO2", "PM2.5", "PM10", "CO", "NO2", "NO","NOX", "C6H6", "NMHC"]
@@ -32,46 +32,41 @@ for key in keys:
 error_list = dict()
 error_list['URL'] = list()
 
-def configure_driver():
-    svs = Service(exe_path2)
-    options = Options()
-    options.headless = True
-    # options.add_argument('--no-sandbox')
-    # options.add_argument("--window-size=1920,1080")
-    driver = webdriver.Chrome(service=svs, options=options)
-    return driver
-    # svs = Service(exe_path2)
-    # options = Options()
-    # options.add_argument('--no-sandbox')
-    # options.add_argument('--headless')
-    # options.add_argument('--disable-dev-shm-usage')
-    # options.add_argument("--window-size=1920,1080")
-    # driver = webdriver.Chrome(service=svs, options=options)
-    # return driver
+# def configure_driver():
+#     svs = Service(exe_path2)
+#     options = Options()
+#     options.headless = True
+#     driver = webdriver.Chrome(service=svs, options=options)
+#     return driver
+    
 
 
 def get_api_data(list_city, sth):
-    # driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
-    driver = configure_driver()
+    
+    driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
+    driver.set_window_size(1300,1080)
+
     driver.set_page_load_timeout(20)
     url = "https://breezometer.com/air-quality-map/air-quality"
     driver.get(url)
-    driver.implicitly_wait(20)
+    driver.implicitly_wait(10)
 
+    search_dropdown_el = driver.find_element(By.CSS_SELECTOR, ".ss-content .mt-4 .search-dropdown >div")
+    search_input_el = driver.find_elements(By.CLASS_NAME, "search-input")[2]
     for city_name in list_city:
         try:
             start = time.time()
-            driver.find_element(By.CSS_SELECTOR, ".ss-content .mt-4 .search-dropdown >div").click()
-            driver.find_elements(By.CLASS_NAME, "search-input")[2].clear()
-            driver.find_elements(By.CLASS_NAME, "search-input")[2].send_keys(city_name)
-            time.sleep(1)  # wait to load list option
+            search_dropdown_el.click()
+            search_input_el.clear()
+            search_input_el.send_keys(city_name)
+            time.sleep(0.8)  # wait to load list option
 
             driver.find_elements(By.CLASS_NAME, "option__title")[1].click()
-            time.sleep(1.5)
+            time.sleep(1)
 
             driver.find_element(By.CSS_SELECTOR, ".aq-index-selection > div").click()
             driver.find_element(By.CSS_SELECTOR, ".dropdown .body>div:nth-child(2)").click()
-            time.sleep(1)
+            time.sleep(0.8)
             
             list_pollutant = {}
             for key in keys:
@@ -82,9 +77,9 @@ def get_api_data(list_city, sth):
             list_pollutant["AQI"] = driver.find_element(By.CSS_SELECTOR, ".ss-content .current-aqi .aqi").text
             list_pollutant["dominant_pollutant"] = driver.find_element(By.CSS_SELECTOR, ".ss-content .dominant-pollutant>p").text
 
-            driver.execute_script("document.getElementsByClassName('ss-content')[0].scrollTo(0,2000);")
+            driver.execute_script("document.getElementsByClassName('ss-content')[0].scrollTo(0,2400);")
 
-            time.sleep(1)
+            time.sleep(0.8)
 
             results = driver.find_elements(By.CSS_SELECTOR, ".pollutant-wrapper")
 
@@ -111,24 +106,13 @@ def get_api_data(list_city, sth):
 
 
 def get_prefix():
-    t = time.time() * 1000
-    return str(int(t))
+    return time.strftime("%Y-%m-%d_%H",  time.localtime())
 
 
-# def open_files(prefix):
-#     aqi_file = "./CSV_file_data/" + prefix + ".csv"
-#     log_file = "./log_data/" + prefix + ".csv"
-#     aqi_data = csv.writer(open(aqi_file, "w", encoding='utf-8'))
-#     log_data = csv.writer(open(log_file, "w", encoding='utf-8'))
-#     column = ["city", "AQI", "dominant pollutant", "O3", "SO2", "PM2.5", "PM10", "CO", "NO2", "NO", "NOX", "C6H6", "NMHC"]
-#     not_found = ["city not found data"]
-#     aqi_data.writerow(column)
-#     log_data.writerow(not_found)
-#     return aqi_data, log_data
 
 def save_data(prefix):
     aqi_file = "./CSV_file_data_" + server_name + "/" + prefix + ".csv"
-    log_file = "./log_data_/" + server_name + "/" + prefix + ".csv"
+    log_file = "./log_data_" + server_name + "/" + prefix + ".csv"
     pd.DataFrame(AQI_data).to_csv(aqi_file)
     pd.DataFrame(error_list).to_csv(log_file)
 
@@ -137,6 +121,7 @@ def main():
     cities_csv = pd.read_csv("./../static/area_" + server_name + ".csv")
     cities = cities_csv['city']
     current_time = get_prefix()
+    begin = time.time()
     get_api_data(cities, 0)
 
     # num_thread = 4
@@ -150,7 +135,6 @@ def main():
     #     t = threading.Thread(target=get_api_data, args=(data, 0))
     #     threads.append(t)
 
-    # begin = time.time()
     # for th in threads: th.start()
     # for th in threads: th.join()
 
