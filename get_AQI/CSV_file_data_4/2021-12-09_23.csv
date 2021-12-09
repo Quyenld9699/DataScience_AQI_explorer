@@ -1,0 +1,4 @@
+,city,AQI,dominant_pollutant,O3,SO2,PM2.5,PM10,CO,NO2,NO,NOX,C6H6,NMHC
+0,Budapest,98,PM2.5,10,1,31,53,249,40,0,60,1,0
+1,Madurai,103,PM2.5,6,2,36,86,459,32,4,13,1,0
+2,Quanzhou,61,PM2.5,32,3,17,40,349,11,1,10,0,0
