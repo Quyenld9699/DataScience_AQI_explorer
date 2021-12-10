@@ -1,250 +1,126 @@
 ,URL
-0,Budapest
-1,Madurai
-2,Montevideo
-3,Palembang
-4,Santa Cruz
-5,Gaziantep
-6,Sharjah
-7,Phoenix
-8,Lyon
-9,Meerut
-10,Jiangmen
-11,Can Tho
-12,Raipur
-13,Mosul
-14,Glasgow
-15,Novosibirsk
-16,Stockholm
-17,Auckland
-18,Jamshedpur
-19,Tabriz
-20,Yinchuan
-21,Jilin
-22,Srinagar
-23,Batam
-24,Ulaanbaatar
-25,Marseille
-26,Makassar
-27,Aurangabad
-28,Muscat
-29,Philadelphia
-30,Qiqihaer
-31,Xining
-32,San Antonio
-33,Calgary
-34,Daejon
-35,Monrovia
-36,Tiruppur
-37,Munich
-38,Harare
-39,Ciudad Juarez
-40,Kananga
-41,Gwangju
-42,Suqian
-43,Yekaterinburg
-44,Abu Dhabi
-45,Jodhpur
-46,Edmonton
-47,Tegucigalpa
-48,Onitsha
-49,N-Djamena
-50,Ranchi
-51,Kathmandu
-52,Jabalpur
-53,Mandalay
-54,Asansol
-55,Kota
-56,San Diego
-57,Kharkiv
-58,San Jose
-59,Allahabad
-60,Gwalior
-61,Ottawa
-62,Zurich
-63,Belgrade
-64,Amritsar
-65,Joao Pessoa
-66,Basra
-67,Taizhou Jiangsu
-68,Nouakchott
-69,Queretaro
-70,Taian Shandong
-71,Homs
-72,Copenhagen
-73,Konya
-74,Dhanbad
-75,Dallas
-76,Ganzhou
-77,Adelaide
-78,Hai Phong
-79,Mombasa
-80,Cochabamba
-81,Niamey
-82,Jiaxing
-83,Helsinki
-84,Porto
-85,Zhanjiang
-86,Kisangani
-87,Prague
-88,Dongying
-89,Mianyang Sichuan
-90,Nanchong
-91,Fushun Liaoning
-92,Antalya
-93,Bareilly
-94,Kazan
-95,Ad-Dammam
-96,Port Elizabeth
-97,Ahvaz
-98,Florianopolis
-99,Nizhniy Novgorod
-100,Pointe-Noire
-101,Dublin
-102,Maoming
-103,Freetown
-104,San Luis Potosi
-105,Mysore
-106,Chelyabinsk
-107,Moradabad
-108,Barquisimeto
-109,Durg-Bhilainagar
-110,Suzhou
-111,Maracay
-112,Astana
-113,Ruian
-114,Uyo
-115,Zhenjiang Jiangsu
-116,Baoji
-117,Bhubaneswar
-118,Pingdingshan Henan
-119,Mendoza
-120,Chiang Mai
-121,Mwanza
-122,Tiruchirappalli
-123,Omsk
-124,Huaibei
-125,Lilongwe
-126,Nanyang Henan
-127,Jinhua
-128,Kigali
-129,Tripoli
-130,Chandigarh
-131,Islamabad
-132,Amsterdam
-133,Haifa
-134,Guilin
-135,Krasnoyarsk
-136,Mexicali
-137,Ufa
-138,Rostov-on-Don
-139,Hubli-Dharwad
-140,Guwahati
-141,Kaduna
-142,Bukavu
-143,Liupanshui
-144,Quetta
-145,Cologne
-146,Aguascalientes
-147,Binzhou
-148,Salem
-149,Maputo
-150,San Salvador
-151,Saharanpur
-152,Shimkent
-153,Yerevan
-154,Tbilisi
-155,Bujumbura
-156,Jalandhar
-157,Managua
-158,Lille
-159,Bishkek
-160,Siliguri
-161,Oslo
-162,Jingzhou Hubei
-163,Zhaoqing
-164,Antwerp
-165,Johor Bahru
-166,Solapur
-167,Hargeysa
-168,Teresina
-169,Fuzhou Jiangxi
-170,Aracaju
-171,Leshan
-172,Marrakech
-173,Rotterdam
-174,Austin
-175,San Jose
-176,Denpasar
-177,Odesa
-178,San Miguel de Tucuman
-179,Asmara
-180,Padang
-181,Cebu City
-182,Acapulco de Juarez
-183,Valparaiso
-184,Kayseri
-185,Warangal
-186,Changshu
-187,Bordeaux
-188,Songkhla
-189,Yichun Jiangxi
-190,Krasnodar
-191,Ilorin
-192,Cancun
-193,Jixi Heilongjiang
-194,Blantyre-Limbe
-195,Morelia
-196,Dnipro
-197,Khulna
-198,Jerusalem
-199,Dehradun
-200,Fort Worth
-201,Dushanbe
-202,Jiujiang
-203,Southampton
-204,Arequipa
-205,Ciudad Guayana
-206,Zamboanga City
-207,Veracruz
-208,Jacksonville
-209,Pathum Thani
-210,Rajshahi
-211,Misratah
-212,Guigang
-213,Columbus
-214,Charlotte
-215,Ulsan
-216,Bangui
-217,Owerri
-218,Liverpool
-219,Antipolo
-220,Zhangzhou
-221,Bergamo
-222,Donetsk
-223,Malang
-224,Linfen
-225,Sylhet
-226,Indianapolis
-227,Nampula
-228,Hermosillo
-229,San Francisco
-230,Guntur
-231,Lubango
-232,Bahawalpur
-233,Tyumen
-234,Soshanguve
-235,Tuxtla Gutierrez
-236,Ashgabat
-237,Puducherry
-238,Culiacan
-239,Libreville
-240,Saratov
-241,Banghazi
-242,Valencia
-243,Luzhou
-244,Quebec City
-245,Yibin
-246,Ipoh
-247,Winnipeg
-248,Bogra
+0,Montevideo
+1,Mosul
+2,Novosibirsk
+3,Tabriz
+4,Muscat
+5,Harare
+6,Tegucigalpa
+7,Onitsha
+8,N-Djamena
+9,Mandalay
+10,Basra
+11,Taizhou Jiangsu
+12,Nouakchott
+13,Homs
+14,Cochabamba
+15,Niamey
+16,Kisangani
+17,Pointe-Noire
+18,Freetown
+19,Astana
+20,Uyo
+21,Mwanza
+22,Omsk
+23,Lilongwe
+24,Nanyang Henan
+25,Kigali
+26,Tripoli
+27,Krasnoyarsk
+28,Kaduna
+29,Bukavu
+30,Maputo
+31,San Salvador
+32,Shimkent
+33,Bujumbura
+34,Managua
+35,Bishkek
+36,Siliguri
+37,Oslo
+38,Jingzhou Hubei
+39,Zhaoqing
+40,Antwerp
+41,Johor Bahru
+42,Solapur
+43,Hargeysa
+44,Teresina
+45,Fuzhou Jiangxi
+46,Aracaju
+47,Leshan
+48,Marrakech
+49,Rotterdam
+50,Austin
+51,San Jose
+52,Denpasar
+53,Odesa
+54,San Miguel de Tucuman
+55,Asmara
+56,Padang
+57,Cebu City
+58,Acapulco de Juarez
+59,Valparaiso
+60,Kayseri
+61,Warangal
+62,Changshu
+63,Bordeaux
+64,Songkhla
+65,Yichun Jiangxi
+66,Krasnodar
+67,Ilorin
+68,Cancun
+69,Jixi Heilongjiang
+70,Blantyre-Limbe
+71,Morelia
+72,Dnipro
+73,Khulna
+74,Jerusalem
+75,Dehradun
+76,Fort Worth
+77,Dushanbe
+78,Jiujiang
+79,Southampton
+80,Arequipa
+81,Ciudad Guayana
+82,Zamboanga City
+83,Veracruz
+84,Jacksonville
+85,Pathum Thani
+86,Rajshahi
+87,Misratah
+88,Guigang
+89,Columbus
+90,Charlotte
+91,Ulsan
+92,Bangui
+93,Owerri
+94,Liverpool
+95,Antipolo
+96,Zhangzhou
+97,Bergamo
+98,Donetsk
+99,Malang
+100,Linfen
+101,Sylhet
+102,Indianapolis
+103,Nampula
+104,Hermosillo
+105,San Francisco
+106,Guntur
+107,Lubango
+108,Bahawalpur
+109,Tyumen
+110,Soshanguve
+111,Tuxtla Gutierrez
+112,Ashgabat
+113,Puducherry
+114,Culiacan
+115,Libreville
+116,Saratov
+117,Banghazi
+118,Valencia
+119,Luzhou
+120,Quebec City
+121,Yibin
+122,Ipoh
+123,Winnipeg
+124,Bogra
