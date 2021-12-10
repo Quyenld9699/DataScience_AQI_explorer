@@ -1,0 +1,9 @@
+,city,AQI,dominant_pollutant,O3,SO2,PM2.5,PM10,CO,NO2,NO,NOX,C6H6,NMHC
+0,Newcastle upon Tyne,30,PM2.5,34,0,9,21,135,27,2,9,0,0
+1,Thessaloniki,64,PM2.5,17,2,18,40,143,20,0,0,6,0
+2,Bologna,71,PM2.5,9,1,19,35,662,41,77,77,2,0
+3,Barcelona-Puerto La Cruz,24,O3,27,0,4,11,231,8,5,12,1,0
+4,Cherthala,95,PM2.5,16,9,31,64,938,22,16,39,0,0
+5,Quzhou,120,PM2.5,45,2,44,106,533,23,0,0,0,0
+6,Sorocaba,62,PM2.5,13,1,20,29,401,29,0,0,2,0
+7,Nottingham,58,PM2.5,28,1,15,27,140,25,21,34,0,0
