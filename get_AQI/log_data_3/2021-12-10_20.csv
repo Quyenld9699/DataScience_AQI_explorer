@@ -1,231 +1,138 @@
 ,URL
 0,Enugu
-1,Xalapa
-2,Frankfurt
-3,Nakhon Ratchasima
-4,Vereeniging
-5,Seattle
-6,Bozhou
-7,Nellore
-8,Hamilton
-9,Cagayan de Oro City
-10,Krakow
-11,Gorakhpur
-12,Dasmarinas
-13,Ar-Rayyan
-14,Cuttack
-15,Denver
-16,Qingyuan
-17,Banjarmasin
-18,Lokoja
-19,Kottayam
-20,Belgaum
-21,Sheffield
-22,Zanzibar
-23,Gaza
-24,Zaragoza
-25,Zaporizhzhya
-26,Malegaon
-27,Sao Jose dos Campos
-28,Oshogbo
-29,Mangalore
-30,Okayama
-31,Ribeirao Preto
-32,Xianyang Shaanxi
-33,Bunia
-34,Lviv
-35,Tongliao
-36,Sialkot
-37,Buffalo City
-38,Suining Sichuan
-39,Oaxaca de Juarez
-40,Washington
-41,Sargodha
-42,Bhavnagar
-43,Gold Coast
-44,Florence
-45,Jammu
-46,Yulin Shaanxi
-47,Nanded Waghala
-48,Tirupati
-49,Bacoor
-50,Malanje
-51,The Hague
-52,Seville
-53,Cotonou
-54,Dongtai
-55,Bali
-56,Boston
-57,Yuxi
-58,Vientiane
-59,Bristol
-60,Akure
-61,Cheonan
-62,Jundiai
-63,Gulbarga
-64,Padova
-65,Durgapur
-66,Kurnool
-67,El Paso
-68,Nantes
-69,Zagreb
-70,Nashville
-71,Genoa
-72,Ezhou
-73,Santiago
-74,Mar Del Plata
-75,Lodz
-76,Oklahoma City
-77,Las Vegas
-78,General Santos City
-79,Detroit
-80,Manama
-81,Portland
-82,Sokoto
-83,Macao
-84,Zhoushan
-85,Jhansi
-86,Memphis
-87,As-Suways
-88,Doha
-89,Chiclayo
-90,Wuhai
-91,Be'er Sheva
-92,Durango
-93,Bokaro Steel City
-94,Wroclaw
-95,Irkutsk
-96,Barnaul
-97,Nay Pyi Taw
-98,Bulawayo
-99,Venezia
-100,Jambi
-101,Khabarovsk
-102,Duesseldorf
-103,Belfast
-104,Stuttgart
-105,Riga
-106,Bandar Abbas
-107,Kolhapur
-108,Bacolod
-109,Ulyanovsk
-110,Al-Ain
-111,Bari
-112,Yulin Guangxi
-113,Ajmer
-114,Kuching
-115,Bissau
-116,Geneva
-117,Anshun
-118,Colombo
-119,Ujjain
-120,Gothenburg
-121,Patiala
-122,Zahedan
-123,Bilaspur
-124,Louisville
-125,San Jose del Monte
-126,Yaroslavl
-127,Brighton
-128,Feira De Santana
-129,Vladivostok
-130,Comilla
-131,Calabar
-132,Mathura
-133,Skopje
-134,Tomsk
-135,Leipzig
-136,Agartala
-137,Mbeya
-138,Kingston
-139,Sangli
-140,Samarkand
-141,Malaga
-142,Ibague
-143,Dortmund
-144,Kagoshima
-145,Cabimas
-146,Milwaukee
-147,Samut Sakhon
-148,Beira
-149,Djibouti
-150,Essen
-151,Dresden
-152,Bouake
-153,Udaipur
-154,Vellore
-155,Thoothukkudi
-156,Bloemfontein
-157,Udon Thani
-158,Jalgaon
-159,Zaoyang
-160,Yiyang Hunan
-161,Baltimore
-162,Kitchener
-163,Poza Rica de Hidalgo
-164,Oujda
-165,Orenburg
-166,Kemerovo
-167,Bremen
-168,Karbala
-169,Kota Kinabalu
-170,Basel
-171,Gomel
-172,Albuquerque
-173,Meknes
-174,Panipat
-175,Irbid
-176,Chiang Rai
-177,Leicester
-178,Tucson
-179,Imus
-180,Villavicencio
-181,Sakarya
-182,Utrecht
-183,Larkana
-184,Basilan City
-185,Hamhung
-186,Port of Spain
-187,Kerman
-188,Abeokuta
-189,Mekele
-190,Edinburgh
-191,San Juan
-192,Ryazan
-193,Vilnius
-194,Calamba
-195,Hannover
-196,Fresno
-197,Astrakhan
-198,Bellary
-199,Pietermaritzburg
-200,Rustenburg
-201,Sheikhupura
-202,Grenoble
-203,Angeles City
-204,Gombe
-205,Poznan
-206,Kikwit
-207,Cuautla Morelos
-208,Kalasin
-209,Atlanta
-210,Rupganj
-211,Penza
-212,Porto Velho
-213,Chuxiong
-214,Duisburg
-215,Muzaffarpur
-216,Changge
-217,Kuantan
-218,Kandahar
-219,Nurenberg
-220,London CA
-221,Bournemouth
-222,Khon-Kaen
-223,Cheboksary
-224,Lipetsk
-225,Arusha
-226,Murcia
-227,Tirana
-228,Surat Thani
-229,Kansas City
+1,Lokoja
+2,Zanzibar
+3,Oshogbo
+4,Malanje
+5,Cotonou
+6,Vientiane
+7,Akure
+8,As-Suways
+9,Irkutsk
+10,Barnaul
+11,Nay Pyi Taw
+12,Bulawayo
+13,Khabarovsk
+14,Bandar Abbas
+15,Bacolod
+16,Ulyanovsk
+17,Al-Ain
+18,Bari
+19,Yulin Guangxi
+20,Ajmer
+21,Kuching
+22,Bissau
+23,Geneva
+24,Anshun
+25,Colombo
+26,Ujjain
+27,Gothenburg
+28,Patiala
+29,Zahedan
+30,Bilaspur
+31,Louisville
+32,San Jose del Monte
+33,Yaroslavl
+34,Brighton
+35,Feira De Santana
+36,Vladivostok
+37,Comilla
+38,Calabar
+39,Mathura
+40,Skopje
+41,Tomsk
+42,Leipzig
+43,Agartala
+44,Mbeya
+45,Kingston
+46,Sangli
+47,Samarkand
+48,Malaga
+49,Ibague
+50,Dortmund
+51,Kagoshima
+52,Cabimas
+53,Milwaukee
+54,Samut Sakhon
+55,Beira
+56,Djibouti
+57,Essen
+58,Dresden
+59,Bouake
+60,Udaipur
+61,Vellore
+62,Thoothukkudi
+63,Bloemfontein
+64,Udon Thani
+65,Jalgaon
+66,Zaoyang
+67,Yiyang Hunan
+68,Baltimore
+69,Kitchener
+70,Poza Rica de Hidalgo
+71,Oujda
+72,Orenburg
+73,Kemerovo
+74,Bremen
+75,Karbala
+76,Kota Kinabalu
+77,Basel
+78,Gomel
+79,Albuquerque
+80,Meknes
+81,Panipat
+82,Irbid
+83,Chiang Rai
+84,Leicester
+85,Tucson
+86,Imus
+87,Villavicencio
+88,Sakarya
+89,Utrecht
+90,Larkana
+91,Basilan City
+92,Hamhung
+93,Port of Spain
+94,Kerman
+95,Abeokuta
+96,Mekele
+97,Edinburgh
+98,San Juan
+99,Ryazan
+100,Vilnius
+101,Calamba
+102,Hannover
+103,Fresno
+104,Astrakhan
+105,Bellary
+106,Pietermaritzburg
+107,Rustenburg
+108,Sheikhupura
+109,Grenoble
+110,Angeles City
+111,Gombe
+112,Poznan
+113,Kikwit
+114,Cuautla Morelos
+115,Kalasin
+116,Atlanta
+117,Rupganj
+118,Penza
+119,Porto Velho
+120,Chuxiong
+121,Duisburg
+122,Muzaffarpur
+123,Changge
+124,Kuantan
+125,Kandahar
+126,Nurenberg
+127,London CA
+128,Bournemouth
+129,Khon-Kaen
+130,Cheboksary
+131,Lipetsk
+132,Arusha
+133,Murcia
+134,Tirana
+135,Surat Thani
+136,Kansas City
