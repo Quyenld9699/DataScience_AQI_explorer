@@ -3,5 +3,3 @@ selenium
 webdriver-manager
 requests
 pandas
-matplotlib
-unidecode

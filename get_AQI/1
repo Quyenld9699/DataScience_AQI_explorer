@@ -1,0 +1,1364 @@
+{'city': 'Tokyo', 'AQI': '78', 'dominant_pollutant': 'NO2', 'O3': '8', 'SO2': '3', 'PM2.5': '23', 'PM10': '49', 'CO': '463', 'NO2': '80', 'NO': '42', 'NOX': '86', 'C6H6': '0', 'NMHC': '319'}
+Success, time:  19.588528871536255
+{'city': 'Delhi', 'AQI': '330', 'dominant_pollutant': 'PM2.5', 'O3': '5', 'SO2': '6', 'PM2.5': '275', 'PM10': '403', 'CO': '2802', 'NO2': '52', 'NO': '84', 'NOX': '112', 'C6H6': '11', 'NMHC': '0'}
+Success, time:  9.00700068473816
+{'city': 'Shanghai', 'AQI': '111', 'dominant_pollutant': 'PM2.5', 'O3': '11', 'SO2': '3', 'PM2.5': '39', 'PM10': '79', 'CO': '816', 'NO2': '35', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.835075616836548
+{'city': 'Sao Paulo', 'AQI': '73', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '0', 'PM2.5': '23', 'PM10': '41', 'CO': '391', 'NO2': '36', 'NO': '0', 'NOX': '0', 'C6H6': '5', 'NMHC': '0'}
+Success, time:  10.97081446647644
+{'city': 'Mexico City', 'AQI': '102', 'dominant_pollutant': 'PM2.5', 'O3': '14', 'SO2': '4', 'PM2.5': '41', 'PM10': '62', 'CO': '1882', 'NO2': '63', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  10.068979501724243
+{'city': 'Dhaka', 'AQI': '196', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '9', 'PM2.5': '133', 'PM10': '171', 'CO': '731', 'NO2': '11', 'NO': '5', 'NOX': '16', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.386872291564941
+{'city': 'Cairo', 'AQI': '98', 'dominant_pollutant': 'PM2.5', 'O3': '4', 'SO2': '46', 'PM2.5': '37', 'PM10': '55', 'CO': '480', 'NO2': '28', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  12.34819769859314
+{'city': 'Beijing', 'AQI': '104', 'dominant_pollutant': 'PM2.5', 'O3': '8', 'SO2': '1', 'PM2.5': '31', 'PM10': '86', 'CO': '794', 'NO2': '58', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  10.331164836883545
+{'city': 'Jerusalem', 'AQI': '70', 'dominant_pollutant': 'PM2.5', 'O3': '44', 'SO2': '1', 'PM2.5': '23', 'PM10': '52', 'CO': '469', 'NO2': '6', 'NO': '2', 'NOX': '12', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  93.37977576255798
+{'city': 'Mumbai', 'AQI': '181', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '7', 'PM2.5': '116', 'PM10': '208', 'CO': '348', 'NO2': '50', 'NO': '13', 'NOX': '63', 'C6H6': '8', 'NMHC': '0'}
+Success, time:  7.675421237945557
+{'city': 'Osaka', 'AQI': '181', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '7', 'PM2.5': '116', 'PM10': '208', 'CO': '348', 'NO2': '50', 'NO': '13', 'NOX': '63', 'C6H6': '8', 'NMHC': '0'}
+Success, time:  5.649777889251709
+{'city': 'Karachi', 'AQI': '76', 'dominant_pollutant': 'PM2.5', 'O3': '28', 'SO2': '3', 'PM2.5': '22', 'PM10': '44', 'CO': '485', 'NO2': '11', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.916332960128784
+{'city': 'Chongqing', 'AQI': '127', 'dominant_pollutant': 'PM2.5', 'O3': '3', 'SO2': '4', 'PM2.5': '47', 'PM10': '92', 'CO': '1104', 'NO2': '31', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.04222297668457
+{'city': 'Cucuta', 'AQI': '66', 'dominant_pollutant': 'PM2.5', 'O3': '32', 'SO2': '1', 'PM2.5': '18', 'PM10': '26', 'CO': '460', 'NO2': '13', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  27.327090978622437
+{'city': 'Istanbul', 'AQI': '127', 'dominant_pollutant': 'PM2.5', 'O3': '3', 'SO2': '4', 'PM2.5': '47', 'PM10': '92', 'CO': '1104', 'NO2': '31', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.533185243606567
+{'city': 'Buenos Aires', 'AQI': '60', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '5', 'PM2.5': '15', 'PM10': '20', 'CO': '222', 'NO2': '26', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.983097314834595
+{'city': 'Nice', 'AQI': '52', 'dominant_pollutant': 'PM2.5', 'O3': '27', 'SO2': '0', 'PM2.5': '13', 'PM10': '16', 'CO': '160', 'NO2': '17', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.876572132110596
+{'city': 'Dehradun', 'AQI': '163', 'dominant_pollutant': 'PM2.5', 'O3': '20', 'SO2': '4', 'PM2.5': '89', 'PM10': '162', 'CO': '1034', 'NO2': '20', 'NO': '8', 'NOX': '14', 'C6H6': '14', 'NMHC': '0'}
+Success, time:  7.2912681102752686
+{'city': 'Kolkata', 'AQI': '184', 'dominant_pollutant': 'PM2.5', 'O3': '19', 'SO2': '5', 'PM2.5': '128', 'PM10': '212', 'CO': '702', 'NO2': '29', 'NO': '6', 'NOX': '28', 'C6H6': '10', 'NMHC': '0'}
+Success, time:  7.823328495025635
+{'city': 'Seongnam', 'AQI': '80', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '4', 'PM2.5': '26', 'PM10': '58', 'CO': '835', 'NO2': '39', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.611767768859863
+{'city': 'Fort Worth', 'AQI': '45', 'dominant_pollutant': 'PM2.5', 'O3': '32', 'SO2': '0', 'PM2.5': '11', 'PM10': '38', 'CO': '589', 'NO2': '24', 'NO': '4', 'NOX': '16', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.563047885894775
+{'city': 'Agadir', 'AQI': '38', 'dominant_pollutant': 'PM2.5', 'O3': '29', 'SO2': '2', 'PM2.5': '11', 'PM10': '20', 'CO': '120', 'NO2': '4', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.730589151382446
+{'city': 'Mudanjiang', 'AQI': '38', 'dominant_pollutant': 'PM2.5', 'O3': '29', 'SO2': '2', 'PM2.5': '11', 'PM10': '20', 'CO': '120', 'NO2': '4', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.3613364696502686
+{'city': 'Hamah', 'AQI': '38', 'dominant_pollutant': 'PM2.5', 'O3': '29', 'SO2': '2', 'PM2.5': '11', 'PM10': '20', 'CO': '120', 'NO2': '4', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.430856466293335
+{'city': 'Dushanbe', 'AQI': '38', 'dominant_pollutant': 'PM2.5', 'O3': '29', 'SO2': '2', 'PM2.5': '11', 'PM10': '20', 'CO': '120', 'NO2': '4', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.383273124694824
+{'city': 'Tianjin', 'AQI': '147', 'dominant_pollutant': 'PM2.5', 'O3': '11', 'SO2': '8', 'PM2.5': '51', 'PM10': '160', 'CO': '1316', 'NO2': '65', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  10.252312183380127
+{'city': 'Guiping', 'AQI': '70', 'dominant_pollutant': 'PM2.5', 'O3': '24', 'SO2': '6', 'PM2.5': '24', 'PM10': '43', 'CO': '478', 'NO2': '11', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.547236680984497
+{'city': 'Jiujiang', 'AQI': '70', 'dominant_pollutant': 'PM2.5', 'O3': '24', 'SO2': '6', 'PM2.5': '24', 'PM10': '43', 'CO': '478', 'NO2': '11', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.759461402893066
+{'city': 'Guangzhou', 'AQI': '91', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '4', 'PM2.5': '28', 'PM10': '70', 'CO': '569', 'NO2': '27', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.950489044189453
+{'city': 'Southampton', 'AQI': '38', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '1', 'PM2.5': '9', 'PM10': '12', 'CO': '327', 'NO2': '17', 'NO': '4', 'NOX': '30', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.777533292770386
+{'city': 'Rio de Janeiro', 'AQI': '87', 'dominant_pollutant': 'PM2.5', 'O3': '12', 'SO2': '24', 'PM2.5': '28', 'PM10': '51', 'CO': '682', 'NO2': '59', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.000174045562744
+{'city': 'Laiwu', 'AQI': '120', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '5', 'PM2.5': '45', 'PM10': '145', 'CO': '974', 'NO2': '26', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.052747488021851
+{'city': 'Arequipa', 'AQI': '33', 'dominant_pollutant': 'O3', 'O3': '24', 'SO2': '1', 'PM2.5': '7', 'PM10': '12', 'CO': '195', 'NO2': '11', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.544388294219971
+{'city': 'Ciudad Guayana', 'AQI': '14', 'dominant_pollutant': 'PM2.5', 'O3': '8', 'SO2': '0', 'PM2.5': '4', 'PM10': '6', 'CO': '120', 'NO2': '3', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.019953966140747
+{'city': 'Zamboanga City', 'AQI': '14', 'dominant_pollutant': 'PM2.5', 'O3': '8', 'SO2': '0', 'PM2.5': '4', 'PM10': '6', 'CO': '120', 'NO2': '3', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.5773961544036865
+{'city': 'Veracruz', 'AQI': '37', 'dominant_pollutant': 'PM2.5', 'O3': '27', 'SO2': '1', 'PM2.5': '10', 'PM10': '17', 'CO': '184', 'NO2': '8', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.286789894104004
+{'city': 'Jacksonville', 'AQI': '53', 'dominant_pollutant': 'PM2.5', 'O3': '33', 'SO2': '1', 'PM2.5': '9', 'PM10': '46', 'CO': '400', 'NO2': '19', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.520366668701172
+{'city': 'Lahore', 'AQI': '159', 'dominant_pollutant': 'PM2.5', 'O3': '25', 'SO2': '7', 'PM2.5': '73', 'PM10': '141', 'CO': '809', 'NO2': '13', 'NO': '4', 'NOX': '21', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  47.04052257537842
+{'city': 'Zhucheng', 'AQI': '74', 'dominant_pollutant': 'PM2.5', 'O3': '33', 'SO2': '2', 'PM2.5': '23', 'PM10': '51', 'CO': '169', 'NO2': '27', 'NO': '3', 'NOX': '11', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.741274356842041
+{'city': 'Bangalore', 'AQI': '99', 'dominant_pollutant': 'PM2.5', 'O3': '9', 'SO2': '3', 'PM2.5': '41', 'PM10': '89', 'CO': '354', 'NO2': '46', 'NO': '8', 'NOX': '27', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  19.789124488830566
+{'city': 'Pathum Thani', 'AQI': '113', 'dominant_pollutant': 'PM2.5', 'O3': '10', 'SO2': '2', 'PM2.5': '27', 'PM10': '78', 'CO': '561', 'NO2': '36', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.377094030380249
+{'city': 'Rajshahi', 'AQI': '164', 'dominant_pollutant': 'PM2.5', 'O3': '30', 'SO2': '5', 'PM2.5': '72', 'PM10': '117', 'CO': '478', 'NO2': '10', 'NO': '6', 'NOX': '18', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.351697683334351
+{'city': 'Moscow', 'AQI': '67', 'dominant_pollutant': 'PM2.5', 'O3': '14', 'SO2': '1', 'PM2.5': '23', 'PM10': '23', 'CO': '177', 'NO2': '23', 'NO': '11', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.688528776168823
+{'city': 'Chengde', 'AQI': '56', 'dominant_pollutant': 'PM2.5', 'O3': '27', 'SO2': '1', 'PM2.5': '16', 'PM10': '44', 'CO': '331', 'NO2': '35', 'NO': '22', 'NOX': '27', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.142355680465698
+{'city': 'Shenzhen', 'AQI': '112', 'dominant_pollutant': 'PM2.5', 'O3': '15', 'SO2': '3', 'PM2.5': '38', 'PM10': '85', 'CO': '549', 'NO2': '29', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.304510593414307
+{'city': 'Chennai', 'AQI': '143', 'dominant_pollutant': 'PM2.5', 'O3': '9', 'SO2': '6', 'PM2.5': '66', 'PM10': '66', 'CO': '871', 'NO2': '21', 'NO': '57', 'NOX': '64', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  6.678156137466431
+{'city': 'Bogota', 'AQI': '47', 'dominant_pollutant': 'PM2.5', 'O3': '8', 'SO2': '0', 'PM2.5': '14', 'PM10': '33', 'CO': '394', 'NO2': '27', 'NO': '5', 'NOX': '29', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.199203968048096
+{'city': 'Guigang', 'AQI': '98', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '3', 'PM2.5': '32', 'PM10': '71', 'CO': '331', 'NO2': '33', 'NO': '13', 'NOX': '22', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.570351839065552
+{'city': 'Paris', 'AQI': '82', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '1', 'PM2.5': '28', 'PM10': '50', 'CO': '215', 'NO2': '26', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  11.742910623550415
+{'city': 'Jakarta', 'AQI': '76', 'dominant_pollutant': 'PM2.5', 'O3': '65', 'SO2': '9', 'PM2.5': '22', 'PM10': '62', 'CO': '1257', 'NO2': '48', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.591003894805908
+{'city': 'Reynosa', 'AQI': '34', 'dominant_pollutant': 'O3', 'O3': '34', 'SO2': '1', 'PM2.5': '5', 'PM10': '22', 'CO': '133', 'NO2': '11', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.206311225891113
+{'city': 'Lima', 'AQI': '69', 'dominant_pollutant': 'PM2.5', 'O3': '4', 'SO2': '4', 'PM2.5': '23', 'PM10': '23', 'CO': '209', 'NO2': '16', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.235499620437622
+{'city': 'Bengbu', 'AQI': '103', 'dominant_pollutant': 'PM2.5', 'O3': '12', 'SO2': '5', 'PM2.5': '37', 'PM10': '93', 'CO': '436', 'NO2': '25', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.592678546905518
+{'city': 'Bangkok', 'AQI': '108', 'dominant_pollutant': 'PM2.5', 'O3': '16', 'SO2': '2', 'PM2.5': '42', 'PM10': '79', 'CO': '1113', 'NO2': '58', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.215083599090576
+{'city': 'Columbus', 'AQI': '51', 'dominant_pollutant': 'PM2.5', 'O3': '28', 'SO2': '1', 'PM2.5': '12', 'PM10': '28', 'CO': '200', 'NO2': '23', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.506545066833496
+{'city': 'Hyderabad', 'AQI': '151', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '2', 'PM2.5': '65', 'PM10': '121', 'CO': '738', 'NO2': '34', 'NO': '17', 'NOX': '32', 'C6H6': '2', 'NMHC': '0'}
+Success, time:  7.427117109298706
+{'city': 'Villahermosa', 'AQI': '81', 'dominant_pollutant': 'PM2.5', 'O3': '21', 'SO2': '6', 'PM2.5': '20', 'PM10': '30', 'CO': '202', 'NO2': '3', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.934936761856079
+{'city': 'Seoul', 'AQI': '76', 'dominant_pollutant': 'PM2.5', 'O3': '39', 'SO2': '4', 'PM2.5': '27', 'PM10': '66', 'CO': '662', 'NO2': '25', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.457744598388672
+{'city': 'Yangjiang', 'AQI': '42', 'dominant_pollutant': 'PM2.5', 'O3': '25', 'SO2': '2', 'PM2.5': '11', 'PM10': '28', 'CO': '274', 'NO2': '15', 'NO': '10', 'NOX': '23', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.369433403015137
+{'city': 'Nagoya', 'AQI': '63', 'dominant_pollutant': 'PM2.5', 'O3': '8', 'SO2': '2', 'PM2.5': '19', 'PM10': '50', 'CO': '343', 'NO2': '54', 'NO': '24', 'NOX': '48', 'C6H6': '0', 'NMHC': '222'}
+Success, time:  8.711967945098877
+{'city': 'Charlotte', 'AQI': '64', 'dominant_pollutant': 'PM2.5', 'O3': '1', 'SO2': '1', 'PM2.5': '22', 'PM10': '60', 'CO': '709', 'NO2': '42', 'NO': '4', 'NOX': '71', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.7563636302948
+{'city': 'Ulsan', 'AQI': '65', 'dominant_pollutant': 'PM2.5', 'O3': '63', 'SO2': '2', 'PM2.5': '20', 'PM10': '47', 'CO': '423', 'NO2': '9', 'NO': '0', 'NOX': '7', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.314610242843628
+{'city': 'Oran', 'AQI': '23', 'dominant_pollutant': 'O3', 'O3': '16', 'SO2': '0', 'PM2.5': '6', 'PM10': '17', 'CO': '355', 'NO2': '17', 'NO': '7', 'NOX': '29', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.681360721588135
+{'city': 'West Rand', 'AQI': '97', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '0', 'PM2.5': '36', 'PM10': '81', 'CO': '204', 'NO2': '12', 'NO': '6', 'NOX': '8', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.32302212715149
+{'city': 'Campo Grande', 'AQI': '44', 'dominant_pollutant': 'PM2.5', 'O3': '22', 'SO2': '1', 'PM2.5': '11', 'PM10': '16', 'CO': '176', 'NO2': '6', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.5703444480896
+{'city': 'Liverpool', 'AQI': '54', 'dominant_pollutant': 'PM2.5', 'O3': '30', 'SO2': '0', 'PM2.5': '12', 'PM10': '19', 'CO': '129', 'NO2': '11', 'NO': '0', 'NOX': '3', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  11.550293445587158
+{'city': 'London', 'AQI': '37', 'dominant_pollutant': 'PM2.5', 'O3': '13', 'SO2': '1', 'PM2.5': '8', 'PM10': '13', 'CO': '936', 'NO2': '15', 'NO': '1', 'NOX': '15', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  76.48408389091492
+{'city': 'Antipolo', 'AQI': '62', 'dominant_pollutant': 'PM2.5', 'O3': '25', 'SO2': '1', 'PM2.5': '19', 'PM10': '38', 'CO': '122', 'NO2': '31', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.343719244003296
+{'city': 'Zhangzhou', 'AQI': '121', 'dominant_pollutant': 'PM2.5', 'O3': '19', 'SO2': '4', 'PM2.5': '42', 'PM10': '86', 'CO': '630', 'NO2': '22', 'NO': '1', 'NOX': '9', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.291906595230103
+{'city': 'Chengdu', 'AQI': '123', 'dominant_pollutant': 'PM2.5', 'O3': '2', 'SO2': '3', 'PM2.5': '46', 'PM10': '99', 'CO': '1389', 'NO2': '32', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  33.437891244888306
+{'city': 'Bergamo', 'AQI': '76', 'dominant_pollutant': 'PM2.5', 'O3': '2', 'SO2': '1', 'PM2.5': '26', 'PM10': '28', 'CO': '641', 'NO2': '26', 'NO': '0', 'NOX': '11', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  10.380329608917236
+{'city': 'Donetsk', 'AQI': '80', 'dominant_pollutant': 'PM2.5', 'O3': '21', 'SO2': '6', 'PM2.5': '29', 'PM10': '36', 'CO': '233', 'NO2': '11', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.661321640014648
+{'city': 'Tianmen', 'AQI': '24', 'dominant_pollutant': 'O3', 'O3': '26', 'SO2': '0', 'PM2.5': '5', 'PM10': '5', 'CO': '175', 'NO2': '3', 'NO': '1', 'NOX': '4', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  6.521225214004517
+{'city': 'Nanjing', 'AQI': '98', 'dominant_pollutant': 'PM2.5', 'O3': '9', 'SO2': '7', 'PM2.5': '37', 'PM10': '129', 'CO': '758', 'NO2': '54', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.254426002502441
+{'city': 'Ho Chi Minh City', 'AQI': '104', 'dominant_pollutant': 'PM2.5', 'O3': '50', 'SO2': '6', 'PM2.5': '32', 'PM10': '52', 'CO': '370', 'NO2': '40', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.475803375244141
+{'city': 'Londrina', 'AQI': '53', 'dominant_pollutant': 'PM2.5', 'O3': '31', 'SO2': '0', 'PM2.5': '12', 'PM10': '15', 'CO': '114', 'NO2': '6', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.370442867279053
+{'city': 'Leiyang', 'AQI': '40', 'dominant_pollutant': 'PM2.5', 'O3': '14', 'SO2': '1', 'PM2.5': '11', 'PM10': '31', 'CO': '419', 'NO2': '21', 'NO': '3', 'NOX': '28', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.940333604812622
+{'city': 'Wuhan', 'AQI': '151', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '7', 'PM2.5': '56', 'PM10': '131', 'CO': '1386', 'NO2': '66', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.549050092697144
+{'city': 'Malang', 'AQI': '82', 'dominant_pollutant': 'PM2.5', 'O3': '21', 'SO2': '0', 'PM2.5': '31', 'PM10': '62', 'CO': '144', 'NO2': '21', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.633573055267334
+{'city': 'La Plata', 'AQI': '56', 'dominant_pollutant': 'PM2.5', 'O3': '15', 'SO2': '1', 'PM2.5': '12', 'PM10': '22', 'CO': '100', 'NO2': '15', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.954674243927002
+{'city': 'Concepcion', 'AQI': '25', 'dominant_pollutant': 'PM2.5', 'O3': '13', 'SO2': '1', 'PM2.5': '6', 'PM10': '15', 'CO': '296', 'NO2': '3', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.549304485321045
+{'city': 'Hengshui', 'AQI': '127', 'dominant_pollutant': 'PM2.5', 'O3': '14', 'SO2': '5', 'PM2.5': '46', 'PM10': '104', 'CO': '653', 'NO2': '29', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.600263595581055
+{'city': 'Linfen', 'AQI': '152', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '5', 'PM2.5': '62', 'PM10': '129', 'CO': '1143', 'NO2': '23', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.266760349273682
+{'city': 'Xinyu', 'AQI': '64', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '1', 'PM2.5': '19', 'PM10': '54', 'CO': '295', 'NO2': '46', 'NO': '9', 'NOX': '28', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.226751565933228
+{'city': 'Sylhet', 'AQI': '152', 'dominant_pollutant': 'PM2.5', 'O3': '23', 'SO2': '4', 'PM2.5': '60', 'PM10': '93', 'CO': '456', 'NO2': '5', 'NO': '5', 'NOX': '11', 'C6H6': '4', 'NMHC': '0'}
+Success, time:  6.859581708908081
+{'city': 'Xi-an Shaanxi', 'AQI': '158', 'dominant_pollutant': 'PM2.5', 'O3': '5', 'SO2': '4', 'PM2.5': '66', 'PM10': '134', 'CO': '164', 'NO2': '21', 'NO': '6193', 'NOX': '33', 'C6H6': '298', 'NMHC': '0'}
+Success, time:  45.61681795120239
+{'city': 'Dandong', 'AQI': '66', 'dominant_pollutant': 'PM2.5', 'O3': '27', 'SO2': '7', 'PM2.5': '11', 'PM10': '43', 'CO': '477', 'NO2': '9', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.147696018218994
+{'city': 'Indianapolis', 'AQI': '58', 'dominant_pollutant': 'PM2.5', 'O3': '28', 'SO2': '0', 'PM2.5': '16', 'PM10': '37', 'CO': '268', 'NO2': '21', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.091335773468018
+{'city': 'Ahmedabad', 'AQI': '157', 'dominant_pollutant': 'PM2.5', 'O3': '3', 'SO2': '7', 'PM2.5': '74', 'PM10': '181', 'CO': '781', 'NO2': '29', 'NO': '13', 'NOX': '22', 'C6H6': '2', 'NMHC': '0'}
+Success, time:  18.54299831390381
+{'city': 'New York City', 'AQI': '53', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '0', 'PM2.5': '13', 'PM10': '36', 'CO': '317', 'NO2': '25', 'NO': '10', 'NOX': '39', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.78689432144165
+{'city': 'Kuala Lumpur', 'AQI': '110', 'dominant_pollutant': 'PM2.5', 'O3': '77', 'SO2': '7', 'PM2.5': '39', 'PM10': '75', 'CO': '808', 'NO2': '50', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.982807397842407
+{'city': 'Deyang', 'AQI': '113', 'dominant_pollutant': 'PM2.5', 'O3': '2', 'SO2': '3', 'PM2.5': '40', 'PM10': '120', 'CO': '1208', 'NO2': '21', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.590559720993042
+{'city': 'Hermosillo', 'AQI': '113', 'dominant_pollutant': 'PM2.5', 'O3': '2', 'SO2': '3', 'PM2.5': '40', 'PM10': '120', 'CO': '1208', 'NO2': '21', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.611613035202026
+{'city': 'Hangzhou', 'AQI': '73', 'dominant_pollutant': 'PM2.5', 'O3': '12', 'SO2': '3', 'PM2.5': '26', 'PM10': '59', 'CO': '699', 'NO2': '21', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.6956870555877686
+{'city': 'San Francisco', 'AQI': '44', 'dominant_pollutant': 'PM2.5', 'O3': '5', 'SO2': '1', 'PM2.5': '11', 'PM10': '38', 'CO': '502', 'NO2': '38', 'NO': '5', 'NOX': '31', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.713325500488281
+{'city': 'Hong Kong', 'AQI': '95', 'dominant_pollutant': 'PM2.5', 'O3': '10', 'SO2': '5', 'PM2.5': '36', 'PM10': '71', 'CO': '704', 'NO2': '41', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.677269697189331
+{'city': 'Trujillo', 'AQI': '44', 'dominant_pollutant': 'PM2.5', 'O3': '5', 'SO2': '1', 'PM2.5': '11', 'PM10': '38', 'CO': '502', 'NO2': '38', 'NO': '5', 'NOX': '31', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.553772449493408
+{'city': 'Surat', 'AQI': '175', 'dominant_pollutant': 'PM2.5', 'O3': '4', 'SO2': '15', 'PM2.5': '104', 'PM10': '197', 'CO': '287', 'NO2': '26', 'NO': '0', 'NOX': '1', 'C6H6': '6', 'NMHC': '0'}
+Success, time:  6.501402139663696
+{'city': 'Dongguan', 'AQI': '87', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '4', 'PM2.5': '29', 'PM10': '58', 'CO': '451', 'NO2': '23', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.38932204246521
+{'city': 'Suzhou', 'AQI': '70', 'dominant_pollutant': 'PM2.5', 'O3': '29', 'SO2': '1', 'PM2.5': '23', 'PM10': '43', 'CO': '157', 'NO2': '39', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.914105176925659
+{'city': 'Guntur', 'AQI': '81', 'dominant_pollutant': 'PM2.5', 'O3': '2', 'SO2': '4', 'PM2.5': '25', 'PM10': '59', 'CO': '539', 'NO2': '10', 'NO': '8', 'NOX': '21', 'C6H6': '2', 'NMHC': '0'}
+Success, time:  6.97048020362854
+{'city': 'Foshan', 'AQI': '92', 'dominant_pollutant': 'PM2.5', 'O3': '19', 'SO2': '5', 'PM2.5': '27', 'PM10': '68', 'CO': '609', 'NO2': '31', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.603318452835083
+{'city': 'Jiangyin', 'AQI': '111', 'dominant_pollutant': 'PM2.5', 'O3': '13', 'SO2': '8', 'PM2.5': '42', 'PM10': '86', 'CO': '1186', 'NO2': '27', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.416644811630249
+{'city': 'Riyadh', 'AQI': '148', 'dominant_pollutant': 'PM2.5', 'O3': '3', 'SO2': '40', 'PM2.5': '42', 'PM10': '91', 'CO': '421', 'NO2': '42', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.2520294189453125
+{'city': 'Bhiwandi', 'AQI': '167', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '7', 'PM2.5': '99', 'PM10': '168', 'CO': '931', 'NO2': '51', 'NO': '70', 'NOX': '102', 'C6H6': '4', 'NMHC': '0'}
+Success, time:  6.693950414657593
+{'city': 'Shenyang', 'AQI': '95', 'dominant_pollutant': 'PM2.5', 'O3': '12', 'SO2': '11', 'PM2.5': '41', 'PM10': '71', 'CO': '903', 'NO2': '32', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.552785634994507
+{'city': 'Liaoyang', 'AQI': '90', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '8', 'PM2.5': '27', 'PM10': '85', 'CO': '874', 'NO2': '20', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.392114877700806
+{'city': 'Bahawalpur', 'AQI': '169', 'dominant_pollutant': 'PM2.5', 'O3': '37', 'SO2': '5', 'PM2.5': '94', 'PM10': '143', 'CO': '676', 'NO2': '5', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.535703659057617
+{'city': 'Changzhi', 'AQI': '129', 'dominant_pollutant': 'PM2.5', 'O3': '5', 'SO2': '5', 'PM2.5': '49', 'PM10': '140', 'CO': '1659', 'NO2': '21', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.38761830329895
+{'city': 'Santiago', 'AQI': '66', 'dominant_pollutant': 'PM2.5', 'O3': '13', 'SO2': '2', 'PM2.5': '18', 'PM10': '62', 'CO': '481', 'NO2': '32', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.192368984222412
+{'city': 'Tyumen', 'AQI': '56', 'dominant_pollutant': 'PM2.5', 'O3': '33', 'SO2': '2', 'PM2.5': '15', 'PM10': '31', 'CO': '130', 'NO2': '36', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.930795907974243
+{'city': 'Pune', 'AQI': '153', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '5', 'PM2.5': '72', 'PM10': '113', 'CO': '1543', 'NO2': '72', 'NO': '12', 'NOX': '30', 'C6H6': '3', 'NMHC': '0'}
+Success, time:  6.402080297470093
+{'city': 'Soshanguve', 'AQI': '35', 'dominant_pollutant': 'PM2.5', 'O3': '31', 'SO2': '1', 'PM2.5': '10', 'PM10': '16', 'CO': '529', 'NO2': '0', 'NO': '1', 'NOX': '1', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.957451105117798
+{'city': 'Madrid', 'AQI': '70', 'dominant_pollutant': 'PM2.5', 'O3': '3', 'SO2': '1', 'PM2.5': '20', 'PM10': '35', 'CO': '388', 'NO2': '35', 'NO': '21', 'NOX': '45', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  7.148917198181152
+{'city': 'Tuxtla Gutierrez', 'AQI': '58', 'dominant_pollutant': 'PM2.5', 'O3': '26', 'SO2': '1', 'PM2.5': '17', 'PM10': '29', 'CO': '178', 'NO2': '11', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.739636659622192
+{'city': 'Haerbin', 'AQI': '62', 'dominant_pollutant': 'PM2.5', 'O3': '19', 'SO2': '6', 'PM2.5': '17', 'PM10': '24', 'CO': '580', 'NO2': '12', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.627481698989868
+{'city': 'Toronto', 'AQI': '41', 'dominant_pollutant': 'PM2.5', 'O3': '26', 'SO2': '3', 'PM2.5': '10', 'PM10': '38', 'CO': '244', 'NO2': '22', 'NO': '3', 'NOX': '12', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.800101041793823
+{'city': 'Belo Horizonte', 'AQI': '79', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '3', 'PM2.5': '26', 'PM10': '37', 'CO': '318', 'NO2': '35', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.442006349563599
+{'city': 'Singapore', 'AQI': '69', 'dominant_pollutant': 'PM2.5', 'O3': '36', 'SO2': '14', 'PM2.5': '19', 'PM10': '47', 'CO': '306', 'NO2': '47', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.1646339893341064
+{'city': 'Baishan', 'AQI': '75', 'dominant_pollutant': 'PM2.5', 'O3': '30', 'SO2': '2', 'PM2.5': '24', 'PM10': '60', 'CO': '177', 'NO2': '23', 'NO': '3', 'NOX': '11', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.686114072799683
+{'city': 'Liling', 'AQI': '114', 'dominant_pollutant': 'PM2.5', 'O3': '11', 'SO2': '10', 'PM2.5': '45', 'PM10': '81', 'CO': '2110', 'NO2': '20', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.585062265396118
+{'city': 'Johannesburg', 'AQI': '91', 'dominant_pollutant': 'PM2.5', 'O3': '23', 'SO2': '4', 'PM2.5': '22', 'PM10': '47', 'CO': '342', 'NO2': '19', 'NO': '3', 'NOX': '10', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.163825511932373
+{'city': 'Tainan', 'AQI': '124', 'dominant_pollutant': 'PM2.5', 'O3': '15', 'SO2': '4', 'PM2.5': '49', 'PM10': '111', 'CO': '615', 'NO2': '58', 'NO': '23', 'NOX': '36', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.974645137786865
+{'city': 'Dalian', 'AQI': '74', 'dominant_pollutant': 'PM2.5', 'O3': '11', 'SO2': '1', 'PM2.5': '26', 'PM10': '56', 'CO': '411', 'NO2': '33', 'NO': '2', 'NOX': '25', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.078393459320068
+{'city': 'Puducherry', 'AQI': '91', 'dominant_pollutant': 'PM2.5', 'O3': '10', 'SO2': '6', 'PM2.5': '34', 'PM10': '43', 'CO': '646', 'NO2': '6', 'NO': '3', 'NOX': '10', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.612181186676025
+{'city': 'Culiacan', 'AQI': '31', 'dominant_pollutant': 'O3', 'O3': '25', 'SO2': '0', 'PM2.5': '8', 'PM10': '14', 'CO': '221', 'NO2': '9', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.593009948730469
+{'city': 'Qingdao', 'AQI': '113', 'dominant_pollutant': 'PM2.5', 'O3': '10', 'SO2': '17', 'PM2.5': '45', 'PM10': '145', 'CO': '1308', 'NO2': '41', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.809745788574219
+{'city': 'Changde', 'AQI': '96', 'dominant_pollutant': 'PM2.5', 'O3': '9', 'SO2': '6', 'PM2.5': '36', 'PM10': '72', 'CO': '452', 'NO2': '16', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.9058544635772705
+{'city': 'Barcelona', 'AQI': '67', 'dominant_pollutant': 'PM2.5', 'O3': '26', 'SO2': '0', 'PM2.5': '20', 'PM10': '28', 'CO': '182', 'NO2': '32', 'NO': '5', 'NOX': '23', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  8.2578706741333
+{'city': 'Fuxin', 'AQI': '107', 'dominant_pollutant': 'PM2.5', 'O3': '11', 'SO2': '15', 'PM2.5': '38', 'PM10': '95', 'CO': '906', 'NO2': '28', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.008877277374268
+{'city': 'Fukuoka', 'AQI': '66', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '1', 'PM2.5': '20', 'PM10': '48', 'CO': '597', 'NO2': '61', 'NO': '33', 'NOX': '62', 'C6H6': '0', 'NMHC': '272'}
+Success, time:  7.890577554702759
+{'city': 'Palermo', 'AQI': '35', 'dominant_pollutant': 'NO2', 'O3': '24', 'SO2': '1', 'PM2.5': '9', 'PM10': '18', 'CO': '586', 'NO2': '38', 'NO': '0', 'NOX': '0', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  7.228851795196533
+{'city': 'Ji-nan Shandong', 'AQI': '141', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '9', 'PM2.5': '51', 'PM10': '135', 'CO': '1062', 'NO2': '52', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.065664529800415
+{'city': 'Shangqiu', 'AQI': '126', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '13', 'PM2.5': '48', 'PM10': '141', 'CO': '1077', 'NO2': '33', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.539329767227173
+{'city': 'Zhengzhou', 'AQI': '141', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '9', 'PM2.5': '51', 'PM10': '135', 'CO': '1062', 'NO2': '52', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.497354745864868
+{'city': 'Xingtai', 'AQI': '111', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '3', 'PM2.5': '45', 'PM10': '110', 'CO': '329', 'NO2': '24', 'NO': '6', 'NOX': '20', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.055097579956055
+{'city': 'Saint Petersburg', 'AQI': '86', 'dominant_pollutant': 'PM2.5', 'O3': '4', 'SO2': '4', 'PM2.5': '29', 'PM10': '34', 'CO': '330', 'NO2': '37', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.660611629486084
+{'city': 'Hufuf-Mubarraz', 'AQI': '103', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '26', 'PM2.5': '36', 'PM10': '55', 'CO': '187', 'NO2': '19', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.515481233596802
+{'city': 'Alexandria', 'AQI': '60', 'dominant_pollutant': 'PM2.5', 'O3': '12', 'SO2': '25', 'PM2.5': '16', 'PM10': '25', 'CO': '155', 'NO2': '18', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.00612211227417
+{'city': 'Guadalajara', 'AQI': '60', 'dominant_pollutant': 'PM2.5', 'O3': '31', 'SO2': '3', 'PM2.5': '15', 'PM10': '26', 'CO': '304', 'NO2': '21', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.537914037704468
+{'city': 'Firozabad', 'AQI': '198', 'dominant_pollutant': 'PM2.5', 'O3': '0', 'SO2': '3', 'PM2.5': '167', 'PM10': '298', 'CO': '900', 'NO2': '34', 'NO': '12', 'NOX': '49', 'C6H6': '3', 'NMHC': '0'}
+Success, time:  38.63706612586975
+{'city': 'Ankara', 'AQI': '44', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '3', 'PM2.5': '9', 'PM10': '27', 'CO': '284', 'NO2': '17', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.1998209953308105
+{'city': 'Chittagong', 'AQI': '112', 'dominant_pollutant': 'PM2.5', 'O3': '37', 'SO2': '2', 'PM2.5': '40', 'PM10': '63', 'CO': '273', 'NO2': '4', 'NO': '2', 'NOX': '4', 'C6H6': '19', 'NMHC': '0'}
+Success, time:  7.034011363983154
+{'city': 'Melbourne', 'AQI': '44', 'dominant_pollutant': 'PM2.5', 'O3': '26', 'SO2': '1', 'PM2.5': '12', 'PM10': '31', 'CO': '179', 'NO2': '19', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.212985515594482
+{'city': 'Addis Ababa', 'AQI': '59', 'dominant_pollutant': 'PM2.5', 'O3': '29', 'SO2': '1', 'PM2.5': '19', 'PM10': '57', 'CO': '1676', 'NO2': '2', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.113027334213257
+{'city': 'Huangshi', 'AQI': '95', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '7', 'PM2.5': '37', 'PM10': '70', 'CO': '1850', 'NO2': '24', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.412585973739624
+{'city': 'Sydney', 'AQI': '52', 'dominant_pollutant': 'PM2.5', 'O3': '13', 'SO2': '0', 'PM2.5': '17', 'PM10': '48', 'CO': '83', 'NO2': '23', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.6211628913879395
+{'city': 'Saratov', 'AQI': '48', 'dominant_pollutant': 'PM2.5', 'O3': '25', 'SO2': '1', 'PM2.5': '17', 'PM10': '31', 'CO': '133', 'NO2': '19', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.359607458114624
+{'city': 'Monterrey', 'AQI': '73', 'dominant_pollutant': 'PM2.5', 'O3': '21', 'SO2': '15', 'PM2.5': '24', 'PM10': '38', 'CO': '883', 'NO2': '38', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.168482065200806
+{'city': 'Nairobi', 'AQI': '70', 'dominant_pollutant': 'PM2.5', 'O3': '29', 'SO2': '2', 'PM2.5': '24', 'PM10': '36', 'CO': '516', 'NO2': '5', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.234188795089722
+{'city': 'Hanoi', 'AQI': '105', 'dominant_pollutant': 'PM2.5', 'O3': '41', 'SO2': '5', 'PM2.5': '35', 'PM10': '65', 'CO': '385', 'NO2': '41', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.816551208496094
+{'city': 'Valencia', 'AQI': '61', 'dominant_pollutant': 'PM2.5', 'O3': '27', 'SO2': '1', 'PM2.5': '17', 'PM10': '17', 'CO': '146', 'NO2': '12', 'NO': '1', 'NOX': '4', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.408219337463379
+{'city': 'Brasilia', 'AQI': '56', 'dominant_pollutant': 'PM2.5', 'O3': '13', 'SO2': '1', 'PM2.5': '18', 'PM10': '23', 'CO': '302', 'NO2': '28', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.8970067501068115
+{'city': 'Luzhou', 'AQI': '112', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '5', 'PM2.5': '39', 'PM10': '67', 'CO': '569', 'NO2': '20', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.905914068222046
+{'city': 'Cape Town', 'AQI': '53', 'dominant_pollutant': 'PM2.5', 'O3': '5', 'SO2': '2', 'PM2.5': '14', 'PM10': '36', 'CO': '609', 'NO2': '10', 'NO': '0', 'NOX': '1', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.163814306259155
+{'city': 'Quebec City', 'AQI': '53', 'dominant_pollutant': 'PM2.5', 'O3': '14', 'SO2': '2', 'PM2.5': '16', 'PM10': '28', 'CO': '233', 'NO2': '23', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.174134254455566
+{'city': 'Jiddah', 'AQI': '105', 'dominant_pollutant': 'SO2', 'O3': '7', 'SO2': '86', 'PM2.5': '43', 'PM10': '91', 'CO': '219', 'NO2': '52', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.23035740852356
+{'city': 'Yibin', 'AQI': '121', 'dominant_pollutant': 'PM2.5', 'O3': '2', 'SO2': '8', 'PM2.5': '47', 'PM10': '69', 'CO': '704', 'NO2': '20', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.949695110321045
+{'city': 'Changsha', 'AQI': '117', 'dominant_pollutant': 'PM2.5', 'O3': '11', 'SO2': '5', 'PM2.5': '41', 'PM10': '71', 'CO': '859', 'NO2': '25', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.063000917434692
+{'city': 'Bucheon', 'AQI': '98', 'dominant_pollutant': 'PM2.5', 'O3': '37', 'SO2': '2', 'PM2.5': '31', 'PM10': '80', 'CO': '515', 'NO2': '21', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.753890037536621
+{'city': 'Kunming', 'AQI': '106', 'dominant_pollutant': 'PM2.5', 'O3': '5', 'SO2': '7', 'PM2.5': '36', 'PM10': '74', 'CO': '973', 'NO2': '17', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.889780282974243
+{'city': 'Ipoh', 'AQI': '109', 'dominant_pollutant': 'PM2.5', 'O3': '48', 'SO2': '1', 'PM2.5': '45', 'PM10': '63', 'CO': '240', 'NO2': '13', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.4964869022369385
+{'city': 'Urumqi', 'AQI': '97', 'dominant_pollutant': 'PM2.5', 'O3': '19', 'SO2': '2', 'PM2.5': '35', 'PM10': '112', 'CO': '561', 'NO2': '26', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.550784349441528
+{'city': 'Changchun', 'AQI': '78', 'dominant_pollutant': 'PM2.5', 'O3': '15', 'SO2': '8', 'PM2.5': '26', 'PM10': '37', 'CO': '611', 'NO2': '18', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.729544162750244
+{'city': 'Winnipeg', 'AQI': '33', 'dominant_pollutant': 'O3', 'O3': '36', 'SO2': '0', 'PM2.5': '7', 'PM10': '19', 'CO': '135', 'NO2': '10', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.121828317642212
+{'city': 'Bogra', 'AQI': '162', 'dominant_pollutant': 'PM2.5', 'O3': '32', 'SO2': '3', 'PM2.5': '75', 'PM10': '83', 'CO': '409', 'NO2': '8', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.259884834289551
+{'city': 'Xinbei', 'AQI': '70', 'dominant_pollutant': 'PM2.5', 'O3': '25', 'SO2': '1', 'PM2.5': '20', 'PM10': '52', 'CO': '299', 'NO2': '50', 'NO': '6', 'NOX': '19', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.23643970489502
+{'city': 'Shantou', 'AQI': '107', 'dominant_pollutant': 'PM2.5', 'O3': '21', 'SO2': '9', 'PM2.5': '36', 'PM10': '79', 'CO': '455', 'NO2': '27', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.856907844543457
+{'city': 'Hefei', 'AQI': '120', 'dominant_pollutant': 'PM2.5', 'O3': '3', 'SO2': '4', 'PM2.5': '39', 'PM10': '123', 'CO': '850', 'NO2': '59', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.409995794296265
+{'city': 'Xinyang', 'AQI': '101', 'dominant_pollutant': 'PM2.5', 'O3': '21', 'SO2': '5', 'PM2.5': '37', 'PM10': '69', 'CO': '468', 'NO2': '20', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.233104467391968
+{'city': 'Rome', 'AQI': '61', 'dominant_pollutant': 'PM2.5', 'O3': '19', 'SO2': '1', 'PM2.5': '14', 'PM10': '21', 'CO': '294', 'NO2': '25', 'NO': '15', 'NOX': '24', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  7.6188342571258545
+{'city': 'Xinghua', 'AQI': '101', 'dominant_pollutant': 'PM2.5', 'O3': '21', 'SO2': '5', 'PM2.5': '37', 'PM10': '69', 'CO': '468', 'NO2': '20', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.390016078948975
+{'city': 'Ningbo', 'AQI': '80', 'dominant_pollutant': 'PM2.5', 'O3': '9', 'SO2': '8', 'PM2.5': '22', 'PM10': '53', 'CO': '728', 'NO2': '27', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.504678726196289
+{'city': 'Newcastle upon Tyne', 'AQI': '19', 'dominant_pollutant': 'O3', 'O3': '19', 'SO2': '1', 'PM2.5': '4', 'PM10': '8', 'CO': '128', 'NO2': '3', 'NO': '0', 'NOX': '3', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.200314283370972
+{'city': 'Tel Aviv', 'AQI': '73', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '1', 'PM2.5': '22', 'PM10': '71', 'CO': '502', 'NO2': '25', 'NO': '17', 'NOX': '35', 'C6H6': '2', 'NMHC': '0'}
+Success, time:  7.399243354797363
+{'city': 'Yangquan', 'AQI': '195', 'dominant_pollutant': 'PM2.5', 'O3': '5', 'SO2': '9', 'PM2.5': '132', 'PM10': '174', 'CO': '705', 'NO2': '8', 'NO': '5', 'NOX': '16', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.777266502380371
+{'city': 'Montreal', 'AQI': '52', 'dominant_pollutant': 'PM2.5', 'O3': '8', 'SO2': '1', 'PM2.5': '13', 'PM10': '42', 'CO': '318', 'NO2': '29', 'NO': '1', 'NOX': '8', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.478773593902588
+{'city': 'Thessaloniki', 'AQI': '70', 'dominant_pollutant': 'PM2.5', 'O3': '30', 'SO2': '2', 'PM2.5': '18', 'PM10': '25', 'CO': '139', 'NO2': '11', 'NO': '0', 'NOX': '0', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  6.385550022125244
+{'city': 'Shijiazhuang', 'AQI': '131', 'dominant_pollutant': 'PM2.5', 'O3': '9', 'SO2': '12', 'PM2.5': '50', 'PM10': '171', 'CO': '820', 'NO2': '39', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.00813364982605
+{'city': 'Yongzhou', 'AQI': '83', 'dominant_pollutant': 'PM2.5', 'O3': '33', 'SO2': '12', 'PM2.5': '33', 'PM10': '62', 'CO': '243', 'NO2': '49', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.735314846038818
+{'city': 'Recife', 'AQI': '60', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '1', 'PM2.5': '16', 'PM10': '43', 'CO': '92', 'NO2': '8', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.540014266967773
+{'city': 'Bologna', 'AQI': '119', 'dominant_pollutant': 'PM2.5', 'O3': '4', 'SO2': '1', 'PM2.5': '42', 'PM10': '46', 'CO': '492', 'NO2': '47', 'NO': '2', 'NOX': '9', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  7.383322238922119
+{'city': 'Porto Alegre', 'AQI': '72', 'dominant_pollutant': 'PM2.5', 'O3': '10', 'SO2': '1', 'PM2.5': '21', 'PM10': '33', 'CO': '154', 'NO2': '23', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.4860570430755615
+{'city': 'Xiaogan', 'AQI': '109', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '2', 'PM2.5': '42', 'PM10': '87', 'CO': '445', 'NO2': '53', 'NO': '9', 'NOX': '27', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.032486915588379
+{'city': 'Fortaleza', 'AQI': '67', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '0', 'PM2.5': '19', 'PM10': '37', 'CO': '89', 'NO2': '11', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.511644124984741
+{'city': 'Heze', 'AQI': '144', 'dominant_pollutant': 'PM2.5', 'O3': '5', 'SO2': '7', 'PM2.5': '53', 'PM10': '132', 'CO': '1373', 'NO2': '36', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.523852348327637
+{'city': 'Barcelona-Puerto La Cruz', 'AQI': '16', 'dominant_pollutant': 'PM2.5', 'O3': '28', 'SO2': '0', 'PM2.5': '4', 'PM10': '8', 'CO': '204', 'NO2': '12', 'NO': '2', 'NOX': '13', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  6.45542049407959
+{'city': 'Medellin', 'AQI': '82', 'dominant_pollutant': 'PM2.5', 'O3': '16', 'SO2': '1', 'PM2.5': '25', 'PM10': '35', 'CO': '248', 'NO2': '23', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.5737762451171875
+{'city': 'Jaipur', 'AQI': '71', 'dominant_pollutant': 'PM2.5', 'O3': '2', 'SO2': '1', 'PM2.5': '15', 'PM10': '59', 'CO': '48', 'NO2': '14', 'NO': '1', 'NOX': '6', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.6053924560546875
+{'city': 'Kuerle', 'AQI': '95', 'dominant_pollutant': 'PM2.5', 'O3': '19', 'SO2': '3', 'PM2.5': '35', 'PM10': '67', 'CO': '264', 'NO2': '13', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.443568229675293
+{'city': 'Los Angeles', 'AQI': '60', 'dominant_pollutant': 'PM2.5', 'O3': '23', 'SO2': '0', 'PM2.5': '17', 'PM10': '67', 'CO': '450', 'NO2': '35', 'NO': '1', 'NOX': '24', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.338680744171143
+{'city': 'Niigata', 'AQI': '34', 'dominant_pollutant': 'O3', 'O3': '23', 'SO2': '0', 'PM2.5': '9', 'PM10': '12', 'CO': '300', 'NO2': '21', 'NO': '4', 'NOX': '25', 'C6H6': '0', 'NMHC': '96'}
+Success, time:  7.365009784698486
+{'city': 'Taiyuan Shanxi', 'AQI': '74', 'dominant_pollutant': 'PM2.5', 'O3': '24', 'SO2': '2', 'PM2.5': '23', 'PM10': '40', 'CO': '414', 'NO2': '36', 'NO': '11', 'NOX': '28', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.347306966781616
+{'city': 'Eskisehir', 'AQI': '79', 'dominant_pollutant': 'PM2.5', 'O3': '13', 'SO2': '4', 'PM2.5': '18', 'PM10': '19', 'CO': '304', 'NO2': '7', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.593204975128174
+{'city': 'Nanning', 'AQI': '62', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '3', 'PM2.5': '18', 'PM10': '44', 'CO': '579', 'NO2': '15', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.801051139831543
+{'city': 'Cherthala', 'AQI': '154', 'dominant_pollutant': 'PM2.5', 'O3': '4', 'SO2': '6', 'PM2.5': '77', 'PM10': '122', 'CO': '968', 'NO2': '22', 'NO': '37', 'NOX': '52', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.529974937438965
+{'city': 'Ekurhuleni', 'AQI': '86', 'dominant_pollutant': 'PM2.5', 'O3': '20', 'SO2': '5', 'PM2.5': '20', 'PM10': '43', 'CO': '589', 'NO2': '27', 'NO': '5', 'NOX': '14', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.5728678703308105
+{'city': 'Quzhou', 'AQI': '90', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '7', 'PM2.5': '32', 'PM10': '80', 'CO': '394', 'NO2': '16', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.254041910171509
+{'city': 'Salvador', 'AQI': '54', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '0', 'PM2.5': '12', 'PM10': '25', 'CO': '99', 'NO2': '31', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.7186877727508545
+{'city': 'Zhuji', 'AQI': '55', 'dominant_pollutant': 'PM2.5', 'O3': '4', 'SO2': '0', 'PM2.5': '14', 'PM10': '26', 'CO': '367', 'NO2': '35', 'NO': '6', 'NOX': '32', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.426203727722168
+{'city': 'Casablanca', 'AQI': '41', 'dominant_pollutant': 'PM2.5', 'O3': '27', 'SO2': '2', 'PM2.5': '10', 'PM10': '18', 'CO': '128', 'NO2': '4', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.571178436279297
+{'city': 'Sorocaba', 'AQI': '71', 'dominant_pollutant': 'PM2.5', 'O3': '16', 'SO2': '2', 'PM2.5': '20', 'PM10': '24', 'CO': '409', 'NO2': '22', 'NO': '0', 'NOX': '0', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  7.780954122543335
+{'city': 'Haicheng', 'AQI': '72', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '9', 'PM2.5': '17', 'PM10': '47', 'CO': '799', 'NO2': '17', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.512548923492432
+{'city': 'Xiamen', 'AQI': '73', 'dominant_pollutant': 'PM2.5', 'O3': '55', 'SO2': '7', 'PM2.5': '21', 'PM10': '31', 'CO': '682', 'NO2': '21', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.239532470703125
+{'city': 'Lucknow', 'AQI': '223', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '3', 'PM2.5': '174', 'PM10': '286', 'CO': '1401', 'NO2': '48', 'NO': '69', 'NOX': '104', 'C6H6': '6', 'NMHC': '0'}
+Success, time:  6.4899210929870605
+{'city': 'Nottingham', 'AQI': '33', 'dominant_pollutant': 'PM2.5', 'O3': '20', 'SO2': '1', 'PM2.5': '4', 'PM10': '11', 'CO': '143', 'NO2': '5', 'NO': '2', 'NOX': '7', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.965087652206421
+{'city': 'Fuzhou Fujian', 'AQI': '83', 'dominant_pollutant': 'PM2.5', 'O3': '25', 'SO2': '1', 'PM2.5': '22', 'PM10': '77', 'CO': '290', 'NO2': '51', 'NO': '5', 'NOX': '18', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.805866003036499
+{'city': 'Tianshui', 'AQI': '106', 'dominant_pollutant': 'PM2.5', 'O3': '8', 'SO2': '8', 'PM2.5': '34', 'PM10': '94', 'CO': '1051', 'NO2': '24', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.900429725646973
+{'city': 'Changzhou', 'AQI': '111', 'dominant_pollutant': 'PM2.5', 'O3': '15', 'SO2': '5', 'PM2.5': '34', 'PM10': '98', 'CO': '772', 'NO2': '46', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.35952091217041
+{'city': 'Huludao', 'AQI': '84', 'dominant_pollutant': 'PM2.5', 'O3': '26', 'SO2': '2', 'PM2.5': '26', 'PM10': '46', 'CO': '497', 'NO2': '9', 'NO': '1', 'NOX': '11', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  8.164127826690674
+{'city': 'Kozhikode', 'AQI': '101', 'dominant_pollutant': 'PM2.5', 'O3': '4', 'SO2': '2', 'PM2.5': '41', 'PM10': '92', 'CO': '611', 'NO2': '19', 'NO': '52', 'NOX': '50', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  7.204439163208008
+{'city': 'Xalapa', 'AQI': '45', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '1', 'PM2.5': '12', 'PM10': '17', 'CO': '289', 'NO2': '10', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.6239588260650635
+{'city': 'Curitiba', 'AQI': '58', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '0', 'PM2.5': '14', 'PM10': '29', 'CO': '85', 'NO2': '9', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.486992120742798
+{'city': 'Wenzhou', 'AQI': '52', 'dominant_pollutant': 'PM2.5', 'O3': '4', 'SO2': '0', 'PM2.5': '12', 'PM10': '24', 'CO': '363', 'NO2': '32', 'NO': '7', 'NOX': '32', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.813021421432495
+{'city': 'Nanchang', 'AQI': '123', 'dominant_pollutant': 'PM2.5', 'O3': '4', 'SO2': '12', 'PM2.5': '45', 'PM10': '124', 'CO': '869', 'NO2': '51', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.44091248512268
+{'city': 'Bikaner', 'AQI': '96', 'dominant_pollutant': 'PM2.5', 'O3': '28', 'SO2': '4', 'PM2.5': '37', 'PM10': '55', 'CO': '276', 'NO2': '8', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  30.257801294326782
+{'city': 'Malappuram', 'AQI': '76', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '2', 'PM2.5': '27', 'PM10': '56', 'CO': '536', 'NO2': '6', 'NO': '32', 'NOX': '42', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  11.89020562171936
+{'city': 'Berlin', 'AQI': '76', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '2', 'PM2.5': '27', 'PM10': '56', 'CO': '536', 'NO2': '6', 'NO': '32', 'NOX': '42', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  5.864840269088745
+{'city': 'Huaihua', 'AQI': '48', 'dominant_pollutant': 'O3', 'O3': '47', 'SO2': '1', 'PM2.5': '8', 'PM10': '13', 'CO': '171', 'NO2': '0', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  17.628865242004395
+{'city': 'Tangshan Hebei', 'AQI': '89', 'dominant_pollutant': 'PM2.5', 'O3': '14', 'SO2': '2', 'PM2.5': '30', 'PM10': '36', 'CO': '213', 'NO2': '22', 'NO': '0', 'NOX': '4', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  11.343818187713623
+{'city': 'Nakhon Ratchasima', 'AQI': '64', 'dominant_pollutant': 'PM2.5', 'O3': '28', 'SO2': '1', 'PM2.5': '18', 'PM10': '24', 'CO': '540', 'NO2': '11', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.603714942932129
+{'city': 'Vereeniging', 'AQI': '62', 'dominant_pollutant': 'PM2.5', 'O3': '8', 'SO2': '9', 'PM2.5': '16', 'PM10': '42', 'CO': '271', 'NO2': '11', 'NO': '4', 'NOX': '15', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.697884798049927
+{'city': 'Liaocheng', 'AQI': '126', 'dominant_pollutant': 'PM2.5', 'O3': '12', 'SO2': '8', 'PM2.5': '45', 'PM10': '125', 'CO': '789', 'NO2': '32', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.034188508987427
+{'city': 'Seattle', 'AQI': '53', 'dominant_pollutant': 'PM2.5', 'O3': '5', 'SO2': '0', 'PM2.5': '14', 'PM10': '36', 'CO': '812', 'NO2': '47', 'NO': '27', 'NOX': '62', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.871448278427124
+{'city': 'Faisalabad', 'AQI': '178', 'dominant_pollutant': 'PM2.5', 'O3': '29', 'SO2': '8', 'PM2.5': '118', 'PM10': '171', 'CO': '1059', 'NO2': '14', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  32.090038537979126
+{'city': 'Jiaozuo', 'AQI': '84', 'dominant_pollutant': 'PM2.5', 'O3': '20', 'SO2': '2', 'PM2.5': '31', 'PM10': '58', 'CO': '321', 'NO2': '8', 'NO': '4', 'NOX': '12', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.322874546051025
+{'city': 'Bozhou', 'AQI': '71', 'dominant_pollutant': 'PM2.5', 'O3': '13', 'SO2': '1', 'PM2.5': '21', 'PM10': '78', 'CO': '252', 'NO2': '11', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.599328279495239
+{'city': 'Nellore', 'AQI': '71', 'dominant_pollutant': 'PM2.5', 'O3': '13', 'SO2': '1', 'PM2.5': '21', 'PM10': '78', 'CO': '252', 'NO2': '11', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.420700788497925
+{'city': 'Hamilton', 'AQI': '71', 'dominant_pollutant': 'PM2.5', 'O3': '13', 'SO2': '1', 'PM2.5': '21', 'PM10': '78', 'CO': '252', 'NO2': '11', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.42351508140564
+{'city': 'Antananarivo', 'AQI': '178', 'dominant_pollutant': 'PM2.5', 'O3': '0', 'SO2': '0', 'PM2.5': '0', 'PM10': '0', 'CO': '0', 'NO2': '0', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  25.752803325653076
+{'city': 'Gebze', 'AQI': '87', 'dominant_pollutant': 'PM2.5', 'O3': '19', 'SO2': '1', 'PM2.5': '28', 'PM10': '51', 'CO': '376', 'NO2': '29', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.357261657714844
+{'city': 'Bekasi', 'AQI': '84', 'dominant_pollutant': 'PM2.5', 'O3': '84', 'SO2': '7', 'PM2.5': '26', 'PM10': '53', 'CO': '1202', 'NO2': '59', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.724164962768555
+{'city': 'Taixing', 'AQI': '87', 'dominant_pollutant': 'PM2.5', 'O3': '19', 'SO2': '1', 'PM2.5': '28', 'PM10': '51', 'CO': '376', 'NO2': '29', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.49267840385437
+{'city': 'Cagayan de Oro City', 'AQI': '79', 'dominant_pollutant': 'PM2.5', 'O3': '25', 'SO2': '0', 'PM2.5': '28', 'PM10': '38', 'CO': '91', 'NO2': '8', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.939577102661133
+{'city': 'Krakow', 'AQI': '90', 'dominant_pollutant': 'PM2.5', 'O3': '1', 'SO2': '2', 'PM2.5': '38', 'PM10': '71', 'CO': '369', 'NO2': '23', 'NO': '0', 'NOX': '44', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  6.698976278305054
+{'city': 'Kampala', 'AQI': '138', 'dominant_pollutant': 'PM2.5', 'O3': '29', 'SO2': '0', 'PM2.5': '44', 'PM10': '44', 'CO': '284', 'NO2': '1', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.0836803913116455
+{'city': 'Kunshan', 'AQI': '120', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '5', 'PM2.5': '39', 'PM10': '87', 'CO': '945', 'NO2': '35', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.8783793449401855
+{'city': 'Busan', 'AQI': '63', 'dominant_pollutant': 'PM2.5', 'O3': '51', 'SO2': '3', 'PM2.5': '21', 'PM10': '62', 'CO': '312', 'NO2': '16', 'NO': '0', 'NOX': '7', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.8986876010894775
+{'city': 'Shaoguan', 'AQI': '75', 'dominant_pollutant': 'PM2.5', 'O3': '11', 'SO2': '11', 'PM2.5': '25', 'PM10': '49', 'CO': '514', 'NO2': '12', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.174237251281738
+{'city': 'Gorakhpur', 'AQI': '195', 'dominant_pollutant': 'PM2.5', 'O3': '3', 'SO2': '5', 'PM2.5': '133', 'PM10': '202', 'CO': '1799', 'NO2': '11', 'NO': '2', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.07495641708374
+{'city': 'Dasmarinas', 'AQI': '81', 'dominant_pollutant': 'PM2.5', 'O3': '33', 'SO2': '2', 'PM2.5': '29', 'PM10': '56', 'CO': '193', 'NO2': '25', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.46062707901001
+{'city': 'Guiyang', 'AQI': '123', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '12', 'PM2.5': '47', 'PM10': '104', 'CO': '864', 'NO2': '22', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.95730185508728
+{'city': 'Amravati', 'AQI': '155', 'dominant_pollutant': 'PM2.5', 'O3': '21', 'SO2': '8', 'PM2.5': '60', 'PM10': '97', 'CO': '521', 'NO2': '21', 'NO': '9', 'NOX': '25', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.8939104080200195
+{'city': 'Jincheng', 'AQI': '103', 'dominant_pollutant': 'PM2.5', 'O3': '51', 'SO2': '4', 'PM2.5': '33', 'PM10': '92', 'CO': '287', 'NO2': '40', 'NO': '1', 'NOX': '9', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.824980974197388
+{'city': 'Langfang', 'AQI': '125', 'dominant_pollutant': 'PM2.5', 'O3': '3', 'SO2': '3', 'PM2.5': '43', 'PM10': '127', 'CO': '852', 'NO2': '35', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.57941198348999
+{'city': 'Ansan', 'AQI': '75', 'dominant_pollutant': 'PM2.5', 'O3': '46', 'SO2': '3', 'PM2.5': '27', 'PM10': '63', 'CO': '594', 'NO2': '20', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.0056774616241455
+{'city': 'Ar-Rayyan', 'AQI': '71', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '9', 'PM2.5': '23', 'PM10': '74', 'CO': '162', 'NO2': '12', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.0015881061553955
+{'city': 'Campinas', 'AQI': '75', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '2', 'PM2.5': '20', 'PM10': '23', 'CO': '346', 'NO2': '11', 'NO': '0', 'NOX': '0', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  7.3585898876190186
+{'city': 'Sulaimaniya', 'AQI': '87', 'dominant_pollutant': 'PM2.5', 'O3': '22', 'SO2': '3', 'PM2.5': '29', 'PM10': '73', 'CO': '161', 'NO2': '17', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.222678184509277
+{'city': 'Wuxi', 'AQI': '75', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '2', 'PM2.5': '20', 'PM10': '23', 'CO': '346', 'NO2': '11', 'NO': '0', 'NOX': '0', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  7.682356119155884
+{'city': 'Cuttack', 'AQI': '184', 'dominant_pollutant': 'PM2.5', 'O3': '56', 'SO2': '14', 'PM2.5': '108', 'PM10': '155', 'CO': '761', 'NO2': '10', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.939610719680786
+{'city': "Bur Sa'id", 'AQI': '24', 'dominant_pollutant': 'O3', 'O3': '14', 'SO2': '0', 'PM2.5': '7', 'PM10': '12', 'CO': '308', 'NO2': '17', 'NO': '4', 'NOX': '30', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.5947043895721436
+{'city': 'Denver', 'AQI': '56', 'dominant_pollutant': 'PM10', 'O3': '19', 'SO2': '0', 'PM2.5': '13', 'PM10': '59', 'CO': '212', 'NO2': '20', 'NO': '0', 'NOX': '4', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.995688199996948
+{'city': 'Puebla', 'AQI': '60', 'dominant_pollutant': 'PM2.5', 'O3': '12', 'SO2': '1', 'PM2.5': '19', 'PM10': '31', 'CO': '641', 'NO2': '41', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.995751857757568
+{'city': 'Meishan', 'AQI': '105', 'dominant_pollutant': 'PM2.5', 'O3': '21', 'SO2': '3', 'PM2.5': '41', 'PM10': '74', 'CO': '324', 'NO2': '28', 'NO': '13', 'NOX': '21', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.737878799438477
+{'city': 'Zhumadian', 'AQI': '106', 'dominant_pollutant': 'PM2.5', 'O3': '27', 'SO2': '5', 'PM2.5': '37', 'PM10': '64', 'CO': '481', 'NO2': '12', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.059508323669434
+{'city': 'Zigong', 'AQI': '117', 'dominant_pollutant': 'PM2.5', 'O3': '4', 'SO2': '7', 'PM2.5': '41', 'PM10': '99', 'CO': '1031', 'NO2': '25', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.122328281402588
+{'city': 'Thrissur', 'AQI': '63', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '0', 'PM2.5': '17', 'PM10': '50', 'CO': '534', 'NO2': '15', 'NO': '9', 'NOX': '35', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  6.994300365447998
+{'city': 'Kochi', 'AQI': '134', 'dominant_pollutant': 'PM2.5', 'O3': '4', 'SO2': '5', 'PM2.5': '58', 'PM10': '86', 'CO': '952', 'NO2': '11', 'NO': '33', 'NOX': '43', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.683446884155273
+{'city': 'Kuwait City', 'AQI': '89', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '2', 'PM2.5': '35', 'PM10': '75', 'CO': '232', 'NO2': '34', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.9499876499176025
+{'city': 'Gaomi', 'AQI': '129', 'dominant_pollutant': 'PM2.5', 'O3': '13', 'SO2': '14', 'PM2.5': '54', 'PM10': '140', 'CO': '1356', 'NO2': '40', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.091129779815674
+{'city': 'Durban', 'AQI': '72', 'dominant_pollutant': 'PM2.5', 'O3': '16', 'SO2': '2', 'PM2.5': '34', 'PM10': '60', 'CO': '87', 'NO2': '9', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.4440598487854
+{'city': 'Anqing', 'AQI': '127', 'dominant_pollutant': 'PM2.5', 'O3': '15', 'SO2': '4', 'PM2.5': '52', 'PM10': '116', 'CO': '595', 'NO2': '38', 'NO': '22', 'NOX': '35', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.964383840560913
+{'city': 'Qingyuan', 'AQI': '106', 'dominant_pollutant': 'PM2.5', 'O3': '8', 'SO2': '4', 'PM2.5': '43', 'PM10': '79', 'CO': '589', 'NO2': '50', 'NO': '16', 'NOX': '41', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.378560543060303
+{'city': 'Banjarmasin', 'AQI': '23', 'dominant_pollutant': 'PM2.5', 'O3': '19', 'SO2': '0', 'PM2.5': '6', 'PM10': '8', 'CO': '114', 'NO2': '1', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.909623861312866
+{'city': 'Lanzhou', 'AQI': '129', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '19', 'PM2.5': '47', 'PM10': '133', 'CO': '1441', 'NO2': '50', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.905454874038696
+{'city': 'Hanchuan', 'AQI': '60', 'dominant_pollutant': 'PM2.5', 'O3': '23', 'SO2': '0', 'PM2.5': '18', 'PM10': '76', 'CO': '445', 'NO2': '44', 'NO': '1', 'NOX': '25', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.308619260787964
+{'city': 'Kanpur', 'AQI': '176', 'dominant_pollutant': 'PM2.5', 'O3': '3', 'SO2': '2', 'PM2.5': '114', 'PM10': '199', 'CO': '1138', 'NO2': '24', 'NO': '5', 'NOX': '18', 'C6H6': '653', 'NMHC': '0'}
+Success, time:  6.6154701709747314
+{'city': 'Danyang', 'AQI': '101', 'dominant_pollutant': 'PM2.5', 'O3': '14', 'SO2': '5', 'PM2.5': '38', 'PM10': '75', 'CO': '931', 'NO2': '22', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.737926721572876
+{'city': 'Muzaffarnagar', 'AQI': '101', 'dominant_pollutant': 'PM2.5', 'O3': '14', 'SO2': '5', 'PM2.5': '38', 'PM10': '75', 'CO': '931', 'NO2': '22', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.581474304199219
+{'city': 'Athens', 'AQI': '78', 'dominant_pollutant': 'PM2.5', 'O3': '29', 'SO2': '1', 'PM2.5': '23', 'PM10': '32', 'CO': '128', 'NO2': '20', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.689131259918213
+{'city': 'Milan', 'AQI': '92', 'dominant_pollutant': 'PM2.5', 'O3': '1', 'SO2': '1', 'PM2.5': '33', 'PM10': '36', 'CO': '813', 'NO2': '29', 'NO': '0', 'NOX': '24', 'C6H6': '3', 'NMHC': '0'}
+Success, time:  7.466077566146851
+{'city': 'Indore', 'AQI': '176', 'dominant_pollutant': 'PM2.5', 'O3': '24', 'SO2': '9', 'PM2.5': '108', 'PM10': '170', 'CO': '1101', 'NO2': '30', 'NO': '11', 'NOX': '25', 'C6H6': '3', 'NMHC': '0'}
+Success, time:  5.988058805465698
+{'city': 'Kumamoto', 'AQI': '73', 'dominant_pollutant': 'PM2.5', 'O3': '11', 'SO2': '1', 'PM2.5': '23', 'PM10': '48', 'CO': '500', 'NO2': '61', 'NO': '47', 'NOX': '75', 'C6H6': '0', 'NMHC': '196'}
+Success, time:  8.244683027267456
+{'city': 'Kottayam', 'AQI': '151', 'dominant_pollutant': 'PM2.5', 'O3': '5', 'SO2': '5', 'PM2.5': '62', 'PM10': '109', 'CO': '936', 'NO2': '23', 'NO': '33', 'NOX': '54', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.583421945571899
+{'city': 'Belgaum', 'AQI': '72', 'dominant_pollutant': 'PM2.5', 'O3': '3', 'SO2': '1', 'PM2.5': '21', 'PM10': '26', 'CO': '295', 'NO2': '16', 'NO': '24', 'NOX': '0', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  7.368186712265015
+{'city': 'Zarqa', 'AQI': '76', 'dominant_pollutant': 'PM2.5', 'O3': '24', 'SO2': '4', 'PM2.5': '25', 'PM10': '73', 'CO': '354', 'NO2': '16', 'NO': '5', 'NOX': '24', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  6.871152400970459
+{'city': 'Guayaquil', 'AQI': '36', 'dominant_pollutant': 'PM2.5', 'O3': '25', 'SO2': '2', 'PM2.5': '8', 'PM10': '16', 'CO': '110', 'NO2': '3', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.7520506381988525
+{'city': 'Izmir', 'AQI': '72', 'dominant_pollutant': 'PM2.5', 'O3': '9', 'SO2': '2', 'PM2.5': '21', 'PM10': '31', 'CO': '622', 'NO2': '32', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.017760753631592
+{'city': 'Kiev', 'AQI': '79', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '2', 'PM2.5': '26', 'PM10': '49', 'CO': '188', 'NO2': '36', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.39252233505249
+{'city': 'Sheffield', 'AQI': '29', 'dominant_pollutant': 'PM2.5', 'O3': '25', 'SO2': '1', 'PM2.5': '8', 'PM10': '11', 'CO': '135', 'NO2': '10', 'NO': '1', 'NOX': '3', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  11.451865673065186
+{'city': 'Surabaya', 'AQI': '147', 'dominant_pollutant': 'PM2.5', 'O3': '78', 'SO2': '21', 'PM2.5': '66', 'PM10': '98', 'CO': '708', 'NO2': '28', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.731160879135132
+{'city': 'Lisbon', 'AQI': '67', 'dominant_pollutant': 'PM2.5', 'O3': '36', 'SO2': '0', 'PM2.5': '18', 'PM10': '28', 'CO': '135', 'NO2': '18', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.757455825805664
+{'city': 'Caracas', 'AQI': '41', 'dominant_pollutant': 'PM2.5', 'O3': '5', 'SO2': '7', 'PM2.5': '9', 'PM10': '14', 'CO': '400', 'NO2': '17', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.925332069396973
+{'city': 'Zaragoza', 'AQI': '14', 'dominant_pollutant': 'PM2.5', 'O3': '20', 'SO2': '1', 'PM2.5': '2', 'PM10': '9', 'CO': '157', 'NO2': '6', 'NO': '3', 'NOX': '9', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.789082050323486
+{'city': 'Zhongshan', 'AQI': '72', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '2', 'PM2.5': '27', 'PM10': '52', 'CO': '399', 'NO2': '57', 'NO': '14', 'NOX': '28', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.203344106674194
+{'city': 'Linhai', 'AQI': '90', 'dominant_pollutant': 'PM2.5', 'O3': '13', 'SO2': '3', 'PM2.5': '34', 'PM10': '78', 'CO': '552', 'NO2': '22', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.0857460498809814
+{'city': 'Nagpur', 'AQI': '138', 'dominant_pollutant': 'PM2.5', 'O3': '26', 'SO2': '1', 'PM2.5': '53', 'PM10': '121', 'CO': '969', 'NO2': '39', 'NO': '6', 'NOX': '31', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.894871950149536
+{'city': 'Zaporizhzhya', 'AQI': '78', 'dominant_pollutant': 'PM2.5', 'O3': '9', 'SO2': '17', 'PM2.5': '22', 'PM10': '37', 'CO': '799', 'NO2': '28', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.873921871185303
+{'city': 'Shizuoka', 'AQI': '59', 'dominant_pollutant': 'PM2.5', 'O3': '35', 'SO2': '1', 'PM2.5': '19', 'PM10': '41', 'CO': '353', 'NO2': '44', 'NO': '4', 'NOX': '14', 'C6H6': '0', 'NMHC': '64'}
+Success, time:  7.397972106933594
+{'city': 'Malegaon', 'AQI': '130', 'dominant_pollutant': 'PM2.5', 'O3': '13', 'SO2': '5', 'PM2.5': '41', 'PM10': '84', 'CO': '745', 'NO2': '19', 'NO': '3', 'NOX': '9', 'C6H6': '2', 'NMHC': '0'}
+Success, time:  7.332234144210815
+{'city': 'Dubai', 'AQI': '78', 'dominant_pollutant': 'PM2.5', 'O3': '28', 'SO2': '3', 'PM2.5': '28', 'PM10': '77', 'CO': '250', 'NO2': '42', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.320610523223877
+{'city': 'Sao Jose dos Campos', 'AQI': '65', 'dominant_pollutant': 'PM2.5', 'O3': '19', 'SO2': '1', 'PM2.5': '17', 'PM10': '29', 'CO': '115', 'NO2': '16', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.641343355178833
+{'city': 'Coimbatore', 'AQI': '120', 'dominant_pollutant': 'PM2.5', 'O3': '0', 'SO2': '5', 'PM2.5': '44', 'PM10': '109', 'CO': '402', 'NO2': '35', 'NO': '0', 'NOX': '35', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.526440143585205
+{'city': 'Shaoyang', 'AQI': '128', 'dominant_pollutant': 'PM2.5', 'O3': '12', 'SO2': '13', 'PM2.5': '49', 'PM10': '83', 'CO': '510', 'NO2': '13', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.0043394565582275
+{'city': 'Kayamkulam', 'AQI': '128', 'dominant_pollutant': 'PM2.5', 'O3': '12', 'SO2': '13', 'PM2.5': '49', 'PM10': '83', 'CO': '510', 'NO2': '13', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.389042615890503
+{'city': 'Jiamusi', 'AQI': '79', 'dominant_pollutant': 'PM2.5', 'O3': '24', 'SO2': '2', 'PM2.5': '29', 'PM10': '29', 'CO': '602', 'NO2': '9', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.541385173797607
+{'city': 'Depok', 'AQI': '95', 'dominant_pollutant': 'PM2.5', 'O3': '79', 'SO2': '6', 'PM2.5': '30', 'PM10': '42', 'CO': '1262', 'NO2': '49', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.712116003036499
+{'city': 'Mangalore', 'AQI': '138', 'dominant_pollutant': 'PM2.5', 'O3': '2', 'SO2': '12', 'PM2.5': '61', 'PM10': '68', 'CO': '1027', 'NO2': '54', 'NO': '6', 'NOX': '74', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.2162556648254395
+{'city': 'Handan', 'AQI': '121', 'dominant_pollutant': 'PM2.5', 'O3': '9', 'SO2': '14', 'PM2.5': '47', 'PM10': '126', 'CO': '2108', 'NO2': '35', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.978309631347656
+{'city': 'Okayama', 'AQI': '65', 'dominant_pollutant': 'PM2.5', 'O3': '9', 'SO2': '2', 'PM2.5': '19', 'PM10': '55', 'CO': '568', 'NO2': '55', 'NO': '28', 'NOX': '51', 'C6H6': '0', 'NMHC': '341'}
+Success, time:  6.921344757080078
+{'city': 'Incheon', 'AQI': '93', 'dominant_pollutant': 'PM2.5', 'O3': '41', 'SO2': '4', 'PM2.5': '29', 'PM10': '77', 'CO': '549', 'NO2': '24', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.129122734069824
+{'city': 'Ribeirao Preto', 'AQI': '72', 'dominant_pollutant': 'PM2.5', 'O3': '30', 'SO2': '1', 'PM2.5': '19', 'PM10': '39', 'CO': '251', 'NO2': '24', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.6066577434539795
+{'city': 'Cali', 'AQI': '57', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '0', 'PM2.5': '13', 'PM10': '21', 'CO': '159', 'NO2': '19', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.220080137252808
+{'city': 'Xianyang Shaanxi', 'AQI': '72', 'dominant_pollutant': 'PM2.5', 'O3': '30', 'SO2': '1', 'PM2.5': '19', 'PM10': '39', 'CO': '251', 'NO2': '24', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.657702922821045
+{'city': 'Bunia', 'AQI': '15', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '0', 'PM2.5': '4', 'PM10': '6', 'CO': '77', 'NO2': '0', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.385596513748169
+{'city': 'Lviv', 'AQI': '92', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '1', 'PM2.5': '29', 'PM10': '35', 'CO': '176', 'NO2': '16', 'NO': '0', 'NOX': '5', 'C6H6': '3', 'NMHC': '0'}
+Success, time:  7.023709297180176
+{'city': 'Huaian', 'AQI': '157', 'dominant_pollutant': 'PM2.5', 'O3': '8', 'SO2': '5', 'PM2.5': '74', 'PM10': '167', 'CO': '699', 'NO2': '53', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.664386510848999
+{'city': 'Manchester', 'AQI': '39', 'dominant_pollutant': 'PM2.5', 'O3': '15', 'SO2': '1', 'PM2.5': '11', 'PM10': '31', 'CO': '439', 'NO2': '20', 'NO': '3', 'NOX': '28', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.1600892543792725
+{'city': 'Goiania', 'AQI': '65', 'dominant_pollutant': 'PM2.5', 'O3': '20', 'SO2': '1', 'PM2.5': '16', 'PM10': '33', 'CO': '251', 'NO2': '18', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.216300010681152
+{'city': 'Anqiu', 'AQI': '151', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '11', 'PM2.5': '57', 'PM10': '134', 'CO': '1528', 'NO2': '41', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.676833629608154
+{'city': 'Tongliao', 'AQI': '75', 'dominant_pollutant': 'PM2.5', 'O3': '29', 'SO2': '3', 'PM2.5': '25', 'PM10': '30', 'CO': '176', 'NO2': '10', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.272153854370117
+{'city': 'Weifang', 'AQI': '160', 'dominant_pollutant': 'PM2.5', 'O3': '5', 'SO2': '11', 'PM2.5': '64', 'PM10': '157', 'CO': '1600', 'NO2': '67', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.849031448364258
+{'city': 'Cheongju', 'AQI': '76', 'dominant_pollutant': 'PM2.5', 'O3': '43', 'SO2': '3', 'PM2.5': '28', 'PM10': '62', 'CO': '448', 'NO2': '23', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.567114353179932
+{'city': 'Taibei', 'AQI': '67', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '1', 'PM2.5': '18', 'PM10': '51', 'CO': '292', 'NO2': '42', 'NO': '10', 'NOX': '29', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.191845655441284
+{'city': 'Sialkot', 'AQI': '152', 'dominant_pollutant': 'PM2.5', 'O3': '24', 'SO2': '2', 'PM2.5': '62', 'PM10': '107', 'CO': '636', 'NO2': '6', 'NO': '17', 'NOX': '35', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.698213815689087
+{'city': 'Maturin', 'AQI': '25', 'dominant_pollutant': 'PM2.5', 'O3': '24', 'SO2': '0', 'PM2.5': '7', 'PM10': '11', 'CO': '96', 'NO2': '0', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.815611124038696
+{'city': 'Buffalo City', 'AQI': '25', 'dominant_pollutant': 'PM2.5', 'O3': '24', 'SO2': '0', 'PM2.5': '7', 'PM10': '11', 'CO': '96', 'NO2': '0', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.422685146331787
+{'city': 'Thiruvananthapuram', 'AQI': '73', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '4', 'PM2.5': '29', 'PM10': '57', 'CO': '371', 'NO2': '27', 'NO': '1', 'NOX': '7', 'C6H6': '2', 'NMHC': '0'}
+Success, time:  7.645024299621582
+{'city': 'Zibo', 'AQI': '49', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '1', 'PM2.5': '13', 'PM10': '34', 'CO': '300', 'NO2': '26', 'NO': '1', 'NOX': '8', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.082753658294678
+{'city': 'Yanji', 'AQI': '60', 'dominant_pollutant': 'PM2.5', 'O3': '30', 'SO2': '6', 'PM2.5': '14', 'PM10': '25', 'CO': '436', 'NO2': '8', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.875665187835693
+{'city': 'Tongling', 'AQI': '105', 'dominant_pollutant': 'PM2.5', 'O3': '15', 'SO2': '2', 'PM2.5': '41', 'PM10': '77', 'CO': '398', 'NO2': '23', 'NO': '11', 'NOX': '25', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.7019712924957275
+{'city': 'Wuzhou', 'AQI': '92', 'dominant_pollutant': 'PM2.5', 'O3': '13', 'SO2': '13', 'PM2.5': '32', 'PM10': '102', 'CO': '786', 'NO2': '18', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.934276819229126
+{'city': 'Oaxaca de Juarez', 'AQI': '59', 'dominant_pollutant': 'PM2.5', 'O3': '26', 'SO2': '0', 'PM2.5': '18', 'PM10': '21', 'CO': '234', 'NO2': '14', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.223358154296875
+{'city': 'Washington', 'AQI': '62', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '1', 'PM2.5': '19', 'PM10': '41', 'CO': '711', 'NO2': '44', 'NO': '31', 'NOX': '62', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  10.722509860992432
+{'city': 'Chicago', 'AQI': '63', 'dominant_pollutant': 'PM2.5', 'O3': '19', 'SO2': '1', 'PM2.5': '16', 'PM10': '37', 'CO': '328', 'NO2': '20', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  59.26970314979553
+{'city': 'Sargodha', 'AQI': '62', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '1', 'PM2.5': '19', 'PM10': '41', 'CO': '711', 'NO2': '44', 'NO': '31', 'NOX': '62', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.641974449157715
+{'city': 'Bhavnagar', 'AQI': '159', 'dominant_pollutant': 'PM2.5', 'O3': '24', 'SO2': '6', 'PM2.5': '76', 'PM10': '131', 'CO': '670', 'NO2': '22', 'NO': '10', 'NOX': '31', 'C6H6': '2', 'NMHC': '0'}
+Success, time:  6.977803707122803
+{'city': 'Gold Coast', 'AQI': '45', 'dominant_pollutant': 'PM2.5', 'O3': '25', 'SO2': '1', 'PM2.5': '10', 'PM10': '19', 'CO': '59', 'NO2': '24', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.354079246520996
+{'city': "Yan'an", 'AQI': '83', 'dominant_pollutant': 'PM2.5', 'O3': '5', 'SO2': '2', 'PM2.5': '30', 'PM10': '58', 'CO': '936', 'NO2': '19', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.743246555328369
+{'city': 'Sapporo', 'AQI': '62', 'dominant_pollutant': 'NO2', 'O3': '8', 'SO2': '3', 'PM2.5': '14', 'PM10': '38', 'CO': '393', 'NO2': '65', 'NO': '41', 'NOX': '74', 'C6H6': '0', 'NMHC': '132'}
+Success, time:  27.586678504943848
+{'city': 'Pretoria', 'AQI': '74', 'dominant_pollutant': 'PM2.5', 'O3': '27', 'SO2': '28', 'PM2.5': '28', 'PM10': '51', 'CO': '1119', 'NO2': '29', 'NO': '2', 'NOX': '5', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.752093553543091
+{'city': 'Florence', 'AQI': '56', 'dominant_pollutant': 'PM2.5', 'O3': '13', 'SO2': '1', 'PM2.5': '16', 'PM10': '37', 'CO': '599', 'NO2': '26', 'NO': '2', 'NOX': '25', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.247002840042114
+{'city': 'Jammu', 'AQI': '56', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '1', 'PM2.5': '18', 'PM10': '39', 'CO': '361', 'NO2': '36', 'NO': '5', 'NOX': '30', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.04014778137207
+{'city': 'Shaoxing', 'AQI': '96', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '5', 'PM2.5': '40', 'PM10': '85', 'CO': '790', 'NO2': '20', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.908853054046631
+{'city': 'Yulin Shaanxi', 'AQI': '56', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '1', 'PM2.5': '18', 'PM10': '39', 'CO': '361', 'NO2': '36', 'NO': '5', 'NOX': '30', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.445006847381592
+{'city': 'Nanded Waghala', 'AQI': '113', 'dominant_pollutant': 'PM2.5', 'O3': '5', 'SO2': '10', 'PM2.5': '44', 'PM10': '79', 'CO': '395', 'NO2': '7', 'NO': '10', 'NOX': '17', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.6898157596588135
+{'city': 'Dazhou', 'AQI': '52', 'dominant_pollutant': 'PM2.5', 'O3': '32', 'SO2': '0', 'PM2.5': '15', 'PM10': '34', 'CO': '325', 'NO2': '29', 'NO': '1', 'NOX': '7', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.853552103042603
+{'city': 'Tirupati', 'AQI': '88', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '3', 'PM2.5': '30', 'PM10': '44', 'CO': '712', 'NO2': '8', 'NO': '6', 'NOX': '14', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  7.008394241333008
+{'city': 'Bacoor', 'AQI': '88', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '3', 'PM2.5': '30', 'PM10': '44', 'CO': '712', 'NO2': '8', 'NO': '6', 'NOX': '14', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  6.954313039779663
+{'city': 'Dengzhou', 'AQI': '107', 'dominant_pollutant': 'PM2.5', 'O3': '9', 'SO2': '5', 'PM2.5': '39', 'PM10': '104', 'CO': '872', 'NO2': '26', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.1818764209747314
+{'city': 'Birmingham', 'AQI': '40', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '1', 'PM2.5': '7', 'PM10': '11', 'CO': '145', 'NO2': '10', 'NO': '0', 'NOX': '10', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  54.680700063705444
+{'city': 'The Hague', 'AQI': '91', 'dominant_pollutant': 'PM2.5', 'O3': '3', 'SO2': '1', 'PM2.5': '34', 'PM10': '45', 'CO': '186', 'NO2': '30', 'NO': '5', 'NOX': '0', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  8.616149663925171
+{'city': 'Longyan', 'AQI': '96', 'dominant_pollutant': 'PM2.5', 'O3': '55', 'SO2': '5', 'PM2.5': '27', 'PM10': '44', 'CO': '350', 'NO2': '34', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.195508241653442
+{'city': 'Yuncheng', 'AQI': '125', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '5', 'PM2.5': '47', 'PM10': '127', 'CO': '2119', 'NO2': '27', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.123413801193237
+{'city': 'Yantai', 'AQI': '111', 'dominant_pollutant': 'PM2.5', 'O3': '10', 'SO2': '9', 'PM2.5': '35', 'PM10': '135', 'CO': '1229', 'NO2': '38', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  27.340028524398804
+{'city': 'Seville', 'AQI': '76', 'dominant_pollutant': 'PM2.5', 'O3': '14', 'SO2': '2', 'PM2.5': '18', 'PM10': '33', 'CO': '442', 'NO2': '24', 'NO': '3', 'NOX': '14', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.249787330627441
+{'city': 'Bandung', 'AQI': '89', 'dominant_pollutant': 'PM2.5', 'O3': '64', 'SO2': '0', 'PM2.5': '29', 'PM10': '73', 'CO': '572', 'NO2': '29', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.5002760887146
+{'city': 'Vancouver', 'AQI': '42', 'dominant_pollutant': 'PM2.5', 'O3': '5', 'SO2': '0', 'PM2.5': '10', 'PM10': '20', 'CO': '299', 'NO2': '31', 'NO': '14', 'NOX': '26', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.86114239692688
+{'city': 'Dongtai', 'AQI': '109', 'dominant_pollutant': 'PM2.5', 'O3': '14', 'SO2': '7', 'PM2.5': '42', 'PM10': '90', 'CO': '1054', 'NO2': '26', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.379120588302612
+{'city': 'Huizhou', 'AQI': '70', 'dominant_pollutant': 'PM2.5', 'O3': '28', 'SO2': '5', 'PM2.5': '18', 'PM10': '57', 'CO': '463', 'NO2': '12', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.475021600723267
+{'city': 'Tolyatti', 'AQI': '57', 'dominant_pollutant': 'PM2.5', 'O3': '28', 'SO2': '1', 'PM2.5': '22', 'PM10': '22', 'CO': '133', 'NO2': '17', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.609992980957031
+{'city': 'Lubumbashi', 'AQI': '70', 'dominant_pollutant': 'PM2.5', 'O3': '28', 'SO2': '5', 'PM2.5': '18', 'PM10': '57', 'CO': '463', 'NO2': '12', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.851238489151001
+{'city': 'Salta', 'AQI': '23', 'dominant_pollutant': 'PM2.5', 'O3': '14', 'SO2': '0', 'PM2.5': '6', 'PM10': '8', 'CO': '194', 'NO2': '2', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.252013921737671
+{'city': 'Merca', 'AQI': '110', 'dominant_pollutant': 'PM2.5', 'O3': '1', 'SO2': '49', 'PM2.5': '45', 'PM10': '111', 'CO': '185', 'NO2': '48', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.214166164398193
+{'city': 'Bali', 'AQI': '65', 'dominant_pollutant': 'PM2.5', 'O3': '29', 'SO2': '0', 'PM2.5': '20', 'PM10': '50', 'CO': '141', 'NO2': '24', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.553345203399658
+{'city': 'Yuyao', 'AQI': '32', 'dominant_pollutant': 'NO2', 'O3': '31', 'SO2': '0', 'PM2.5': '0', 'PM10': '1', 'CO': '123', 'NO2': '34', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.002122163772583
+{'city': 'Boston', 'AQI': '43', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '0', 'PM2.5': '10', 'PM10': '44', 'CO': '346', 'NO2': '22', 'NO': '6', 'NOX': '24', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.718127250671387
+{'city': 'Toluca de Lerdo', 'AQI': '71', 'dominant_pollutant': 'PM2.5', 'O3': '9', 'SO2': '1', 'PM2.5': '24', 'PM10': '35', 'CO': '693', 'NO2': '34', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.564478158950806
+{'city': 'Uberlandia', 'AQI': '61', 'dominant_pollutant': 'PM2.5', 'O3': '28', 'SO2': '0', 'PM2.5': '13', 'PM10': '20', 'CO': '170', 'NO2': '11', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.200671911239624
+{'city': 'Patna', 'AQI': '270', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '5', 'PM2.5': '245', 'PM10': '430', 'CO': '1305', 'NO2': '88', 'NO': '65', 'NOX': '130', 'C6H6': '3', 'NMHC': '0'}
+Success, time:  6.328579902648926
+{'city': 'Taif', 'AQI': '76', 'dominant_pollutant': 'PM2.5', 'O3': '37', 'SO2': '14', 'PM2.5': '24', 'PM10': '54', 'CO': '136', 'NO2': '6', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.401522397994995
+{'city': 'Yuxi', 'AQI': '76', 'dominant_pollutant': 'PM2.5', 'O3': '5', 'SO2': '3', 'PM2.5': '25', 'PM10': '40', 'CO': '868', 'NO2': '13', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.253347396850586
+{'city': 'Luoyang', 'AQI': '156', 'dominant_pollutant': 'PM2.5', 'O3': '5', 'SO2': '3', 'PM2.5': '67', 'PM10': '188', 'CO': '1584', 'NO2': '50', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.038042068481445
+{'city': 'Bhopal', 'AQI': '179', 'dominant_pollutant': 'PM2.5', 'O3': '15', 'SO2': '7', 'PM2.5': '117', 'PM10': '232', 'CO': '1102', 'NO2': '43', 'NO': '4', 'NOX': '20', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.477114915847778
+{'city': 'Bristol', 'AQI': '26', 'dominant_pollutant': 'O3', 'O3': '25', 'SO2': '1', 'PM2.5': '4', 'PM10': '9', 'CO': '311', 'NO2': '10', 'NO': '7', 'NOX': '17', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.418381929397583
+{'city': 'San Juan', 'AQI': '23', 'dominant_pollutant': 'O3', 'O3': '23', 'SO2': '0', 'PM2.5': '5', 'PM10': '17', 'CO': '83', 'NO2': '0', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.456095218658447
+{'city': 'Brisbane', 'AQI': '53', 'dominant_pollutant': 'PM2.5', 'O3': '23', 'SO2': '2', 'PM2.5': '12', 'PM10': '35', 'CO': '66', 'NO2': '30', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.612755298614502
+{'city': 'Celaya', 'AQI': '70', 'dominant_pollutant': 'PM2.5', 'O3': '19', 'SO2': '5', 'PM2.5': '14', 'PM10': '62', 'CO': '1059', 'NO2': '35', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.597208499908447
+{'city': 'Al-Hudaydah', 'AQI': '70', 'dominant_pollutant': 'PM2.5', 'O3': '19', 'SO2': '5', 'PM2.5': '14', 'PM10': '62', 'CO': '1059', 'NO2': '35', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.535402297973633
+{'city': 'Cheonan', 'AQI': '143', 'dominant_pollutant': 'PM2.5', 'O3': '9', 'SO2': '6', 'PM2.5': '66', 'PM10': '66', 'CO': '871', 'NO2': '21', 'NO': '57', 'NOX': '64', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  6.487059593200684
+{'city': 'Jundiai', 'AQI': '93', 'dominant_pollutant': 'PM2.5', 'O3': '12', 'SO2': '1', 'PM2.5': '31', 'PM10': '64', 'CO': '532', 'NO2': '26', 'NO': '0', 'NOX': '0', 'C6H6': '3', 'NMHC': '0'}
+Success, time:  6.914728403091431
+{'city': 'Tangerang', 'AQI': '94', 'dominant_pollutant': 'PM2.5', 'O3': '44', 'SO2': '7', 'PM2.5': '30', 'PM10': '60', 'CO': '848', 'NO2': '42', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.258663177490234
+{'city': 'Gulbarga', 'AQI': '118', 'dominant_pollutant': 'PM2.5', 'O3': '8', 'SO2': '6', 'PM2.5': '46', 'PM10': '102', 'CO': '65', 'NO2': '19', 'NO': '14', 'NOX': '28', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.545071840286255
+{'city': 'Baku', 'AQI': '25', 'dominant_pollutant': 'O3', 'O3': '30', 'SO2': '0', 'PM2.5': '1', 'PM10': '1', 'CO': '123', 'NO2': '1', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.284432888031006
+{'city': 'Padova', 'AQI': '80', 'dominant_pollutant': 'PM2.5', 'O3': '2', 'SO2': '1', 'PM2.5': '25', 'PM10': '26', 'CO': '210', 'NO2': '11', 'NO': '0', 'NOX': '10', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  7.411355495452881
+{'city': 'Medan', 'AQI': '100', 'dominant_pollutant': 'PM2.5', 'O3': '48', 'SO2': '2', 'PM2.5': '38', 'PM10': '66', 'CO': '534', 'NO2': '25', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.108871936798096
+{'city': 'Durgapur', 'AQI': '179', 'dominant_pollutant': 'PM2.5', 'O3': '32', 'SO2': '26', 'PM2.5': '129', 'PM10': '276', 'CO': '764', 'NO2': '8', 'NO': '8', 'NOX': '25', 'C6H6': '8', 'NMHC': '0'}
+Success, time:  6.886078119277954
+{'city': 'Belem', 'AQI': '89', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '3', 'PM2.5': '35', 'PM10': '47', 'CO': '193', 'NO2': '35', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.647435426712036
+{'city': 'Kurnool', 'AQI': '84', 'dominant_pollutant': 'PM2.5', 'O3': '10', 'SO2': '3', 'PM2.5': '36', 'PM10': '55', 'CO': '318', 'NO2': '12', 'NO': '8', 'NOX': '24', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.540502309799194
+{'city': 'Nantong', 'AQI': '89', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '3', 'PM2.5': '35', 'PM10': '47', 'CO': '193', 'NO2': '35', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.4655678272247314
+{'city': 'El Paso', 'AQI': '44', 'dominant_pollutant': 'PM2.5', 'O3': '33', 'SO2': '0', 'PM2.5': '11', 'PM10': '55', 'CO': '100', 'NO2': '18', 'NO': '3', 'NOX': '3', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.066404342651367
+{'city': 'Sendai', 'AQI': '52', 'dominant_pollutant': 'PM2.5', 'O3': '29', 'SO2': '0', 'PM2.5': '15', 'PM10': '32', 'CO': '203', 'NO2': '53', 'NO': '22', 'NOX': '42', 'C6H6': '0', 'NMHC': '71'}
+Success, time:  8.090736865997314
+{'city': 'Nantes', 'AQI': '64', 'dominant_pollutant': 'PM2.5', 'O3': '23', 'SO2': '0', 'PM2.5': '13', 'PM10': '16', 'CO': '155', 'NO2': '3', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.994019269943237
+{'city': 'Houston', 'AQI': '61', 'dominant_pollutant': 'PM10', 'O3': '36', 'SO2': '0', 'PM2.5': '11', 'PM10': '86', 'CO': '318', 'NO2': '18', 'NO': '0', 'NOX': '8', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.653852462768555
+{'city': 'Buraydah', 'AQI': '109', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '9', 'PM2.5': '43', 'PM10': '98', 'CO': '162', 'NO2': '28', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.9541754722595215
+{'city': 'Manaus', 'AQI': '69', 'dominant_pollutant': 'PM2.5', 'O3': '8', 'SO2': '2', 'PM2.5': '21', 'PM10': '48', 'CO': '191', 'NO2': '18', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.096289873123169
+{'city': 'Zagreb', 'AQI': '143', 'dominant_pollutant': 'PM2.5', 'O3': '2', 'SO2': '6', 'PM2.5': '49', 'PM10': '92', 'CO': '538', 'NO2': '39', 'NO': '0', 'NOX': '0', 'C6H6': '3', 'NMHC': '0'}
+Success, time:  6.68101167678833
+{'city': 'Barranquilla', 'AQI': '69', 'dominant_pollutant': 'PM2.5', 'O3': '8', 'SO2': '2', 'PM2.5': '21', 'PM10': '48', 'CO': '191', 'NO2': '18', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.5627121925354
+{'city': 'Maracaibo', 'AQI': '32', 'dominant_pollutant': 'PM2.5', 'O3': '19', 'SO2': '2', 'PM2.5': '7', 'PM10': '13', 'CO': '122', 'NO2': '5', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.415429353713989
+{'city': 'Zhangjiagang', 'AQI': '60', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '1', 'PM2.5': '15', 'PM10': '23', 'CO': '146', 'NO2': '16', 'NO': '0', 'NOX': '10', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.849426984786987
+{'city': 'Pontianak', 'AQI': '34', 'dominant_pollutant': 'PM2.5', 'O3': '31', 'SO2': '0', 'PM2.5': '9', 'PM10': '13', 'CO': '150', 'NO2': '1', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.183923006057739
+{'city': 'Liege', 'AQI': '62', 'dominant_pollutant': 'PM2.5', 'O3': '2', 'SO2': '0', 'PM2.5': '17', 'PM10': '22', 'CO': '244', 'NO2': '11', 'NO': '1', 'NOX': '5', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.568525552749634
+{'city': 'Taicang', 'AQI': '67', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '1', 'PM2.5': '18', 'PM10': '51', 'CO': '292', 'NO2': '42', 'NO': '10', 'NOX': '29', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.653544187545776
+{'city': 'Gujranwala', 'AQI': '173', 'dominant_pollutant': 'PM2.5', 'O3': '29', 'SO2': '6', 'PM2.5': '103', 'PM10': '157', 'CO': '920', 'NO2': '13', 'NO': '4', 'NOX': '21', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  42.17206001281738
+{'city': 'Nashville', 'AQI': '54', 'dominant_pollutant': 'PM2.5', 'O3': '29', 'SO2': '1', 'PM2.5': '12', 'PM10': '42', 'CO': '147', 'NO2': '16', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.959024429321289
+{'city': 'Genoa', 'AQI': '76', 'dominant_pollutant': 'PM2.5', 'O3': '11', 'SO2': '1', 'PM2.5': '25', 'PM10': '27', 'CO': '400', 'NO2': '22', 'NO': '1', 'NOX': '7', 'C6H6': '2', 'NMHC': '0'}
+Success, time:  7.713283061981201
+{'city': 'Rawalpindi', 'AQI': '154', 'dominant_pollutant': 'PM2.5', 'O3': '20', 'SO2': '6', 'PM2.5': '72', 'PM10': '103', 'CO': '1871', 'NO2': '29', 'NO': '17', 'NOX': '35', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  18.56976056098938
+{'city': 'Ezhou', 'AQI': '68', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '1', 'PM2.5': '23', 'PM10': '58', 'CO': '482', 'NO2': '33', 'NO': '2', 'NOX': '26', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.20867657661438
+{'city': 'Santiago', 'AQI': '66', 'dominant_pollutant': 'PM2.5', 'O3': '13', 'SO2': '2', 'PM2.5': '18', 'PM10': '62', 'CO': '481', 'NO2': '32', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.995865345001221
+{'city': 'Mar Del Plata', 'AQI': '20', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '0', 'PM2.5': '2', 'PM10': '4', 'CO': '102', 'NO2': '1', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.692181348800659
+{'city': 'Peshawar', 'AQI': '174', 'dominant_pollutant': 'PM2.5', 'O3': '28', 'SO2': '1', 'PM2.5': '117', 'PM10': '117', 'CO': '1369', 'NO2': '22', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  33.747395038604736
+{'city': 'Zhoukou', 'AQI': '120', 'dominant_pollutant': 'PM2.5', 'O3': '11', 'SO2': '10', 'PM2.5': '47', 'PM10': '125', 'CO': '755', 'NO2': '29', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.277852535247803
+{'city': 'Lodz', 'AQI': '82', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '1', 'PM2.5': '27', 'PM10': '42', 'CO': '467', 'NO2': '25', 'NO': '0', 'NOX': '27', 'C6H6': '2', 'NMHC': '0'}
+Success, time:  8.944336652755737
+{'city': 'Goma', 'AQI': '170', 'dominant_pollutant': 'PM2.5', 'O3': '1', 'SO2': '8', 'PM2.5': '110', 'PM10': '174', 'CO': '653', 'NO2': '4', 'NO': '4', 'NOX': '15', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  7.872276544570923
+{'city': 'Taoyuan', 'AQI': '51', 'dominant_pollutant': 'PM2.5', 'O3': '22', 'SO2': '2', 'PM2.5': '14', 'PM10': '28', 'CO': '452', 'NO2': '22', 'NO': '11', 'NOX': '30', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  19.82297396659851
+{'city': 'Oklahoma City', 'AQI': '60', 'dominant_pollutant': 'PM2.5', 'O3': '22', 'SO2': '0', 'PM2.5': '15', 'PM10': '70', 'CO': '423', 'NO2': '18', 'NO': '0', 'NOX': '5', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.663509130477905
+{'city': 'Las Vegas', 'AQI': '47', 'dominant_pollutant': 'PM10', 'O3': '38', 'SO2': '0', 'PM2.5': '7', 'PM10': '46', 'CO': '100', 'NO2': '17', 'NO': '1', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.068317651748657
+{'city': 'Tabuk', 'AQI': '89', 'dominant_pollutant': 'PM2.5', 'O3': '23', 'SO2': '2', 'PM2.5': '16', 'PM10': '37', 'CO': '122', 'NO2': '15', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.149049997329712
+{'city': 'Agra', 'AQI': '197', 'dominant_pollutant': 'PM2.5', 'O3': '20', 'SO2': '5', 'PM2.5': '154', 'PM10': '239', 'CO': '1103', 'NO2': '64', 'NO': '8', 'NOX': '46', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  36.37343215942383
+{'city': 'Ankang', 'AQI': '93', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '13', 'PM2.5': '34', 'PM10': '62', 'CO': '579', 'NO2': '8', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.970097780227661
+{'city': 'General Santos City', 'AQI': '12', 'dominant_pollutant': 'PM2.5', 'O3': '14', 'SO2': '0', 'PM2.5': '3', 'PM10': '5', 'CO': '78', 'NO2': '1', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.120147705078125
+{'city': 'Renqiu', 'AQI': '115', 'dominant_pollutant': 'PM2.5', 'O3': '13', 'SO2': '3', 'PM2.5': '46', 'PM10': '83', 'CO': '422', 'NO2': '56', 'NO': '16', 'NOX': '34', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.83343505859375
+{'city': 'Hohhot', 'AQI': '154', 'dominant_pollutant': 'PM2.5', 'O3': '5', 'SO2': '11', 'PM2.5': '68', 'PM10': '162', 'CO': '1383', 'NO2': '51', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  17.84083914756775
+{'city': 'Detroit', 'AQI': '50', 'dominant_pollutant': 'PM10', 'O3': '24', 'SO2': '2', 'PM2.5': '10', 'PM10': '58', 'CO': '385', 'NO2': '26', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.20542311668396
+{'city': 'Baotou', 'AQI': '118', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '12', 'PM2.5': '44', 'PM10': '146', 'CO': '1859', 'NO2': '29', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.974141597747803
+{'city': 'Manama', 'AQI': '110', 'dominant_pollutant': 'PM2.5', 'O3': '38', 'SO2': '23', 'PM2.5': '41', 'PM10': '63', 'CO': '157', 'NO2': '14', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.849889516830444
+{'city': 'Vadodara', 'AQI': '159', 'dominant_pollutant': 'PM2.5', 'O3': '9', 'SO2': '0', 'PM2.5': '75', 'PM10': '94', 'CO': '873', 'NO2': '34', 'NO': '11', 'NOX': '37', 'C6H6': '2', 'NMHC': '0'}
+Success, time:  7.252030849456787
+{'city': 'Kannur', 'AQI': '106', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '0', 'PM2.5': '39', 'PM10': '70', 'CO': '620', 'NO2': '20', 'NO': '7', 'NOX': '22', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.371484994888306
+{'city': 'Loudi', 'AQI': '58', 'dominant_pollutant': 'PM2.5', 'O3': '8', 'SO2': '0', 'PM2.5': '17', 'PM10': '46', 'CO': '389', 'NO2': '37', 'NO': '7', 'NOX': '32', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.804434776306152
+{'city': 'Liuzhou', 'AQI': '47', 'dominant_pollutant': 'PM2.5', 'O3': '9', 'SO2': '0', 'PM2.5': '13', 'PM10': '23', 'CO': '595', 'NO2': '34', 'NO': '29', 'NOX': '68', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.785250425338745
+{'city': 'Jeonju', 'AQI': '78', 'dominant_pollutant': 'PM2.5', 'O3': '41', 'SO2': '3', 'PM2.5': '27', 'PM10': '63', 'CO': '509', 'NO2': '16', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.088413953781128
+{'city': 'Visakhapatnam', 'AQI': '161', 'dominant_pollutant': 'PM2.5', 'O3': '22', 'SO2': '7', 'PM2.5': '82', 'PM10': '128', 'CO': '633', 'NO2': '15', 'NO': '3', 'NOX': '18', 'C6H6': '2', 'NMHC': '0'}
+Success, time:  7.548306703567505
+{'city': 'Bijie', 'AQI': '96', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '5', 'PM2.5': '36', 'PM10': '48', 'CO': '871', 'NO2': '13', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.616250038146973
+{'city': 'Xuzhou', 'AQI': '161', 'dominant_pollutant': 'PM2.5', 'O3': '22', 'SO2': '7', 'PM2.5': '82', 'PM10': '128', 'CO': '633', 'NO2': '15', 'NO': '3', 'NOX': '18', 'C6H6': '2', 'NMHC': '0'}
+Success, time:  5.6948065757751465
+{'city': 'Portland', 'AQI': '65', 'dominant_pollutant': 'PM2.5', 'O3': '2', 'SO2': '1', 'PM2.5': '20', 'PM10': '41', 'CO': '298', 'NO2': '30', 'NO': '17', 'NOX': '33', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.643977403640747
+{'city': 'Daegu', 'AQI': '131', 'dominant_pollutant': 'PM2.5', 'O3': '38', 'SO2': '4', 'PM2.5': '62', 'PM10': '120', 'CO': '639', 'NO2': '41', 'NO': '0', 'NOX': '7', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.060708999633789
+{'city': 'Naples', 'AQI': '81', 'dominant_pollutant': 'PM2.5', 'O3': '10', 'SO2': '2', 'PM2.5': '24', 'PM10': '50', 'CO': '368', 'NO2': '35', 'NO': '0', 'NOX': '0', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  6.718812942504883
+{'city': 'Amman', 'AQI': '78', 'dominant_pollutant': 'PM2.5', 'O3': '31', 'SO2': '3', 'PM2.5': '26', 'PM10': '81', 'CO': '380', 'NO2': '16', 'NO': '5', 'NOX': '25', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  7.05926775932312
+{'city': 'Qinzhou', 'AQI': '75', 'dominant_pollutant': 'PM2.5', 'O3': '20', 'SO2': '5', 'PM2.5': '22', 'PM10': '47', 'CO': '618', 'NO2': '9', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.731943845748901
+{'city': 'Tijuana', 'AQI': '64', 'dominant_pollutant': 'PM2.5', 'O3': '30', 'SO2': '0', 'PM2.5': '19', 'PM10': '28', 'CO': '352', 'NO2': '18', 'NO': '1', 'NOX': '7', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.349334716796875
+{'city': 'Macao', 'AQI': '102', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '5', 'PM2.5': '40', 'PM10': '91', 'CO': '729', 'NO2': '43', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.345155954360962
+{'city': 'Samsun', 'AQI': '49', 'dominant_pollutant': 'PM2.5', 'O3': '21', 'SO2': '7', 'PM2.5': '12', 'PM10': '34', 'CO': '80', 'NO2': '16', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.349287271499634
+{'city': 'Denizli', 'AQI': '67', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '2', 'PM2.5': '20', 'PM10': '49', 'CO': '730', 'NO2': '8', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.38190484046936
+{'city': 'Zhoushan', 'AQI': '42', 'dominant_pollutant': 'PM2.5', 'O3': '31', 'SO2': '1', 'PM2.5': '11', 'PM10': '31', 'CO': '147', 'NO2': '16', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.041795969009399
+{'city': 'Busto Arsizio', 'AQI': '69', 'dominant_pollutant': 'PM2.5', 'O3': '1', 'SO2': '2', 'PM2.5': '21', 'PM10': '25', 'CO': '1039', 'NO2': '10', 'NO': '0', 'NOX': '19', 'C6H6': '2', 'NMHC': '0'}
+Success, time:  7.329148292541504
+{'city': 'Tongxiang', 'AQI': '39', 'dominant_pollutant': 'PM2.5', 'O3': '22', 'SO2': '1', 'PM2.5': '12', 'PM10': '22', 'CO': '286', 'NO2': '17', 'NO': '7', 'NOX': '18', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.402133941650391
+{'city': 'Longhai', 'AQI': '107', 'dominant_pollutant': 'PM2.5', 'O3': '15', 'SO2': '7', 'PM2.5': '38', 'PM10': '71', 'CO': '896', 'NO2': '15', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.271052360534668
+{'city': 'Nashik', 'AQI': '116', 'dominant_pollutant': 'PM2.5', 'O3': '11', 'SO2': '1', 'PM2.5': '35', 'PM10': '82', 'CO': '838', 'NO2': '36', 'NO': '3', 'NOX': '12', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  7.156356334686279
+{'city': 'Puyang', 'AQI': '46', 'dominant_pollutant': 'PM2.5', 'O3': '28', 'SO2': '0', 'PM2.5': '12', 'PM10': '18', 'CO': '162', 'NO2': '4', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.119816064834595
+{'city': 'Grande Vitoria', 'AQI': '23', 'dominant_pollutant': 'PM2.5', 'O3': '25', 'SO2': '1', 'PM2.5': '5', 'PM10': '6', 'CO': '433', 'NO2': '3', 'NO': '1', 'NOX': '4', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.5669028759002686
+{'city': 'Hezhou', 'AQI': '60', 'dominant_pollutant': 'PM2.5', 'O3': '22', 'SO2': '0', 'PM2.5': '15', 'PM10': '70', 'CO': '423', 'NO2': '18', 'NO': '0', 'NOX': '5', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.180790662765503
+{'city': 'Vijayawada', 'AQI': '97', 'dominant_pollutant': 'PM2.5', 'O3': '2', 'SO2': '4', 'PM2.5': '32', 'PM10': '83', 'CO': '539', 'NO2': '26', 'NO': '8', 'NOX': '21', 'C6H6': '2', 'NMHC': '0'}
+Success, time:  7.4049296379089355
+{'city': 'Jhansi', 'AQI': '169', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '7', 'PM2.5': '107', 'PM10': '143', 'CO': '738', 'NO2': '20', 'NO': '3', 'NOX': '14', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.772316217422485
+{'city': 'Brussels', 'AQI': '72', 'dominant_pollutant': 'PM2.5', 'O3': '3', 'SO2': '1', 'PM2.5': '21', 'PM10': '26', 'CO': '295', 'NO2': '16', 'NO': '24', 'NOX': '0', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  7.564098119735718
+{'city': 'Neijiang', 'AQI': '126', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '3', 'PM2.5': '46', 'PM10': '57', 'CO': '615', 'NO2': '17', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.616173982620239
+{'city': 'Mecca', 'AQI': '110', 'dominant_pollutant': 'PM2.5', 'O3': '1', 'SO2': '49', 'PM2.5': '45', 'PM10': '111', 'CO': '185', 'NO2': '48', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.739405393600464
+{'city': 'Izhevsk', 'AQI': '37', 'dominant_pollutant': 'PM2.5', 'O3': '29', 'SO2': '2', 'PM2.5': '9', 'PM10': '15', 'CO': '149', 'NO2': '7', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.616796255111694
+{'city': 'Hiroshima', 'AQI': '57', 'dominant_pollutant': 'PM2.5', 'O3': '12', 'SO2': '2', 'PM2.5': '18', 'PM10': '18', 'CO': '597', 'NO2': '28', 'NO': '26', 'NOX': '54', 'C6H6': '0', 'NMHC': '170'}
+Success, time:  7.553145408630371
+{'city': 'Memphis', 'AQI': '58', 'dominant_pollutant': 'PM2.5', 'O3': '31', 'SO2': '1', 'PM2.5': '18', 'PM10': '39', 'CO': '142', 'NO2': '18', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.4829185009002686
+{'city': 'Perth', 'AQI': '57', 'dominant_pollutant': 'PM2.5', 'O3': '12', 'SO2': '2', 'PM2.5': '18', 'PM10': '18', 'CO': '597', 'NO2': '28', 'NO': '26', 'NOX': '54', 'C6H6': '0', 'NMHC': '170'}
+Success, time:  5.599755764007568
+{'city': 'Jamnagar', 'AQI': '143', 'dominant_pollutant': 'PM2.5', 'O3': '19', 'SO2': '28', 'PM2.5': '43', 'PM10': '63', 'CO': '434', 'NO2': '27', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.332251071929932
+{'city': 'Multan', 'AQI': '168', 'dominant_pollutant': 'PM2.5', 'O3': '33', 'SO2': '8', 'PM2.5': '96', 'PM10': '150', 'CO': '660', 'NO2': '7', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.878862380981445
+{'city': 'Yangzhou', 'AQI': '152', 'dominant_pollutant': 'PM2.5', 'O3': '8', 'SO2': '6', 'PM2.5': '60', 'PM10': '143', 'CO': '979', 'NO2': '53', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.746619701385498
+{'city': 'Minsk', 'AQI': '57', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '2', 'PM2.5': '16', 'PM10': '21', 'CO': '184', 'NO2': '5', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.406264543533325
+{'city': 'Erode', 'AQI': '88', 'dominant_pollutant': 'PM2.5', 'O3': '5', 'SO2': '4', 'PM2.5': '33', 'PM10': '56', 'CO': '429', 'NO2': '18', 'NO': '3', 'NOX': '32', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.841405868530273
+{'city': 'Bursa', 'AQI': '73', 'dominant_pollutant': 'PM2.5', 'O3': '19', 'SO2': '5', 'PM2.5': '23', 'PM10': '42', 'CO': '1202', 'NO2': '26', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.014642715454102
+{'city': 'Doha', 'AQI': '155', 'dominant_pollutant': 'PM2.5', 'O3': '32', 'SO2': '11', 'PM2.5': '58', 'PM10': '99', 'CO': '155', 'NO2': '30', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.846303462982178
+{'city': 'Baoding', 'AQI': '75', 'dominant_pollutant': 'PM2.5', 'O3': '2', 'SO2': '1', 'PM2.5': '27', 'PM10': '46', 'CO': '714', 'NO2': '37', 'NO': '4', 'NOX': '71', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.949690580368042
+{'city': 'Pachuca de Soto', 'AQI': '82', 'dominant_pollutant': 'PM2.5', 'O3': '32', 'SO2': '6', 'PM2.5': '28', 'PM10': '42', 'CO': '379', 'NO2': '30', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.938661575317383
+{'city': 'Haimen', 'AQI': '111', 'dominant_pollutant': 'PM2.5', 'O3': '23', 'SO2': '8', 'PM2.5': '44', 'PM10': '84', 'CO': '790', 'NO2': '23', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.2614970207214355
+{'city': 'Putian', 'AQI': '24', 'dominant_pollutant': 'O3', 'O3': '30', 'SO2': '1', 'PM2.5': '6', 'PM10': '10', 'CO': '82', 'NO2': '0', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.008473634719849
+{'city': 'Taizhou Zhejiang', 'AQI': '25', 'dominant_pollutant': 'O3', 'O3': '31', 'SO2': '1', 'PM2.5': '6', 'PM10': '10', 'CO': '82', 'NO2': '0', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.441035747528076
+{'city': 'Chiclayo', 'AQI': '34', 'dominant_pollutant': 'PM2.5', 'O3': '24', 'SO2': '0', 'PM2.5': '8', 'PM10': '13', 'CO': '73', 'NO2': '0', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.354241132736206
+{'city': 'Wuhai', 'AQI': '105', 'dominant_pollutant': 'PM2.5', 'O3': '8', 'SO2': '11', 'PM2.5': '45', 'PM10': '118', 'CO': '2215', 'NO2': '37', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.212713241577148
+{'city': 'Hegang', 'AQI': '53', 'dominant_pollutant': 'PM2.5', 'O3': '32', 'SO2': '3', 'PM2.5': '11', 'PM10': '19', 'CO': '282', 'NO2': '3', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.893363952636719
+{'city': 'Sanya', 'AQI': '41', 'dominant_pollutant': 'PM2.5', 'O3': '20', 'SO2': '1', 'PM2.5': '11', 'PM10': '14', 'CO': '490', 'NO2': '23', 'NO': '1', 'NOX': '4', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.143199682235718
+{'city': "Be'er Sheva", 'AQI': '134', 'dominant_pollutant': 'PM2.5', 'O3': '9', 'SO2': '1', 'PM2.5': '46', 'PM10': '69', 'CO': '380', 'NO2': '12', 'NO': '6', 'NOX': '18', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  7.370928764343262
+{'city': 'Durango', 'AQI': '31', 'dominant_pollutant': 'O3', 'O3': '24', 'SO2': '0', 'PM2.5': '2', 'PM10': '4', 'CO': '168', 'NO2': '8', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.870492935180664
+{'city': 'Bokaro Steel City', 'AQI': '166', 'dominant_pollutant': 'PM2.5', 'O3': '41', 'SO2': '18', 'PM2.5': '88', 'PM10': '168', 'CO': '1236', 'NO2': '19', 'NO': '13', 'NOX': '49', 'C6H6': '9', 'NMHC': '0'}
+Success, time:  7.487678289413452
+{'city': 'Vienna', 'AQI': '94', 'dominant_pollutant': 'PM2.5', 'O3': '13', 'SO2': '3', 'PM2.5': '38', 'PM10': '38', 'CO': '278', 'NO2': '17', 'NO': '2', 'NOX': '13', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  8.246238470077515
+{'city': 'Wroclaw', 'AQI': '106', 'dominant_pollutant': 'PM2.5', 'O3': '9', 'SO2': '3', 'PM2.5': '40', 'PM10': '43', 'CO': '301', 'NO2': '13', 'NO': '1', 'NOX': '18', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  7.2379231452941895
+{'city': 'Kollam', 'AQI': '133', 'dominant_pollutant': 'PM2.5', 'O3': '2', 'SO2': '1', 'PM2.5': '59', 'PM10': '208', 'CO': '821', 'NO2': '56', 'NO': '22', 'NOX': '105', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  6.883441686630249
+{'city': 'Valencia', 'AQI': '57', 'dominant_pollutant': 'PM2.5', 'O3': '25', 'SO2': '1', 'PM2.5': '13', 'PM10': '17', 'CO': '205', 'NO2': '18', 'NO': '2', 'NOX': '4', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.097418785095215
+{'city': 'Rajkot', 'AQI': '136', 'dominant_pollutant': 'PM2.5', 'O3': '48', 'SO2': '3', 'PM2.5': '40', 'PM10': '69', 'CO': '316', 'NO2': '15', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.193121910095215
+{'city': 'Haikou', 'AQI': '103', 'dominant_pollutant': 'PM2.5', 'O3': '44', 'SO2': '4', 'PM2.5': '36', 'PM10': '65', 'CO': '516', 'NO2': '7', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.985941648483276
+{'city': 'Yancheng Jiangsu', 'AQI': '115', 'dominant_pollutant': 'PM2.5', 'O3': '27', 'SO2': '2', 'PM2.5': '43', 'PM10': '87', 'CO': '469', 'NO2': '53', 'NO': '9', 'NOX': '26', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.208824634552002
+{'city': 'Miluo', 'AQI': '112', 'dominant_pollutant': 'PM2.5', 'O3': '1', 'SO2': '1', 'PM2.5': '48', 'PM10': '53', 'CO': '767', 'NO2': '51', 'NO': '0', 'NOX': '23', 'C6H6': '2', 'NMHC': '0'}
+Success, time:  8.58091950416565
+{'city': 'Daqing', 'AQI': '60', 'dominant_pollutant': 'PM2.5', 'O3': '19', 'SO2': '9', 'PM2.5': '17', 'PM10': '25', 'CO': '284', 'NO2': '10', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.118298053741455
+{'city': 'Venezia', 'AQI': '76', 'dominant_pollutant': 'PM2.5', 'O3': '14', 'SO2': '1', 'PM2.5': '22', 'PM10': '25', 'CO': '175', 'NO2': '15', 'NO': '0', 'NOX': '10', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  6.507680416107178
+{'city': 'Rabat', 'AQI': '30', 'dominant_pollutant': 'PM2.5', 'O3': '32', 'SO2': '2', 'PM2.5': '7', 'PM10': '14', 'CO': '126', 'NO2': '3', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.4697425365448
+{'city': 'Jambi', 'AQI': '44', 'dominant_pollutant': 'PM2.5', 'O3': '31', 'SO2': '1', 'PM2.5': '10', 'PM10': '15', 'CO': '112', 'NO2': '1', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.161447286605835
+{'city': 'West Yorkshire', 'AQI': '44', 'dominant_pollutant': 'PM2.5', 'O3': '27', 'SO2': '0', 'PM2.5': '6', 'PM10': '21', 'CO': '134', 'NO2': '17', 'NO': '2', 'NOX': '9', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.390942335128784
+{'city': 'Safaqis', 'AQI': '106', 'dominant_pollutant': 'SO2', 'O3': '7', 'SO2': '89', 'PM2.5': '34', 'PM10': '66', 'CO': '237', 'NO2': '36', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.920077085494995
+{'city': 'Semarang', 'AQI': '139', 'dominant_pollutant': 'PM2.5', 'O3': '57', 'SO2': '0', 'PM2.5': '52', 'PM10': '80', 'CO': '481', 'NO2': '46', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.314631462097168
+{'city': 'Quito', 'AQI': '29', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '0', 'PM2.5': '8', 'PM10': '11', 'CO': '389', 'NO2': '16', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.719496250152588
+{'city': 'Hyderabad', 'AQI': '154', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '1', 'PM2.5': '70', 'PM10': '127', 'CO': '714', 'NO2': '46', 'NO': '13', 'NOX': '27', 'C6H6': '2', 'NMHC': '0'}
+Success, time:  7.132046461105347
+{'city': 'Duesseldorf', 'AQI': '88', 'dominant_pollutant': 'PM2.5', 'O3': '1', 'SO2': '3', 'PM2.5': '34', 'PM10': '45', 'CO': '300', 'NO2': '22', 'NO': '2', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  15.878623247146606
+{'city': 'Belfast', 'AQI': '55', 'dominant_pollutant': 'PM2.5', 'O3': '32', 'SO2': '1', 'PM2.5': '13', 'PM10': '29', 'CO': '73', 'NO2': '13', 'NO': '0', 'NOX': '2', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.482834577560425
+{'city': 'Stuttgart', 'AQI': '79', 'dominant_pollutant': 'PM2.5', 'O3': '2', 'SO2': '1', 'PM2.5': '27', 'PM10': '55', 'CO': '286', 'NO2': '32', 'NO': '0', 'NOX': '6', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  12.506137609481812
+{'city': 'Ludhiana', 'AQI': '180', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '7', 'PM2.5': '114', 'PM10': '281', 'CO': '978', 'NO2': '37', 'NO': '24', 'NOX': '52', 'C6H6': '3', 'NMHC': '0'}
+Success, time:  46.112964153289795
+{'city': 'Verona', 'AQI': '59', 'dominant_pollutant': 'PM2.5', 'O3': '9', 'SO2': '0', 'PM2.5': '16', 'PM10': '37', 'CO': '420', 'NO2': '31', 'NO': '7', 'NOX': '33', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.275901556015015
+{'city': 'Raurkela', 'AQI': '143', 'dominant_pollutant': 'PM2.5', 'O3': '29', 'SO2': '15', 'PM2.5': '48', 'PM10': '81', 'CO': '776', 'NO2': '11', 'NO': '11', 'NOX': '32', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.143450736999512
+{'city': 'La Paz', 'AQI': '38', 'dominant_pollutant': 'O3', 'O3': '32', 'SO2': '1', 'PM2.5': '8', 'PM10': '17', 'CO': '123', 'NO2': '6', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  18.52463936805725
+{'city': 'Jubayl', 'AQI': '143', 'dominant_pollutant': 'PM2.5', 'O3': '29', 'SO2': '15', 'PM2.5': '48', 'PM10': '81', 'CO': '776', 'NO2': '11', 'NO': '11', 'NOX': '32', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.640454053878784
+{'city': 'Lianyungang', 'AQI': '71', 'dominant_pollutant': 'PM2.5', 'O3': '46', 'SO2': '14', 'PM2.5': '23', 'PM10': '79', 'CO': '319', 'NO2': '44', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.714554786682129
+{'city': 'Riga', 'AQI': '48', 'dominant_pollutant': 'PM2.5', 'O3': '24', 'SO2': '1', 'PM2.5': '11', 'PM10': '42', 'CO': '133', 'NO2': '8', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.885798215866089
+{'city': 'Lome', 'AQI': '71', 'dominant_pollutant': 'PM2.5', 'O3': '46', 'SO2': '14', 'PM2.5': '23', 'PM10': '79', 'CO': '319', 'NO2': '44', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.632750511169434
+{'city': 'Davao City', 'AQI': '68', 'dominant_pollutant': 'PM2.5', 'O3': '25', 'SO2': '1', 'PM2.5': '17', 'PM10': '31', 'CO': '98', 'NO2': '8', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.033490896224976
+{'city': 'Leon de los Aldamas', 'AQI': '32', 'dominant_pollutant': 'O3', 'O3': '33', 'SO2': '1', 'PM2.5': '6', 'PM10': '8', 'CO': '135', 'NO2': '1', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.494832277297974
+{'city': 'Kolhapur', 'AQI': '117', 'dominant_pollutant': 'PM2.5', 'O3': '35', 'SO2': '3', 'PM2.5': '38', 'PM10': '75', 'CO': '357', 'NO2': '13', 'NO': '5', 'NOX': '13', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  7.017320156097412
+{'city': 'Bacolod', 'AQI': '67', 'dominant_pollutant': 'PM2.5', 'O3': '30', 'SO2': '1', 'PM2.5': '20', 'PM10': '40', 'CO': '101', 'NO2': '11', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.716668128967285
+{'city': 'Seregno', 'AQI': '68', 'dominant_pollutant': 'PM2.5', 'O3': '2', 'SO2': '1', 'PM2.5': '21', 'PM10': '24', 'CO': '700', 'NO2': '9', 'NO': '0', 'NOX': '13', 'C6H6': '2', 'NMHC': '0'}
+Success, time:  12.528512954711914
+{'city': 'Ulyanovsk', 'AQI': '59', 'dominant_pollutant': 'PM2.5', 'O3': '27', 'SO2': '1', 'PM2.5': '19', 'PM10': '20', 'CO': '131', 'NO2': '17', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.079742908477783
+{'city': 'Zhuhai', 'AQI': '121', 'dominant_pollutant': 'PM2.5', 'O3': '11', 'SO2': '0', 'PM2.5': '46', 'PM10': '63', 'CO': '476', 'NO2': '26', 'NO': '1', 'NOX': '17', 'C6H6': '0', 'NMHC': '636'}
+Success, time:  46.840184926986694
+{'city': 'Al-Ain', 'AQI': '151', 'dominant_pollutant': 'PM2.5', 'O3': '41', 'SO2': '1', 'PM2.5': '62', 'PM10': '95', 'CO': '134', 'NO2': '18', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.416916608810425
+{'city': 'Bari', 'AQI': '63', 'dominant_pollutant': 'PM2.5', 'O3': '1', 'SO2': '1', 'PM2.5': '19', 'PM10': '20', 'CO': '332', 'NO2': '8', 'NO': '0', 'NOX': '1', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.458990097045898
+{'city': 'Yulin Guangxi', 'AQI': '91', 'dominant_pollutant': 'PM2.5', 'O3': '25', 'SO2': '4', 'PM2.5': '30', 'PM10': '68', 'CO': '284', 'NO2': '23', 'NO': '11', 'NOX': '14', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.710370779037476
+{'city': 'Turin', 'AQI': '125', 'dominant_pollutant': 'PM2.5', 'O3': '2', 'SO2': '2', 'PM2.5': '50', 'PM10': '55', 'CO': '608', 'NO2': '32', 'NO': '0', 'NOX': '3', 'C6H6': '2', 'NMHC': '0'}
+Success, time:  20.63805603981018
+{'city': 'Ajmer', 'AQI': '144', 'dominant_pollutant': 'PM2.5', 'O3': '4', 'SO2': '6', 'PM2.5': '49', 'PM10': '110', 'CO': '1965', 'NO2': '25', 'NO': '34', 'NOX': '82', 'C6H6': '9', 'NMHC': '0'}
+Success, time:  7.580860614776611
+{'city': 'Bucharest', 'AQI': '57', 'dominant_pollutant': 'PM2.5', 'O3': '2', 'SO2': '4', 'PM2.5': '16', 'PM10': '42', 'CO': '235', 'NO2': '30', 'NO': '2', 'NOX': '0', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  6.962109804153442
+{'city': 'Kuching', 'AQI': '119', 'dominant_pollutant': 'PM2.5', 'O3': '39', 'SO2': '1', 'PM2.5': '43', 'PM10': '59', 'CO': '194', 'NO2': '11', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.192777872085571
+{'city': 'Adana', 'AQI': '84', 'dominant_pollutant': 'PM2.5', 'O3': '21', 'SO2': '4', 'PM2.5': '22', 'PM10': '44', 'CO': '326', 'NO2': '29', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.69382381439209
+{'city': 'Bissau', 'AQI': '119', 'dominant_pollutant': 'PM2.5', 'O3': '39', 'SO2': '1', 'PM2.5': '43', 'PM10': '59', 'CO': '194', 'NO2': '11', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.063259840011597
+{'city': 'Warsaw', 'AQI': '87', 'dominant_pollutant': 'PM2.5', 'O3': '5', 'SO2': '1', 'PM2.5': '23', 'PM10': '28', 'CO': '381', 'NO2': '22', 'NO': '0', 'NOX': '47', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  7.1166040897369385
+{'city': 'Hamburg', 'AQI': '120', 'dominant_pollutant': 'PM2.5', 'O3': '11', 'SO2': '3', 'PM2.5': '48', 'PM10': '48', 'CO': '219', 'NO2': '32', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.392971277236938
+{'city': 'Bauchi', 'AQI': '119', 'dominant_pollutant': 'PM2.5', 'O3': '0', 'SO2': '0', 'PM2.5': '0', 'PM10': '0', 'CO': '0', 'NO2': '0', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  15.630330801010132
+{'city': 'Datong', 'AQI': '46', 'dominant_pollutant': 'PM2.5', 'O3': '30', 'SO2': '1', 'PM2.5': '13', 'PM10': '22', 'CO': '284', 'NO2': '16', 'NO': '4', 'NOX': '16', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.885537385940552
+{'city': 'Geneva', 'AQI': '69', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '0', 'PM2.5': '18', 'PM10': '23', 'CO': '122', 'NO2': '6', 'NO': '0', 'NOX': '3', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.362877368927002
+{'city': 'Enshi', 'AQI': '57', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '0', 'PM2.5': '13', 'PM10': '29', 'CO': '359', 'NO2': '28', 'NO': '10', 'NOX': '38', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.493036985397339
+{'city': 'Benin City', 'AQI': '46', 'dominant_pollutant': 'PM2.5', 'O3': '0', 'SO2': '0', 'PM2.5': '0', 'PM10': '0', 'CO': '0', 'NO2': '0', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  15.529139757156372
+{'city': 'Anshun', 'AQI': '60', 'dominant_pollutant': 'PM2.5', 'O3': '5', 'SO2': '0', 'PM2.5': '17', 'PM10': '40', 'CO': '377', 'NO2': '37', 'NO': '11', 'NOX': '39', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.608299970626831
+{'city': 'Budapest', 'AQI': '146', 'dominant_pollutant': 'PM2.5', 'O3': '2', 'SO2': '2', 'PM2.5': '52', 'PM10': '85', 'CO': '239', 'NO2': '29', 'NO': '0', 'NOX': '34', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  7.708283424377441
+{'city': 'Colombo', 'AQI': '52', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '0', 'PM2.5': '10', 'PM10': '25', 'CO': '78', 'NO2': '7', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.601117134094238
+{'city': 'Madurai', 'AQI': '104', 'dominant_pollutant': 'PM2.5', 'O3': '15', 'SO2': '3', 'PM2.5': '36', 'PM10': '59', 'CO': '330', 'NO2': '23', 'NO': '3', 'NOX': '14', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.964640378952026
+{'city': 'Sihui', 'AQI': '56', 'dominant_pollutant': 'PM2.5', 'O3': '36', 'SO2': '1', 'PM2.5': '17', 'PM10': '24', 'CO': '335', 'NO2': '5', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.901403903961182
+{'city': 'Hanzhong', 'AQI': '124', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '4', 'PM2.5': '38', 'PM10': '98', 'CO': '1026', 'NO2': '18', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.430392503738403
+{'city': 'Ujjain', 'AQI': '111', 'dominant_pollutant': 'PM2.5', 'O3': '26', 'SO2': '3', 'PM2.5': '46', 'PM10': '175', 'CO': '711', 'NO2': '40', 'NO': '14', 'NOX': '19', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  6.194838523864746
+{'city': 'Quanzhou', 'AQI': '79', 'dominant_pollutant': 'PM2.5', 'O3': '32', 'SO2': '3', 'PM2.5': '22', 'PM10': '54', 'CO': '349', 'NO2': '13', 'NO': '4', 'NOX': '20', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.77248740196228
+{'city': 'Gothenburg', 'AQI': '59', 'dominant_pollutant': 'PM2.5', 'O3': '25', 'SO2': '0', 'PM2.5': '20', 'PM10': '20', 'CO': '132', 'NO2': '12', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.22626543045044
+{'city': 'Palembang', 'AQI': '92', 'dominant_pollutant': 'PM2.5', 'O3': '49', 'SO2': '1', 'PM2.5': '30', 'PM10': '53', 'CO': '191', 'NO2': '19', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.416306257247925
+{'city': 'Jinzhong', 'AQI': '83', 'dominant_pollutant': 'PM2.5', 'O3': '5', 'SO2': '4', 'PM2.5': '30', 'PM10': '59', 'CO': '856', 'NO2': '58', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.167099475860596
+{'city': 'Santa Cruz', 'AQI': '53', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '0', 'PM2.5': '16', 'PM10': '50', 'CO': '379', 'NO2': '37', 'NO': '4', 'NOX': '25', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.548484325408936
+{'city': 'Patiala', 'AQI': '169', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '1', 'PM2.5': '87', 'PM10': '236', 'CO': '1083', 'NO2': '26', 'NO': '19578', 'NOX': '20', 'C6H6': '6208', 'NMHC': '0'}
+Success, time:  7.394829273223877
+{'city': 'Gaziantep', 'AQI': '154', 'dominant_pollutant': 'PM2.5', 'O3': '11', 'SO2': '8', 'PM2.5': '54', 'PM10': '62', 'CO': '934', 'NO2': '22', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.900127172470093
+{'city': 'Bilaspur', 'AQI': '174', 'dominant_pollutant': 'PM10', 'O3': '33', 'SO2': '7', 'PM2.5': '79', 'PM10': '261', 'CO': '539', 'NO2': '7', 'NO': '28', 'NOX': '51', 'C6H6': '6', 'NMHC': '0'}
+Success, time:  7.230597496032715
+{'city': 'Sharjah', 'AQI': '89', 'dominant_pollutant': 'PM2.5', 'O3': '22', 'SO2': '4', 'PM2.5': '31', 'PM10': '83', 'CO': '249', 'NO2': '56', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.564807653427124
+{'city': 'Louisville', 'AQI': '57', 'dominant_pollutant': 'PM2.5', 'O3': '29', 'SO2': '1', 'PM2.5': '16', 'PM10': '31', 'CO': '251', 'NO2': '23', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.507567882537842
+{'city': 'San Jose del Monte', 'AQI': '58', 'dominant_pollutant': 'PM2.5', 'O3': '29', 'SO2': '0', 'PM2.5': '15', 'PM10': '29', 'CO': '117', 'NO2': '23', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.114412784576416
+{'city': 'Phoenix', 'AQI': '69', 'dominant_pollutant': 'PM2.5', 'O3': '0', 'SO2': '1', 'PM2.5': '25', 'PM10': '106', 'CO': '1129', 'NO2': '58', 'NO': '30', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.257842540740967
+{'city': 'Lyon', 'AQI': '133', 'dominant_pollutant': 'PM2.5', 'O3': '2', 'SO2': '1', 'PM2.5': '46', 'PM10': '50', 'CO': '359', 'NO2': '26', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  10.740830659866333
+{'city': 'Kryvyi Rih', 'AQI': '95', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '9', 'PM2.5': '13', 'PM10': '14', 'CO': '380', 'NO2': '8', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.156193256378174
+{'city': 'Meerut', 'AQI': '325', 'dominant_pollutant': 'PM10', 'O3': '21', 'SO2': '4', 'PM2.5': '262', 'PM10': '519', 'CO': '1348', 'NO2': '44', 'NO': '12', 'NOX': '36', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  6.610149145126343
+{'city': 'Yaroslavl', 'AQI': '42', 'dominant_pollutant': 'PM2.5', 'O3': '28', 'SO2': '1', 'PM2.5': '10', 'PM10': '16', 'CO': '146', 'NO2': '16', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.528700590133667
+{'city': 'Jiangmen', 'AQI': '107', 'dominant_pollutant': 'PM2.5', 'O3': '30', 'SO2': '6', 'PM2.5': '34', 'PM10': '72', 'CO': '604', 'NO2': '27', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.731312274932861
+{'city': 'Brighton', 'AQI': '75', 'dominant_pollutant': 'PM2.5', 'O3': '10', 'SO2': '0', 'PM2.5': '18', 'PM10': '23', 'CO': '314', 'NO2': '4', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.672284364700317
+{'city': 'Can Tho', 'AQI': '73', 'dominant_pollutant': 'PM2.5', 'O3': '55', 'SO2': '2', 'PM2.5': '25', 'PM10': '25', 'CO': '304', 'NO2': '2', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.030311107635498
+{'city': 'Feira De Santana', 'AQI': '30', 'dominant_pollutant': 'PM2.5', 'O3': '13', 'SO2': '1', 'PM2.5': '7', 'PM10': '12', 'CO': '120', 'NO2': '3', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.337291240692139
+{'city': 'Raipur', 'AQI': '163', 'dominant_pollutant': 'PM2.5', 'O3': '34', 'SO2': '6', 'PM2.5': '71', 'PM10': '71', 'CO': '443', 'NO2': '10', 'NO': '9', 'NOX': '30', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.476698637008667
+{'city': 'Varanasi', 'AQI': '199', 'dominant_pollutant': 'PM2.5', 'O3': '3', 'SO2': '5', 'PM2.5': '165', 'PM10': '243', 'CO': '1561', 'NO2': '26', 'NO': '44', 'NOX': '124', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.473299264907837
+{'city': 'Xiangyang', 'AQI': '117', 'dominant_pollutant': 'PM2.5', 'O3': '13', 'SO2': '5', 'PM2.5': '40', 'PM10': '98', 'CO': '823', 'NO2': '30', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.63666296005249
+{'city': 'Comilla', 'AQI': '172', 'dominant_pollutant': 'PM2.5', 'O3': '2', 'SO2': '8', 'PM2.5': '89', 'PM10': '124', 'CO': '681', 'NO2': '5', 'NO': '3', 'NOX': '14', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.372313022613525
+{'city': 'Tlaxcala', 'AQI': '57', 'dominant_pollutant': 'PM2.5', 'O3': '12', 'SO2': '1', 'PM2.5': '17', 'PM10': '25', 'CO': '774', 'NO2': '26', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.491309642791748
+{'city': 'Siping', 'AQI': '70', 'dominant_pollutant': 'PM2.5', 'O3': '27', 'SO2': '4', 'PM2.5': '24', 'PM10': '70', 'CO': '346', 'NO2': '8', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.061815977096558
+{'city': 'Glasgow', 'AQI': '22', 'dominant_pollutant': 'O3', 'O3': '31', 'SO2': '0', 'PM2.5': '3', 'PM10': '8', 'CO': '129', 'NO2': '13', 'NO': '2', 'NOX': '14', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.35369873046875
+{'city': 'Sanhe', 'AQI': '71', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '0', 'PM2.5': '24', 'PM10': '43', 'CO': '386', 'NO2': '31', 'NO': '13', 'NOX': '42', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.26689887046814
+{'city': 'Mathura', 'AQI': '199', 'dominant_pollutant': 'PM2.5', 'O3': '4', 'SO2': '7', 'PM2.5': '170', 'PM10': '249', 'CO': '1639', 'NO2': '19', 'NO': '14', 'NOX': '50', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.829829216003418
+{'city': 'Shiraz', 'AQI': '56', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '0', 'PM2.5': '19', 'PM10': '46', 'CO': '335', 'NO2': '28', 'NO': '7', 'NOX': '32', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.996857404708862
+{'city': 'La Laguna', 'AQI': '25', 'dominant_pollutant': 'PM2.5', 'O3': '25', 'SO2': '0', 'PM2.5': '6', 'PM10': '10', 'CO': '100', 'NO2': '3', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.617107152938843
+{'city': 'Cixi', 'AQI': '122', 'dominant_pollutant': 'PM2.5', 'O3': '13', 'SO2': '11', 'PM2.5': '47', 'PM10': '127', 'CO': '1915', 'NO2': '32', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.2949628829956055
+{'city': 'Stockholm', 'AQI': '46', 'dominant_pollutant': 'PM2.5', 'O3': '28', 'SO2': '0', 'PM2.5': '8', 'PM10': '10', 'CO': '370', 'NO2': '16', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.986181735992432
+{'city': 'Anshan', 'AQI': '39', 'dominant_pollutant': 'O3', 'O3': '40', 'SO2': '0', 'PM2.5': '2', 'PM10': '11', 'CO': '164', 'NO2': '6', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.929499864578247
+{'city': 'Skopje', 'AQI': '127', 'dominant_pollutant': 'PM2.5', 'O3': '13', 'SO2': '4', 'PM2.5': '40', 'PM10': '44', 'CO': '362', 'NO2': '5', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.057459592819214
+{'city': 'Auckland', 'AQI': '46', 'dominant_pollutant': 'PM2.5', 'O3': '20', 'SO2': '1', 'PM2.5': '10', 'PM10': '40', 'CO': '62', 'NO2': '15', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.575250625610352
+{'city': 'Makhachkala', 'AQI': '35', 'dominant_pollutant': 'PM2.5', 'O3': '19', 'SO2': '0', 'PM2.5': '9', 'PM10': '13', 'CO': '124', 'NO2': '9', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.8441267013549805
+{'city': 'Jamshedpur', 'AQI': '182', 'dominant_pollutant': 'PM2.5', 'O3': '38', 'SO2': '29', 'PM2.5': '102', 'PM10': '175', 'CO': '1436', 'NO2': '24', 'NO': '11', 'NOX': '43', 'C6H6': '9', 'NMHC': '0'}
+Success, time:  6.5704357624053955
+{'city': 'Jingjiang', 'AQI': '113', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '6', 'PM2.5': '39', 'PM10': '78', 'CO': '847', 'NO2': '27', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.8489415645599365
+{'city': 'Shishi', 'AQI': '76', 'dominant_pollutant': 'PM2.5', 'O3': '35', 'SO2': '3', 'PM2.5': '21', 'PM10': '58', 'CO': '450', 'NO2': '13', 'NO': '4', 'NOX': '20', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.81262731552124
+{'city': 'Yinchuan', 'AQI': '100', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '7', 'PM2.5': '38', 'PM10': '107', 'CO': '1168', 'NO2': '38', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.823498964309692
+{'city': 'Fuqing', 'AQI': '92', 'dominant_pollutant': 'PM2.5', 'O3': '25', 'SO2': '3', 'PM2.5': '34', 'PM10': '62', 'CO': '243', 'NO2': '28', 'NO': '5', 'NOX': '17', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.7125794887542725
+{'city': 'Jilin', 'AQI': '63', 'dominant_pollutant': 'PM2.5', 'O3': '31', 'SO2': '4', 'PM2.5': '17', 'PM10': '25', 'CO': '480', 'NO2': '7', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.530670404434204
+{'city': 'Sanliurfa', 'AQI': '97', 'dominant_pollutant': 'PM2.5', 'O3': '20', 'SO2': '11', 'PM2.5': '31', 'PM10': '51', 'CO': '801', 'NO2': '15', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.284374952316284
+{'city': 'Srinagar', 'AQI': '146', 'dominant_pollutant': 'PM2.5', 'O3': '40', 'SO2': '4', 'PM2.5': '82', 'PM10': '133', 'CO': '770', 'NO2': '12', 'NO': '9', 'NOX': '20', 'C6H6': '10', 'NMHC': '0'}
+Success, time:  6.346814870834351
+{'city': 'Leipzig', 'AQI': '83', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '2', 'PM2.5': '30', 'PM10': '40', 'CO': '239', 'NO2': '20', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  10.637804508209229
+{'city': 'Batam', 'AQI': '77', 'dominant_pollutant': 'PM2.5', 'O3': '62', 'SO2': '15', 'PM2.5': '28', 'PM10': '44', 'CO': '351', 'NO2': '33', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.819114446640015
+{'city': 'Agartala', 'AQI': '172', 'dominant_pollutant': 'PM2.5', 'O3': '2', 'SO2': '8', 'PM2.5': '90', 'PM10': '142', 'CO': '690', 'NO2': '14', 'NO': '3', 'NOX': '15', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.593988418579102
+{'city': 'Ulaanbaatar', 'AQI': '255', 'dominant_pollutant': 'PM2.5', 'O3': '34', 'SO2': '16', 'PM2.5': '215', 'PM10': '215', 'CO': '163', 'NO2': '7', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.505645513534546
+{'city': 'Xiantao', 'AQI': '94', 'dominant_pollutant': 'PM2.5', 'O3': '20', 'SO2': '4', 'PM2.5': '35', 'PM10': '76', 'CO': '728', 'NO2': '24', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.34949016571045
+{'city': 'Marseille', 'AQI': '57', 'dominant_pollutant': 'PM2.5', 'O3': '35', 'SO2': '0', 'PM2.5': '13', 'PM10': '40', 'CO': '131', 'NO2': '15', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  11.90027141571045
+{'city': 'Yichun Heilongjiang', 'AQI': '74', 'dominant_pollutant': 'PM2.5', 'O3': '21', 'SO2': '4', 'PM2.5': '20', 'PM10': '58', 'CO': '579', 'NO2': '17', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.467909097671509
+{'city': 'Makassar', 'AQI': '65', 'dominant_pollutant': 'PM2.5', 'O3': '22', 'SO2': '1', 'PM2.5': '20', 'PM10': '44', 'CO': '158', 'NO2': '12', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.362216234207153
+{'city': 'Imphal', 'AQI': '109', 'dominant_pollutant': 'PM2.5', 'O3': '12', 'SO2': '9', 'PM2.5': '49', 'PM10': '96', 'CO': '332', 'NO2': '6', 'NO': '2', 'NOX': '5', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  6.445131063461304
+{'city': 'Yichang', 'AQI': '80', 'dominant_pollutant': 'PM2.5', 'O3': '30', 'SO2': '2', 'PM2.5': '25', 'PM10': '60', 'CO': '341', 'NO2': '12', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.004180192947388
+{'city': 'Daye', 'AQI': '26', 'dominant_pollutant': 'O3', 'O3': '30', 'SO2': '1', 'PM2.5': '4', 'PM10': '10', 'CO': '169', 'NO2': '9', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.609555721282959
+{'city': 'Aurangabad', 'AQI': '117', 'dominant_pollutant': 'PM2.5', 'O3': '4', 'SO2': '11', 'PM2.5': '39', 'PM10': '81', 'CO': '1092', 'NO2': '10', 'NO': '3', 'NOX': '7', 'C6H6': '5', 'NMHC': '0'}
+Success, time:  7.948654890060425
+{'city': 'Cenxi', 'AQI': '63', 'dominant_pollutant': 'PM2.5', 'O3': '8', 'SO2': '2', 'PM2.5': '20', 'PM10': '33', 'CO': '560', 'NO2': '9', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.321250677108765
+{'city': 'Qinhuangdao', 'AQI': '169', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '5', 'PM2.5': '100', 'PM10': '198', 'CO': '882', 'NO2': '35', 'NO': '20', 'NOX': '39', 'C6H6': '4', 'NMHC': '0'}
+Success, time:  7.499385595321655
+{'city': 'Kingston', 'AQI': '41', 'dominant_pollutant': 'PM2.5', 'O3': '30', 'SO2': '1', 'PM2.5': '11', 'PM10': '26', 'CO': '151', 'NO2': '14', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.943666934967041
+{'city': 'Philadelphia', 'AQI': '97', 'dominant_pollutant': 'PM2.5', 'O3': '10', 'SO2': '1', 'PM2.5': '38', 'PM10': '65', 'CO': '444', 'NO2': '36', 'NO': '1', 'NOX': '26', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.975422620773315
+{'city': 'Sangli', 'AQI': '140', 'dominant_pollutant': 'PM2.5', 'O3': '22', 'SO2': '2', 'PM2.5': '55', 'PM10': '94', 'CO': '394', 'NO2': '27', 'NO': '4', 'NOX': '12', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  6.55886435508728
+{'city': 'Cordoba', 'AQI': '38', 'dominant_pollutant': 'PM2.5', 'O3': '11', 'SO2': '0', 'PM2.5': '10', 'PM10': '14', 'CO': '130', 'NO2': '2', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.5127692222595215
+{'city': 'Cuiaba', 'AQI': '58', 'dominant_pollutant': 'PM2.5', 'O3': '11', 'SO2': '0', 'PM2.5': '16', 'PM10': '25', 'CO': '187', 'NO2': '16', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.958134174346924
+{'city': 'Qiqihaer', 'AQI': '53', 'dominant_pollutant': 'SO2', 'O3': '23', 'SO2': '38', 'PM2.5': '9', 'PM10': '27', 'CO': '316', 'NO2': '11', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.971622467041016
+{'city': 'Xining', 'AQI': '25', 'dominant_pollutant': 'PM2.5', 'O3': '11', 'SO2': '0', 'PM2.5': '5', 'PM10': '8', 'CO': '161', 'NO2': '4', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.7403810024261475
+{'city': 'Karaj', 'AQI': '45', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '0', 'PM2.5': '12', 'PM10': '18', 'CO': '387', 'NO2': '23', 'NO': '12', 'NOX': '42', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.085113048553467
+{'city': 'Malaga', 'AQI': '63', 'dominant_pollutant': 'PM2.5', 'O3': '36', 'SO2': '1', 'PM2.5': '18', 'PM10': '18', 'CO': '323', 'NO2': '8', 'NO': '1', 'NOX': '3', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.774810791015625
+{'city': 'San Antonio', 'AQI': '59', 'dominant_pollutant': 'PM2.5', 'O3': '31', 'SO2': '0', 'PM2.5': '15', 'PM10': '47', 'CO': '317', 'NO2': '17', 'NO': '1', 'NOX': '3', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.03351092338562
+{'city': 'Ibague', 'AQI': '59', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '0', 'PM2.5': '17', 'PM10': '17', 'CO': '362', 'NO2': '19', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.739667892456055
+{'city': 'Calgary', 'AQI': '59', 'dominant_pollutant': 'PM2.5', 'O3': '1', 'SO2': '0', 'PM2.5': '18', 'PM10': '23', 'CO': '580', 'NO2': '39', 'NO': '32', 'NOX': '53', 'C6H6': '0', 'NMHC': '6'}
+Success, time:  9.501779794692993
+{'city': 'Dortmund', 'AQI': '91', 'dominant_pollutant': 'PM2.5', 'O3': '5', 'SO2': '1', 'PM2.5': '35', 'PM10': '39', 'CO': '276', 'NO2': '20', 'NO': '1', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  14.530187129974365
+{'city': 'Hengyang', 'AQI': '126', 'dominant_pollutant': 'PM2.5', 'O3': '9', 'SO2': '7', 'PM2.5': '48', 'PM10': '96', 'CO': '951', 'NO2': '25', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.602303504943848
+{'city': 'Kagoshima', 'AQI': '38', 'dominant_pollutant': 'PM2.5', 'O3': '26', 'SO2': '1', 'PM2.5': '11', 'PM10': '14', 'CO': '300', 'NO2': '24', 'NO': '19', 'NOX': '43', 'C6H6': '0', 'NMHC': '170'}
+Success, time:  7.625900745391846
+{'city': 'Daejon', 'AQI': '29', 'dominant_pollutant': 'O3', 'O3': '36', 'SO2': '0', 'PM2.5': '1', 'PM10': '3', 'CO': '116', 'NO2': '1', 'NO': '1', 'NOX': '5', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.750081777572632
+{'city': 'Cabimas', 'AQI': '31', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '2', 'PM2.5': '7', 'PM10': '12', 'CO': '138', 'NO2': '5', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.183498859405518
+{'city': 'Qitaihe', 'AQI': '36', 'dominant_pollutant': 'PM2.5', 'O3': '12', 'SO2': '0', 'PM2.5': '9', 'PM10': '10', 'CO': '128', 'NO2': '12', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.554871797561646
+{'city': 'Milwaukee', 'AQI': '70', 'dominant_pollutant': 'PM2.5', 'O3': '13', 'SO2': '1', 'PM2.5': '21', 'PM10': '59', 'CO': '344', 'NO2': '37', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.052381753921509
+{'city': 'Catania', 'AQI': '34', 'dominant_pollutant': 'PM2.5', 'O3': '12', 'SO2': '3', 'PM2.5': '9', 'PM10': '11', 'CO': '563', 'NO2': '25', 'NO': '0', 'NOX': '0', 'C6H6': '2', 'NMHC': '0'}
+Success, time:  8.413560628890991
+{'city': 'Samut Sakhon', 'AQI': '156', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '10', 'PM2.5': '73', 'PM10': '121', 'CO': '952', 'NO2': '52', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.759572267532349
+{'city': 'Shuozhou', 'AQI': '27', 'dominant_pollutant': 'O3', 'O3': '25', 'SO2': '1', 'PM2.5': '7', 'PM10': '31', 'CO': '169', 'NO2': '24', 'NO': '13', 'NOX': '36', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.000128746032715
+{'city': 'Monrovia', 'AQI': '56', 'dominant_pollutant': 'PM2.5', 'O3': '34', 'SO2': '0', 'PM2.5': '15', 'PM10': '71', 'CO': '269', 'NO2': '26', 'NO': '2', 'NOX': '14', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  87.9101414680481
+{'city': 'Tonghua', 'AQI': '114', 'dominant_pollutant': 'PM2.5', 'O3': '14', 'SO2': '11', 'PM2.5': '47', 'PM10': '78', 'CO': '786', 'NO2': '15', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.9434850215911865
+{'city': 'Essen', 'AQI': '83', 'dominant_pollutant': 'PM2.5', 'O3': '3', 'SO2': '3', 'PM2.5': '28', 'PM10': '35', 'CO': '457', 'NO2': '22', 'NO': '2', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  15.887470722198486
+{'city': 'Toulon', 'AQI': '47', 'dominant_pollutant': 'O3', 'O3': '34', 'SO2': '0', 'PM2.5': '9', 'PM10': '11', 'CO': '136', 'NO2': '6', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  66.99030637741089
+{'city': 'Rosario', 'AQI': '56', 'dominant_pollutant': 'PM2.5', 'O3': '14', 'SO2': '1', 'PM2.5': '11', 'PM10': '15', 'CO': '193', 'NO2': '7', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  99.90919756889343
+{'city': 'Munich', 'AQI': '68', 'dominant_pollutant': 'PM2.5', 'O3': '12', 'SO2': '1', 'PM2.5': '21', 'PM10': '21', 'CO': '287', 'NO2': '12', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  29.49026846885681
+{'city': 'Gaoxiong', 'AQI': '116', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '2', 'PM2.5': '47', 'PM10': '114', 'CO': '633', 'NO2': '59', 'NO': '18', 'NOX': '37', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.668362379074097
+{'city': 'Ciudad Juarez', 'AQI': '72', 'dominant_pollutant': 'O3', 'O3': '42', 'SO2': '5', 'PM2.5': '9', 'PM10': '15', 'CO': '174', 'NO2': '16', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.198790550231934
+{'city': 'Anyang', 'AQI': '120', 'dominant_pollutant': 'PM2.5', 'O3': '15', 'SO2': '8', 'PM2.5': '47', 'PM10': '120', 'CO': '1785', 'NO2': '25', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.602065801620483
+{'city': 'Kananga', 'AQI': '46', 'dominant_pollutant': 'PM2.5', 'O3': '27', 'SO2': '1', 'PM2.5': '11', 'PM10': '31', 'CO': '83', 'NO2': '21', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.7631354331970215
+{'city': 'Dresden', 'AQI': '63', 'dominant_pollutant': 'PM2.5', 'O3': '14', 'SO2': '1', 'PM2.5': '17', 'PM10': '23', 'CO': '240', 'NO2': '5', 'NO': '1', 'NOX': '13', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  108.22467851638794
+{'city': 'Gwangju', 'AQI': '88', 'dominant_pollutant': 'PM2.5', 'O3': '46', 'SO2': '4', 'PM2.5': '34', 'PM10': '74', 'CO': '689', 'NO2': '18', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.619120836257935
+{'city': 'Suqian', 'AQI': '122', 'dominant_pollutant': 'PM2.5', 'O3': '12', 'SO2': '8', 'PM2.5': '47', 'PM10': '143', 'CO': '1286', 'NO2': '45', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.156959533691406
+{'city': 'Jining Shandong', 'AQI': '83', 'dominant_pollutant': 'PM2.5', 'O3': '23', 'SO2': '1', 'PM2.5': '21', 'PM10': '49', 'CO': '380', 'NO2': '51', 'NO': '6', 'NOX': '25', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.227218627929688
+{'city': 'Medina', 'AQI': '84', 'dominant_pollutant': 'PM2.5', 'O3': '12', 'SO2': '5', 'PM2.5': '30', 'PM10': '62', 'CO': '207', 'NO2': '29', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.267636060714722
+{'city': 'Juiz De Fora', 'AQI': '101', 'dominant_pollutant': 'O3', 'O3': '56', 'SO2': '4', 'PM2.5': '30', 'PM10': '44', 'CO': '231', 'NO2': '3', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  27.939039707183838
+{'city': 'Yekaterinburg', 'AQI': '56', 'dominant_pollutant': 'PM2.5', 'O3': '24', 'SO2': '2', 'PM2.5': '16', 'PM10': '31', 'CO': '149', 'NO2': '43', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.180922985076904
+{'city': 'Abu Dhabi', 'AQI': '59', 'dominant_pollutant': 'PM2.5', 'O3': '49', 'SO2': '1', 'PM2.5': '16', 'PM10': '52', 'CO': '128', 'NO2': '27', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.209422588348389
+{'city': 'Pereira', 'AQI': '74', 'dominant_pollutant': 'PM2.5', 'O3': '16', 'SO2': '0', 'PM2.5': '25', 'PM10': '36', 'CO': '224', 'NO2': '17', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.3901047706604
+{'city': 'Jodhpur', 'AQI': '181', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '4', 'PM2.5': '116', 'PM10': '301', 'CO': '1071', 'NO2': '54', 'NO': '118', 'NOX': '151', 'C6H6': '9', 'NMHC': '0'}
+Success, time:  8.671294927597046
+{'city': 'Udaipur', 'AQI': '126', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '4', 'PM2.5': '43', 'PM10': '91', 'CO': '917', 'NO2': '20', 'NO': '24', 'NOX': '50', 'C6H6': '2', 'NMHC': '0'}
+Success, time:  8.688363552093506
+{'city': 'Grande Sao Luis', 'AQI': '39', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '0', 'PM2.5': '8', 'PM10': '12', 'CO': '122', 'NO2': '3', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.343973875045776
+{'city': 'Sanmenxia', 'AQI': '125', 'dominant_pollutant': 'PM2.5', 'O3': '5', 'SO2': '9', 'PM2.5': '48', 'PM10': '109', 'CO': '756', 'NO2': '27', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.971918344497681
+{'city': 'Edmonton', 'AQI': '63', 'dominant_pollutant': 'PM2.5', 'O3': '1', 'SO2': '0', 'PM2.5': '17', 'PM10': '24', 'CO': '304', 'NO2': '28', 'NO': '10', 'NOX': '17', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  12.070275783538818
+{'city': 'Vellore', 'AQI': '99', 'dominant_pollutant': 'PM2.5', 'O3': '12', 'SO2': '8', 'PM2.5': '37', 'PM10': '100', 'CO': '580', 'NO2': '27', 'NO': '4', 'NOX': '12', 'C6H6': '1', 'NMHC': '0'}
+Success, time:  8.899547338485718
+{'city': 'Natal', 'AQI': '64', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '0', 'PM2.5': '17', 'PM10': '45', 'CO': '89', 'NO2': '13', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.462529897689819
+{'city': 'Dongyang', 'AQI': '38', 'dominant_pollutant': 'PM2.5', 'O3': '37', 'SO2': '0', 'PM2.5': '10', 'PM10': '15', 'CO': '138', 'NO2': '2', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.546163558959961
+{'city': 'Thoothukkudi', 'AQI': '83', 'dominant_pollutant': 'PM2.5', 'O3': '12', 'SO2': '3', 'PM2.5': '32', 'PM10': '49', 'CO': '357', 'NO2': '17', 'NO': '3', 'NOX': '11', 'C6H6': '2', 'NMHC': '0'}
+Success, time:  6.649323225021362
+{'city': 'Bloemfontein', 'AQI': '63', 'dominant_pollutant': 'PM10', 'O3': '17', 'SO2': '1', 'PM2.5': '6', 'PM10': '75', 'CO': '80', 'NO2': '1', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.418538570404053
+{'city': 'Xinyi', 'AQI': '64', 'dominant_pollutant': 'PM2.5', 'O3': '23', 'SO2': '1', 'PM2.5': '19', 'PM10': '48', 'CO': '245', 'NO2': '44', 'NO': '7', 'NOX': '24', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.768977165222168
+{'city': 'Udon Thani', 'AQI': '62', 'dominant_pollutant': 'PM2.5', 'O3': '33', 'SO2': '1', 'PM2.5': '17', 'PM10': '29', 'CO': '510', 'NO2': '9', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.099143981933594
+{'city': 'Ranchi', 'AQI': '174', 'dominant_pollutant': 'PM2.5', 'O3': '51', 'SO2': '36', 'PM2.5': '88', 'PM10': '133', 'CO': '875', 'NO2': '26', 'NO': '13', 'NOX': '53', 'C6H6': '9', 'NMHC': '0'}
+Success, time:  8.50744342803955
+{'city': 'Kathmandu', 'AQI': '164', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '3', 'PM2.5': '92', 'PM10': '92', 'CO': '510', 'NO2': '3', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.44866943359375
+{'city': 'Jabalpur', 'AQI': '164', 'dominant_pollutant': 'PM2.5', 'O3': '17', 'SO2': '3', 'PM2.5': '92', 'PM10': '92', 'CO': '510', 'NO2': '3', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.6489903926849365
+{'city': 'Jalgaon', 'AQI': '163', 'dominant_pollutant': 'PM2.5', 'O3': '19', 'SO2': '22', 'PM2.5': '73', 'PM10': '108', 'CO': '732', 'NO2': '21', 'NO': '7', 'NOX': '23', 'C6H6': '5', 'NMHC': '0'}
+Success, time:  7.236832857131958
+{'city': 'Hebi', 'AQI': '119', 'dominant_pollutant': 'PM2.5', 'O3': '18', 'SO2': '8', 'PM2.5': '46', 'PM10': '140', 'CO': '961', 'NO2': '24', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.60170316696167
+{'city': 'Zhangjiakou', 'AQI': '91', 'dominant_pollutant': 'PM2.5', 'O3': '27', 'SO2': '3', 'PM2.5': '32', 'PM10': '89', 'CO': '601', 'NO2': '9', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.260376214981079
+{'city': 'Zaoyang', 'AQI': '119', 'dominant_pollutant': 'PM2.5', 'O3': '15', 'SO2': '5', 'PM2.5': '43', 'PM10': '101', 'CO': '790', 'NO2': '26', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.765016555786133
+{'city': 'Huainan', 'AQI': '58', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '0', 'PM2.5': '16', 'PM10': '35', 'CO': '387', 'NO2': '36', 'NO': '12', 'NOX': '42', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.108716249465942
+{'city': 'Yiyang Hunan', 'AQI': '160', 'dominant_pollutant': 'PM2.5', 'O3': '21', 'SO2': '8', 'PM2.5': '62', 'PM10': '135', 'CO': '705', 'NO2': '15', 'NO': '11', 'NOX': '26', 'C6H6': '3', 'NMHC': '0'}
+Success, time:  8.822915315628052
+{'city': 'Asansol', 'AQI': '58', 'dominant_pollutant': 'PM2.5', 'O3': '6', 'SO2': '0', 'PM2.5': '16', 'PM10': '35', 'CO': '387', 'NO2': '36', 'NO': '12', 'NOX': '42', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.67646336555481
+{'city': 'Gaya', 'AQI': '180', 'dominant_pollutant': 'PM2.5', 'O3': '13', 'SO2': '12', 'PM2.5': '117', 'PM10': '238', 'CO': '1394', 'NO2': '76', 'NO': '6', 'NOX': '72', 'C6H6': '2', 'NMHC': '0'}
+Success, time:  6.450263261795044
+{'city': 'Chaozhou', 'AQI': '147', 'dominant_pollutant': 'PM2.5', 'O3': '27', 'SO2': '2', 'PM2.5': '46', 'PM10': '91', 'CO': '289', 'NO2': '26', 'NO': '4', 'NOX': '11', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.555743932723999
+{'city': 'Baltimore', 'AQI': '77', 'dominant_pollutant': 'PM2.5', 'O3': '4', 'SO2': '1', 'PM2.5': '30', 'PM10': '55', 'CO': '619', 'NO2': '35', 'NO': '32', 'NOX': '68', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.85091257095337
+{'city': 'Kota', 'AQI': '167', 'dominant_pollutant': 'PM2.5', 'O3': '3', 'SO2': '4', 'PM2.5': '91', 'PM10': '155', 'CO': '295', 'NO2': '29', 'NO': '10', 'NOX': '26', 'C6H6': '3', 'NMHC': '0'}
+Success, time:  6.724804878234863
+{'city': 'Tirunelveli', 'AQI': '79', 'dominant_pollutant': 'PM2.5', 'O3': '11', 'SO2': '3', 'PM2.5': '30', 'PM10': '51', 'CO': '439', 'NO2': '16', 'NO': '6', 'NOX': '18', 'C6H6': '2', 'NMHC': '0'}
+Success, time:  9.051355600357056
+{'city': 'Zhaodong', 'AQI': '78', 'dominant_pollutant': 'PM2.5', 'O3': '23', 'SO2': '5', 'PM2.5': '29', 'PM10': '37', 'CO': '609', 'NO2': '10', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.207473278045654
+{'city': 'Dengfeng', 'AQI': '118', 'dominant_pollutant': 'PM2.5', 'O3': '23', 'SO2': '5', 'PM2.5': '43', 'PM10': '112', 'CO': '552', 'NO2': '20', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.207957029342651
+{'city': 'Matamoros', 'AQI': '31', 'dominant_pollutant': 'O3', 'O3': '27', 'SO2': '0', 'PM2.5': '8', 'PM10': '20', 'CO': '119', 'NO2': '1', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.5492236614227295
+{'city': 'Kitchener', 'AQI': '54', 'dominant_pollutant': 'PM2.5', 'O3': '24', 'SO2': '2', 'PM2.5': '13', 'PM10': '23', 'CO': '274', 'NO2': '14', 'NO': '2', 'NOX': '9', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  10.399561882019043
+{'city': 'Poza Rica de Hidalgo', 'AQI': '41', 'dominant_pollutant': 'PM2.5', 'O3': '23', 'SO2': '2', 'PM2.5': '10', 'PM10': '17', 'CO': '147', 'NO2': '5', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.229141712188721
+{'city': 'San Diego', 'AQI': '51', 'dominant_pollutant': 'PM2.5', 'O3': '25', 'SO2': '0', 'PM2.5': '14', 'PM10': '41', 'CO': '487', 'NO2': '22', 'NO': '0', 'NOX': '9', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  63.34050536155701
+{'city': 'Oujda', 'AQI': '27', 'dominant_pollutant': 'O3', 'O3': '30', 'SO2': '1', 'PM2.5': '3', 'PM10': '8', 'CO': '118', 'NO2': '1', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.224679470062256
+{'city': 'Santa Fe', 'AQI': '20', 'dominant_pollutant': 'O3', 'O3': '16', 'SO2': '0', 'PM2.5': '5', 'PM10': '7', 'CO': '121', 'NO2': '3', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.976155519485474
+{'city': 'Cuito', 'AQI': '20', 'dominant_pollutant': 'O3', 'O3': '16', 'SO2': '0', 'PM2.5': '5', 'PM10': '7', 'CO': '121', 'NO2': '3', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.7877748012542725
+{'city': 'Orenburg', 'AQI': '57', 'dominant_pollutant': 'PM2.5', 'O3': '33', 'SO2': '1', 'PM2.5': '18', 'PM10': '44', 'CO': '122', 'NO2': '34', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.796520471572876
+{'city': 'Kharkiv', 'AQI': '74', 'dominant_pollutant': 'PM2.5', 'O3': '16', 'SO2': '1', 'PM2.5': '24', 'PM10': '24', 'CO': '174', 'NO2': '17', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  24.858540058135986
+{'city': 'Cangzhou', 'AQI': '127', 'dominant_pollutant': 'PM2.5', 'O3': '8', 'SO2': '7', 'PM2.5': '45', 'PM10': '148', 'CO': '1170', 'NO2': '40', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  6.99791145324707
+{'city': 'San Jose', 'AQI': '44', 'dominant_pollutant': 'PM2.5', 'O3': '19', 'SO2': '0', 'PM2.5': '13', 'PM10': '20', 'CO': '313', 'NO2': '28', 'NO': '2', 'NOX': '19', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.588617086410522
+{'city': 'Jiaozhou', 'AQI': '54', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '0', 'PM2.5': '18', 'PM10': '59', 'CO': '384', 'NO2': '38', 'NO': '4', 'NOX': '31', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.274772644042969
+{'city': 'Chon Buri', 'AQI': '114', 'dominant_pollutant': 'PM2.5', 'O3': '42', 'SO2': '4', 'PM2.5': '40', 'PM10': '72', 'CO': '752', 'NO2': '28', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.47648811340332
+{'city': 'Allahabad', 'AQI': '209', 'dominant_pollutant': 'PM2.5', 'O3': '2', 'SO2': '6', 'PM2.5': '181', 'PM10': '295', 'CO': '2061', 'NO2': '51', 'NO': '31', 'NOX': '73', 'C6H6': '74', 'NMHC': '0'}
+Success, time:  6.453961133956909
+{'city': 'Bremen', 'AQI': '101', 'dominant_pollutant': 'PM2.5', 'O3': '13', 'SO2': '2', 'PM2.5': '36', 'PM10': '49', 'CO': '254', 'NO2': '20', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  15.30127477645874
+{'city': 'Gwalior', 'AQI': '153', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '5', 'PM2.5': '67', 'PM10': '77', 'CO': '799', 'NO2': '4', 'NO': '3', 'NOX': '5', 'C6H6': '2', 'NMHC': '0'}
+Success, time:  39.75290656089783
+{'city': 'Weinan', 'AQI': '96', 'dominant_pollutant': 'PM10', 'O3': '9', 'SO2': '6', 'PM2.5': '35', 'PM10': '149', 'CO': '1399', 'NO2': '27', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  9.384749174118042
+{'city': 'Anyang', 'AQI': '120', 'dominant_pollutant': 'PM2.5', 'O3': '15', 'SO2': '8', 'PM2.5': '47', 'PM10': '120', 'CO': '1785', 'NO2': '25', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  8.652830839157104
+{'city': 'Ottawa', 'AQI': '59', 'dominant_pollutant': 'PM2.5', 'O3': '14', 'SO2': '1', 'PM2.5': '17', 'PM10': '28', 'CO': '217', 'NO2': '18', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  21.833232164382935
+{'city': 'Mazar-e Sharif', 'AQI': '120', 'dominant_pollutant': 'PM2.5', 'O3': '15', 'SO2': '8', 'PM2.5': '47', 'PM10': '120', 'CO': '1785', 'NO2': '25', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  5.586805582046509
+{'city': 'Zurich', 'AQI': '61', 'dominant_pollutant': 'PM2.5', 'O3': '3', 'SO2': '0', 'PM2.5': '18', 'PM10': '21', 'CO': '175', 'NO2': '12', 'NO': '0', 'NOX': '14', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.7572338581085205
+{'city': 'Kota Kinabalu', 'AQI': '86', 'dominant_pollutant': 'PM2.5', 'O3': '39', 'SO2': '0', 'PM2.5': '34', 'PM10': '72', 'CO': '129', 'NO2': '20', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.140700101852417
+{'city': 'Belgrade', 'AQI': '78', 'dominant_pollutant': 'PM2.5', 'O3': '7', 'SO2': '11', 'PM2.5': '23', 'PM10': '23', 'CO': '397', 'NO2': '7', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  7.4215247631073
+{'city': 'Basel', 'AQI': '56', 'dominant_pollutant': 'PM2.5', 'O3': '3', 'SO2': '0', 'PM2.5': '14', 'PM10': '16', 'CO': '218', 'NO2': '8', 'NO': '0', 'NOX': '12', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  11.310152053833008
+{'city': 'Gomel', 'AQI': '51', 'dominant_pollutant': 'PM2.5', 'O3': '21', 'SO2': '2', 'PM2.5': '13', 'PM10': '15', 'CO': '157', 'NO2': '4', 'NO': '0', 'NOX': '0', 'C6H6': '0', 'NMHC': '0'}
+Success, time:  
