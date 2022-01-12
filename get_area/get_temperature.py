@@ -95,7 +95,7 @@ for index in range(popu.shape[0]):
         temp_data[months[i]].append(temp[i])
     temp_data['Temp_avg'].append(temp[12])
 
-pd.DataFrame(temp_data).to_csv("new_temp_full.csv")
+pd.DataFrame(temp_data).to_csv("temperature.csv")
 
 driver.quit()
 
