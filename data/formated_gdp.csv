@@ -1,0 +1,409 @@
+,city,gdp,year
+0,Aachen-Liege-Maastricht,,
+1,Abbotsford,5.313,2016
+2,Aberdeen,16.986,2013
+3,Abidjan,27.0,2017
+4,Abu Dhabi,119.0,
+5,Adelaide,64.461,2018–19
+6,Ahmedabad,59.0,2017
+7,Akron,36.8,2018
+8,Albany,59.657,2018
+9,Albuquerque,42.896,2018
+10,Alexandria,,
+11,Allentown,45.024,2018
+12,Almaty,36.0,2010
+13,Amsterdam-Rotterdam,223.0,2015
+14,Anapolis,6.74,2011
+15,Ankara,,
+16,Anshan,,
+17,Arnhem-Nijmegen,27.9,2016
+18,Athens,93.7,2015
+19,Atlanta,422.189,2019
+20,Auckland,79.662,2020
+21,Austin,106.784,2018
+22,Bakersfield,49.514,2018
+23,Ballarat,4.46,2018–19
+24,Baltimore,215.487,2019
+25,Bandung,20.4,2019
+26,Batam,35.3,
+27,Bangkok,147.97,
+28,Baotou,40.8,2017
+29,Barcelona,173.315,2017
+30,Barrie,5.698,2016
+31,Basel-Mulhouse,,
+32,Baton Rouge,56.315,2018
+33,Beijing,553.9,2020
+34,Belfast,25.5,2015
+35,Belgrade,17.4,2014
+36,Belleville,3.542,2016
+37,Belo Horizonte,54.996,2011
+38,Bendigo,3.961,2018–19
+39,Bengaluru,110.0,2021
+40,Berlin,171.99,2018
+41,Bhopal,32.5,2021
+42,Bielefeld-Detmold,,
+43,Bilbao,36.9,2015
+44,Birmingham,81.8,2016
+45,Birmingham,62.881,2018
+46,Bogota,,
+47,Bologna,40.6,2017
+48,Bordeaux,55.9,2015
+49,Boston,484.62,2019
+50,Brantford,4.081,2016
+51,Brasilia,65.338,2015
+52,Braunschweig-Wolfsburg,,
+53,Bremen,30.4,2015
+54,Bridgeport,89.387,2018
+55,Brisbane,177.0,2018–19
+56,Bristol,26.9,2017
+57,Brussels,99.0,2019
+58,Bucharest,63.43,2021
+59,Budapest,58.5,2016
+60,Buenos Aires,,
+61,Buffalo,53.0,2019
+62,Bursa,,
+63,Busan-Ulsan,241.0,2018
+64,Cairns,10.709,2018–19
+65,Cairo,,
+66,Calgary,77.847,2016
+67,Campinas,40.525,2011
+68,Campo Grande,9.59,2013
+69,Campos dos Goytacazes,5.358,2016
+70,Canberra,30.909,2018–19
+71,Cape Town,,
+72,Caracas,70.0,2012
+73,Cardiff-Newport,33.7,2016
+74,Casablanca,,
+75,Chandigarh,17.3,2017
+76,Changchun,96.7,2017
+77,Changsha,189.0,2020
+78,Changzhou,98.1,2017
+79,Charlotte,169.862,2018
+80,Chengdu,273.8,2020
+81,Chennai,78.6,2017
+82,Coimbatore,42.0,2021
+83,Chicago,709.16,2019
+84,Chittagong,67.0,2020
+85,Chongqing,362.0,2020
+86,Cincinnati,141.052,2018
+87,Cleveland,135.0,2019
+88,Columbia,43.118,2018
+89,Columbus,134.0,2019
+90,Copenhagen,134.4,2017
+91,Cork,24.0,2015
+92,Coventry,7.4,2008
+93,Curitiba,58.082,2011
+94,Daegu,56.9,2018
+95,Daejeon,39.6,2018
+96,Dalian,109.1,2017
+97,Dallas-Fort Worth,523.861,2019
+98,Dar es Salaam,10.4,2019
+99,Daqing,39.7,2017
+100,Dayton,43.254,2018
+101,Delhi,210.0,2021
+102,Denver,227.395,2019
+103,Des Moines,50.339,2018
+104,Detroit,269.85,2019
+105,Dhaka,160.0,2020
+106,Dongguan,112.3,2017
+107,Dongying,61.89,2018
+108,Dubai,102.67,2018
+109,Dublin,118.72,2019
+110,Durban,,
+111,Durham,54.687,2018
+112,East Rand,,
+113,Edinburgh,41.8,2016
+114,Edmonton,66.836,2016
+115,Eindhoven-Den Bosch,,
+116,El Paso,32.57,2018
+117,Faisalabad,10.2,
+118,Florence,40.1,2015
+119,Fortaleza,21.7,2012
+120,Foshan,141.4,2017
+121,Frankfurt,,
+122,Fresno,47.408,2018
+123,Fukuoka-Kitakyushu,185.0,2013
+124,Fuzhou,118.683,2018
+125,Geelong,8.725,2018–19
+126,Geneva,,
+127,George Town,22.25,
+128,Gladstone,4.464,2018–19
+129,Glasgow,66.4,2016
+130,Gothenburg,84.4,2016
+131,Gold Coast,26.669,2018–19
+132,Grand Rapids,61.615,2018
+133,Greensboro,43.154,2018
+134,Greenville,46.431,2018
+135,Goiania,22.763,2011
+136,Guadalajara,,
+137,Guangzhou,385.0,2020
+138,Guelph,7.315,2016
+139,Gujranwala,21.0,2017
+140,Gwangju,36.8,2018
+141,Haifa,,
+142,Halifax,15.862,2016
+143,Hamamatsu,54.3,2010
+144,Hamburg,138.04,2018
+145,Hangzhou,204.15,2018
+146,Hannover,51.5,2015
+147,Hanoi,49.19,
+148,Harbin,94.1,2017
+149,Harrisburg,39.896,2018
+150,Hartford,99.465,2018
+151,Hefei,141.135,2019
+152,Helsinki,90.8,2015
+153,Hiroshima,61.3,2010
+154,Hobart,11.388,2018–19
+155,Ho Chi Minh City,83.16,
+156,Hong Kong,341.319,2020
+157,Honolulu,69.252,2018
+158,Houston,512.222,2019
+159,Hsinchu,,
+160,Huhehaote,49.62,2015
+161,Huntsville,27.558,2018
+162,Hyderabad,75.2,2021
+163,Indianapolis,140.762,2018
+164,Indore,40.0,2021
+165,Istanbul,237.0,2019
+166,Izmir,,
+167,Jacksonville,83.186,2018
+168,Jakarta,200.9,
+169,Jeddah,,
+170,Jerusalem,48.0,2015
+171,Jinan,132.933,2018
+172,Johannesburg,76.0,2014
+173,Jundiai,20.081,2011
+174,Kabul,6.0,
+175,Kagoshima,,
+176,Kansas City,132.703,2018
+177,Kaohsiung,,
+178,Karachi,164.0,2019
+179,Karlsruhe,37.6,2015
+180,Katowice,37.9,2015
+181,Kaunas,10.0,2016
+182,Kelowna,7.007,2016
+183,Kyiv,36.5,2019
+184,Kingston,6.699,2016
+185,Kingston-upon-Hull,17.7,2016
+186,Kitchener,21.175,2016
+187,Klaipeda,6.0,2016
+188,Knoxville,43.307,2018
+189,Kolkata,150.1,2017
+190,Krakow,22.0,2015
+191,Kuala Lumpur,59.831,2019
+192,Kumamoto,39.8,2010
+193,Kunming,72.0,2017
+194,Kuwait City,,
+195,Lagos,74.67,2010
+196,Lahore,58.14,2015
+197,Launceston,3.961,2018–19
+198,Las Vegas,122.423,2018
+199,Leeds,44.8,2016
+200,Leicester,46.8,2016
+201,Leipzig-Halle,33.4,2015
+202,Lethbridge,4.697,2016
+203,Lille,83.3,2015
+204,Lima,,
+205,Linz,37.9,2015
+206,Lisbon,72.0,2015
+207,Little Rock,38.252,2018
+208,Liverpool,47.8,2016
+209,London,642.0,2019
+210,London,18.48,2016
+211,Los Angeles,1088.0,2019
+212,Louisville,72.093,2018
+213,Lucknow,39.1,
+214,Luxembourg City-Trier,69.453,2019
+215,Lyon,88.2,2016
+216,Macau,26.0,2020
+217,Mackay,6.54,2018–19
+218,Madison,51.481,2018
+219,Madrid,290.56,2020
+220,Makassar,37.7,
+221,Manaus,30.375,2014
+222,Manchester,113.7,2016
+223,Manila,192.6,2018
+224,Marseille,104.1,2015
+225,Medellin,,
+226,Medan,52.4,2019
+227,Melbourne,279.333,2018–19
+228,Memphis,76.749,2018
+229,Mexico City,293.259,2019
+230,Miami,377.531,2019
+231,Milan,304.5,2017
+232,Milwaukee,103.731,2018
+233,Minneapolis/St. Paul,274.191,2019
+234,Minsk,14.0,2019
+235,Moncton,5.313,2016
+236,Monterrey,98.669,2019
+237,Montevideo,49.7,2020
+238,Montreal,156.74,2016
+239,Moscow,604.0,2019
+240,Multan,17.425,2016
+241,Mumbai,310.0,2017
+242,Munich,190.0,2016
+243,Nagoya,368.0,2013
+244,Nagpur,46.0,2021
+245,Nairobi,14.8,2019
+246,Nanchang,74.1,2017
+247,Nanjing,214.7,2020
+248,Nanning,61.0,2017
+249,Nantes,51.0,2016
+250,Nantong,126.405,2018
+251,Naples,62.8,2015
+252,Nashville,132.202,2018
+253,New Haven,53.613,2018
+254,New Orleans,80.287,2018
+255,New York,1861.0,2019
+256,Newcastle,11.554,2018–19
+257,Newcastle,36.0,2016
+258,Nice,36.0,2016
+259,Amiens,36.1,2015
+260,Niigata,43.3,2010
+261,Ningbo,191.68,2020
+262,Nottingham-Derby,,
+263,Nurnberg-Furth,164.6,2014
+264,Okayama,63.1,2010
+265,Oklahoma City,81.016,2018
+266,Omaha,62.76,2018
+267,Orange,3.204,2018–19
+268,Orlando,138.947,2018
+269,Osaka-Kobe,781.0,2015
+270,Oshawa,9.702,2016
+271,Oslo,71.68,2016
+272,Ottawa,58.982,2016
+273,Oxnard,59.631,2018
+274,Palembang,33.5,
+275,Paris,849.0,2018
+276,Patna,27.0,2021
+277,Perth,111.056,2018–19
+278,Peterborough,3.696,2016
+279,Philadelphia,454.692,2019
+280,Phoenix,272.113,2019
+281,Pittsburgh,152.84,2018
+282,Portland,164.419,2018
+283,Porto,31.3,2015
+284,Porto Alegre,45.506,2011
+285,Portsmouth-Southampton,35.5,2016
+286,Prague,64.0,2018
+287,Pretoria,,
+288,Providence,87.414,2018
+289,Puebla,31.102,2019
+290,Pune,69.0,2017
+291,Qingdao,163.5,2017
+292,Quebec City,32.956,2016
+293,Raleigh,83.665,2018
+294,Recife,22.81,2014
+295,Regina,12.936,2016
+296,Rhine-Ruhr,350.3,2014
+297,Richmond,85.792,2018
+298,Riga,20.0,2018
+299,Rio de Janeiro,209.366,2011
+300,Riverside-San Bernardino,199.64,2019
+301,Riyadh,,
+302,Rochester,63.87,2018
+303,Rockhampton,5.342,2018–19
+304,Rome,166.8,2015
+305,Saarbrucken,,
+306,Sacramento,145.479,2018
+307,Salt Lake City,74.306,2018
+308,St. Catharines-Niagara Falls,11.704,2016
+309,Saint John,4.928,2016
+310,St. John's,10.164,2016
+311,St. Louis,169.839,2018
+312,Saint Petersburg,179.0,2019
+313,Salvador,17.98,2016
+314,San Antonio,133.633,2018
+315,San Diego,253.117,2019
+316,San Francisco,591.945,2019
+317,San Jose,334.6,2019
+318,San Juan,,
+319,Santiago,,
+320,Santos,28.609,2011
+321,Sao Jose dos Campos,30.148,2011
+322,Sao Jose dos Pinhais,14.726,2011
+323,Sao Paulo,408.938,2013
+324,Sapporo,84.7,2010
+325,Saskatoon,14.63,2016
+326,Seattle,424.75,2019
+327,Semarang,41.1,
+328,Sendai,61.7,2010
+329,Seoul,915.0,2019
+330,Seville,44.665,2018
+331,Shanghai,608.0,2011
+332,Shantou,34.8,2017
+333,Sheffield,17.4,2016
+334,Shenyang,93.9,2019
+335,Shenzhen,401.0,2020
+336,Sherbrooke,6.16,2016
+337,Shijiazhuang,81.252,2018
+338,Sunshine Coast,13.813,2018–19
+339,Surat,59.8,2017
+340,Shizuoka,45.8,2010
+341,Singapore,374.394,2021
+342,Sofia,22.4,2018
+343,Sorocaba,21.313,2011
+344,Springfield,34.706,2018
+345,Stockholm,170.0,2018
+346,Strasbourg,,
+347,Stuttgart,173.5,2016
+348,Greater Sudbury,6.93,2016
+349,Surabaya,41.1,2019
+350,Suzhou,280.92,2018
+351,Sydney,348.895,2018–19
+352,Syracuse,41.356,2018
+353,Taichung,,
+354,Tainan,,
+355,Taipei,327.3,2014
+356,Taiyuan,50.733,2017
+357,Tallinn,20.0,2018
+358,Tampa,159.002,2018
+359,Tangerang,38.6,
+360,Tangshan,96.716,2018
+361,Taoyuan,,
+362,Tbilisi,8.0,2017
+363,Tel Aviv,153.3,
+364,Thessaloniki,19.8,2011
+365,Thunder Bay,4.62,2016
+366,Tianjin,204.0,2020
+367,Tokyo,1790.0,2019
+368,Toowoomba,7.118,2018–19
+369,Toronto,305.0,2017
+370,Toulouse,58.7,2015
+371,Trois-Rivieres,4.851,2016
+372,Tucson,44.876,2018
+373,Tulsa,57.232,2018
+374,Turin,76.9,2015
+375,Townsville,9.075,2018–19
+376,Uberlandia,14.728,2011
+377,Valencia,60.274,2016
+378,Vancouver,137.0,2017
+379,Venice-Padua,62.2,2015
+380,Victoria,15.169,2016
+381,Vienna,112.0,2019
+382,Vilnius,23.0,2019
+383,Virginia Beach,100.976,2018
+384,Vishakhapatnam,43.5,2017
+385,Vitoria,28.357,2011
+386,Wagga Wagga,4.392,2018–19
+387,Warsaw,105.0,2019
+388,Washington,559.061,2019
+389,Wenzhou,90.63,2018
+390,Wichita,32.832,2018
+391,Windsor,3.542,2016
+392,Winnipeg,,
+393,Wollongong,5.624,2018–19
+394,Worcester,50.934,2018
+395,Wuhan,240.0,2020
+396,Wulumuqi,49.4,2019
+397,Wuxi,155.7,2017
+398,Xiamen,92.554,2020
+399,Xian,154.2,2020
+400,Xuzhou,97.8,2017
+401,Yantai,108.7,2017
+402,Yerevan,5.23,2018
+403,Zhengzhou,144.0,2018
+404,Zhongshan,51.1,2017
+405,Zhuhai,38.0,2017
+406,Zibo,70.8,2017
+407,Zurich,,
